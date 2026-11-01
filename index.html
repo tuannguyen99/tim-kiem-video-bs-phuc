@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tra cứu video Bác sĩ Phúc</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+:root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+/* Layout: one narrow reading column; sticky search bar; results grouped by video, each hit led by a timestamp chip */
+:root{
+  --bg:#eef3f1; --surface:#ffffff; --ink:#142320; --muted:#5a6b67; --line:#d3dfdb;
+  --accent:#0d6a5a; --accent-soft:#dcefe9; --mark:#ffe28a; --mark-ink:#1c1600; --warn:#8a5a00; --warn-bg:#fff4d6;
+  --f-ui:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0c1413; --surface:#141f1d; --ink:#e2ece9; --muted:#93a6a1; --line:#25332f;
+  --accent:#53c3a9; --accent-soft:#183531; --mark:#6b5512; --mark-ink:#fff4d0; --warn:#f2c46b; --warn-bg:#2d2512; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c1413; --surface:#141f1d; --ink:#e2ece9; --muted:#93a6a1; --line:#25332f;
+  --accent:#53c3a9; --accent-soft:#183531; --mark:#6b5512; --mark-ink:#fff4d0; --warn:#f2c46b; --warn-bg:#2d2512; color-scheme:dark}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header .wrap{padding-block:14px 12px;display:grid;gap:10px}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+h1{margin:0;font-size:17px;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.stat{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.search{position:relative}
+.search input{width:100%;font:500 17px/1.3 var(--f-ui);color:var(--ink);background:var(--bg);
+  border:1.5px solid var(--line);border-radius:12px;padding:12px 40px 12px 14px;outline:none}
+.search input:focus{border-color:var(--accent)}
+.search button{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--muted);
+  font-size:20px;width:34px;height:34px;border-radius:8px;cursor:pointer}
+.search button:focus-visible,.chip:focus-visible,.ts:focus-visible,.more:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -4px;padding:0 4px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:500 13px var(--f-ui);color:var(--accent);background:var(--accent-soft);border:0;border-radius:999px;padding:6px 12px;cursor:pointer}
+
+main .wrap{padding-block:16px 48px;display:grid;gap:14px}
+.notice{background:var(--warn-bg);color:var(--warn);border-radius:12px;padding:12px 14px;font-size:13.5px;display:grid;gap:8px}
+.notice b{font-weight:600}
+.notice .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:600 13px var(--f-ui);border:1px solid currentColor;color:inherit;background:transparent;border-radius:8px;padding:6px 10px;cursor:pointer}
+.summary{font-size:13px;color:var(--muted)}
+.summary b{color:var(--ink);font-weight:600}
+
+.video{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.vhead{padding:14px 14px 10px;display:grid;gap:4px}
+.vtitle{margin:0;font-size:15.5px;font-weight:600;line-height:1.4;text-wrap:pretty}
+.vtitle a{color:inherit;text-decoration:none}
+.vtitle a:hover{text-decoration:underline}
+.vmeta{font-family:var(--f-mono);font-size:11.5px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.hits{list-style:none;margin:0;padding:0}
+.hit{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:10px 14px;border-top:1px solid var(--line)}
+.ts{font:600 13px var(--f-mono);font-variant-numeric:tabular-nums;color:#fff;background:var(--accent);border-radius:7px;
+  padding:5px 8px;text-decoration:none;min-width:54px;text-align:center;margin-top:1px}
+:root[data-theme="dark"] .ts{color:#0c1413}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ts{color:#0c1413}}
+.ts.off{opacity:.55;pointer-events:none}
+.snip{min-width:0;font-size:14.5px;overflow-wrap:anywhere}
+.snip mark{background:var(--mark);color:var(--mark-ink);border-radius:3px;padding:0 1px}
+.more{width:100%;border:0;border-top:1px solid var(--line);background:none;color:var(--accent);font:600 13px var(--f-ui);padding:10px;cursor:pointer}
+.empty{text-align:center;color:var(--muted);padding:32px 8px;font-size:14px}
+.foot{font-size:12px;color:var(--muted);text-align:center;padding-top:8px}
+@media (prefers-reduced-motion:no-preference){.video{animation:in .18s ease-out}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <h1>Tra cứu <span>Bác sĩ Phúc</span></h1>
+      <div class="stat" id="stat">đang tải…</div>
+    </div>
+    <div class="search">
+      <input id="q" type="search" inputmode="search" autocomplete="off" enterkeyhint="search"
+        placeholder="Gõ từ khóa, có dấu hay không đều được" aria-label="Từ khóa">
+      <button id="clear" type="button" aria-label="Xóa" hidden>×</button>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="notice" id="notice" hidden>
+      <div><b>Đang dùng dữ liệu mẫu.</b> Ba video dưới đây là ví dụ để minh họa, không phải nội dung thật của kênh. Chạy <code>crawl_phuc.py</code> để tạo <code>data.json</code> thật.</div>
+      <div class="row">
+        <label class="btn" for="file">Mở file data.json trên máy này</label>
+        <input id="file" type="file" accept="application/json,.json" hidden>
+      </div>
+    </div>
+    <div class="notice" id="local" hidden>
+      <div>Đang dùng file bạn tự mở trên máy này.</div>
+      <div class="row"><button class="btn" id="forget" type="button">Bỏ file, quay lại dữ liệu mặc định</button></div>
+    </div>
+    <div class="summary" id="summary"></div>
+    <div id="results" style="display:grid;gap:14px"></div>
+    <p class="foot">Nội dung thuộc kênh Bác sĩ Trần Văn Phúc Official. Bấm mốc thời gian để mở đúng đoạn trên YouTube. Thông tin chỉ để tham khảo, hãy khám trực tiếp với bác sĩ.</p>
+  </div>
+</main>
+
+<script>
+(() => {
+const $ = id => document.getElementById(id);
+const DEMO = {v:1, demo:true, channel:{name:"Bác sĩ Trần Văn Phúc Official"}, videos:[
+ {id:"demo1", t:"[Ví dụ] Gan nhiễm mỡ nên ăn gì, kiêng gì", o:0, s:[
+  [0,"Xin chào các bạn, hôm nay chúng ta nói về gan nhiễm mỡ."],[6.5,"Đây là tình trạng mỡ tích tụ trong tế bào gan."],
+  [13,"Nhiều người phát hiện tình cờ khi đi siêu âm ổ bụng."],[21,"Nguyên nhân thường gặp là thừa cân và ít vận động."],
+  [95,"Về chế độ ăn, nên giảm đồ ngọt và nước có đường."],[102,"Hạn chế rượu bia vì gan phải làm việc nhiều hơn."],
+  [110,"Tăng rau xanh và ăn cá thay cho thịt đỏ."],[188,"Đi bộ nhanh mỗi ngày cũng giúp cải thiện gan nhiễm mỡ."]]},
+ {id:"demo2", t:"[Ví dụ] Huyết áp cao: những thói quen nên bỏ", o:1, s:[
+  [0,"Huyết áp cao thường không có triệu chứng rõ ràng."],[7,"Vì vậy nên đo huyết áp định kỳ tại nhà."],
+  [64,"Ăn mặn là thói quen phổ biến làm tăng huyết áp."],[71,"Nên nêm nhạt dần để vị giác quen."],
+  [140,"Thức khuya và căng thẳng kéo dài cũng ảnh hưởng."],[212,"Đi bộ đều đặn giúp ổn định huyết áp."]]},
+ {id:"demo3", t:"[Ví dụ] Đi bộ bao nhiêu là đủ", o:2, s:[
+  [0,"Câu hỏi nhiều người gửi về là nên đi bộ bao lâu."],[9,"Mục tiêu tham khảo là khoảng ba mươi phút mỗi ngày."],
+  [58,"Người có bệnh khớp gối nên đi chậm trên mặt phẳng."],[120,"Người tiểu đường nên kiểm tra đường huyết trước khi tập."],
+  [131,"Mang theo kẹo phòng hạ đường huyết."]]}
+]};
+const CHIPS_DEFAULT = ["gan nhiễm mỡ","huyết áp","tiểu đường","axit uric","dạ dày","mỡ máu","khớp gối","mất ngủ"];
+const CHIPS_DEMO = ["gan nhiễm mỡ","huyết áp","đi bộ","đường huyết"];
+
+/* ---- chuẩn hóa tiếng Việt, giữ nguyên độ dài để highlight khớp vị trí ---- */
+const cache = new Map();
+function nc(c){
+  let r = cache.get(c); if (r !== undefined) return r;
+  if (c === "đ" || c === "Đ") r = "d";
+  else if (/\s/.test(c)) r = " ";
+  else { const n = c.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); r = n[0] || c; }
+  cache.set(c, r); return r;
+}
+function norm(s){ let o = ""; for (let i = 0; i < s.length; i++) o += nc(s[i]); return o; }
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = sec => { sec = Math.max(0, Math.floor(sec)); const h = Math.floor(sec/3600), m = Math.floor(sec%3600/60), s = sec%60;
+  return (h ? h + ":" + String(m).padStart(2,"0") : m) + ":" + String(s).padStart(2,"0"); };
+const ytUrl = (id, sec) => "https://www.youtube.com/watch?v=" + encodeURIComponent(id) + (sec ? "&t=" + Math.max(0, Math.floor(sec) - 2) + "s" : "");
+
+let DB = null, isDemo = false;
+const WINDOW = 20, GAP = 15;
+
+function prepare(data){
+  const vids = (data.videos || []).filter(v => v && v.id);
+  vids.sort((a,b) => (a.o ?? 9999) - (b.o ?? 9999));
+  let segCount = 0;
+  for (const v of vids){
+    v.s = (v.s || []).filter(x => x && x[1]);
+    v.raw = v.s.map(x => String(x[1]).replace(/\s+/g," ").trim());
+    v.nrm = v.raw.map(norm);
+    v.nt = norm(v.t || "");
+    segCount += v.s.length;
+  }
+  DB = {data, vids, segCount};
+  isDemo = !!data.demo;
+  const upd = data.updated ? " · " + new Date(data.updated).toLocaleDateString("vi-VN") : "";
+  $("stat").textContent = vids.length + " video" + (isDemo ? " mẫu" : "") + upd;
+  $("notice").hidden = !isDemo;
+  renderChips();
+  run();
+}
+
+function renderChips(){
+  const list = isDemo ? CHIPS_DEMO : CHIPS_DEFAULT;
+  $("chips").innerHTML = list.map(w => `<button class="chip" type="button">${esc(w)}</button>`).join("");
+}
+
+function parseQuery(q){
+  const nq = norm(q).replace(/\s+/g," ").trim();
+  if (!nq) return null;
+  const quoted = /^".+"$/.test(nq);
+  const phrase = nq.replace(/^"|"$/g,"").trim();
+  const terms = quoted ? [phrase] : [...new Set(phrase.split(" ").filter(Boolean))];
+  return {phrase, terms};
+}
+
+function search(Q){
+  const out = [];
+  for (const v of DB.vids){
+    const hits = [];
+    let last = -1e9;
+    const n = v.s.length;
+    for (let i = 0; i < n; i++){
+      const start = v.s[i][0];
+      let j = i, parts = [];
+      while (j < n && (j === i || v.s[j][0] < start + WINDOW) && j - i < 12){ parts.push(v.nrm[j]); j++; }
+      const w = parts.join(" ");
+      if (!Q.terms.every(t => w.includes(t))) continue;
+      const isPhrase = w.includes(Q.phrase);
+      if (start - last < GAP){
+        if (isPhrase && hits.length && !hits[hits.length-1].phrase){ hits[hits.length-1] = {i, j, start, phrase:true}; last = start; }
+        continue;
+      }
+      hits.push({i, j, start, phrase:isPhrase}); last = start;
+    }
+    const titleHit = Q.terms.every(t => v.nt.includes(t));
+    if (!hits.length && !titleHit) continue;
+    const ph = hits.filter(h => h.phrase).length;
+    const score = hits.length + ph * 2 + (titleHit ? 6 : 0) + (v.nt.includes(Q.phrase) ? 4 : 0);
+    out.push({v, hits, titleHit, score});
+  }
+  out.sort((a,b) => b.score - a.score || (a.v.o ?? 9999) - (b.v.o ?? 9999));
+  return out;
+}
+
+function highlight(raw, terms){
+  const n = norm(raw), ranges = [];
+  for (const t of terms){ let p = 0; while ((p = n.indexOf(t, p)) !== -1){ ranges.push([p, p + t.length]); p += t.length; } }
+  ranges.sort((a,b) => a[0]-b[0]);
+  const merged = [];
+  for (const r of ranges){ const m = merged[merged.length-1]; if (m && r[0] <= m[1]) m[1] = Math.max(m[1], r[1]); else merged.push([...r]); }
+  let html = "", pos = 0;
+  for (const [a,b] of merged){ html += esc(raw.slice(pos,a)) + "<mark>" + esc(raw.slice(a,b)) + "</mark>"; pos = b; }
+  return {html: html + esc(raw.slice(pos)), first: merged.length ? merged[0][0] : 0};
+}
+
+function snippet(v, h, Q){
+  let raw = v.raw.slice(h.i, h.j).join(" ");
+  const n = norm(raw);
+  let p = n.indexOf(Q.phrase); if (p < 0) p = n.indexOf(Q.terms[0]); if (p < 0) p = 0;
+  const MAX = 220;
+  if (raw.length > MAX){
+    let a = Math.max(0, p - 70); if (a > 0){ const sp = raw.indexOf(" ", a); a = sp > -1 && sp < p ? sp + 1 : a; }
+    let b = Math.min(raw.length, a + MAX); if (b < raw.length){ const sp = raw.lastIndexOf(" ", b); if (sp > p) b = sp; }
+    raw = (a > 0 ? "… " : "") + raw.slice(a, b) + (b < raw.length ? " …" : "");
+  }
+  return highlight(raw, Q.terms).html;
+}
+
+const SHOW = 4, MAXV = 40;
+let lastRes = [], lastQ = null;
+
+function card(r, Q, expanded){
+  const v = r.v, live = !isDemo;
+  const titleHtml = highlight(v.t || "(không có tiêu đề)", Q.terms).html;
+  const href = ytUrl(v.id, 0);
+  const meta = [];
+  if (r.hits.length) meta.push(r.hits.length + " đoạn khớp");
+  else meta.push("khớp tiêu đề");
+  if (v.dur) meta.push("dài " + fmt(v.dur));
+  if (v.d) meta.push(v.d.slice(6,8) + "/" + v.d.slice(4,6) + "/" + v.d.slice(0,4));
+  if (v.k && String(v.k).startsWith("auto")) meta.push("phụ đề tự động");
+  const shown = expanded ? r.hits : r.hits.slice(0, SHOW);
+  const items = shown.map(h => `<li class="hit">
+      <a class="ts${live ? "" : " off"}" ${live ? `href="${ytUrl(v.id, h.start)}" target="_blank" rel="noopener"` : 'aria-disabled="true"'}>${fmt(h.start)}</a>
+      <div class="snip">${snippet(v, h, Q)}</div></li>`).join("");
+  const more = !expanded && r.hits.length > SHOW
+    ? `<button class="more" type="button" data-id="${esc(v.id)}">Xem thêm ${r.hits.length - SHOW} đoạn</button>` : "";
+  return `<article class="video">
+    <div class="vhead">
+      <h2 class="vtitle">${live ? `<a href="${href}" target="_blank" rel="noopener">${titleHtml}</a>` : titleHtml}</h2>
+      <div class="vmeta">${meta.map(esc).join("<span aria-hidden='true'>·</span>")}</div>
+    </div>
+    ${items ? `<ul class="hits">${items}</ul>` : ""}${more}
+  </article>`;
+}
+
+function run(){
+  if (!DB) return;
+  const q = $("q").value;
+  $("clear").hidden = !q;
+  const Q = parseQuery(q);
+  if (!Q){
+    $("summary").innerHTML = `Có <b>${DB.vids.length}</b> video, <b>${DB.segCount.toLocaleString("vi-VN")}</b> dòng phụ đề. Gõ từ khóa hoặc chọn một chủ đề ở trên. Đặt cụm từ trong ngoặc kép để tìm đúng cụm.`;
+    $("results").innerHTML = "";
+    return;
+  }
+  const res = search(Q);
+  lastRes = res; lastQ = Q;
+  const total = res.reduce((s,r) => s + r.hits.length, 0);
+  $("summary").innerHTML = res.length
+    ? `<b>${res.length}</b> video, <b>${total}</b> đoạn nhắc đến “${esc(q.trim())}”`
+    : "";
+  $("results").innerHTML = res.length
+    ? res.slice(0, MAXV).map(r => card(r, Q, false)).join("") + (res.length > MAXV ? `<p class="empty">Còn ${res.length - MAXV} video khác. Thêm từ khóa để thu hẹp.</p>` : "")
+    : `<p class="empty">Không thấy đoạn nào nhắc đến “${esc(q.trim())}”.<br>Thử từ ngắn hơn, hoặc cách gọi khác (ví dụ “gút” thay vì “gout”).</p>`;
+}
+
+let timer;
+$("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 180); });
+$("q").addEventListener("keydown", e => { if (e.key === "Enter"){ clearTimeout(timer); run(); $("q").blur(); } });
+$("clear").addEventListener("click", () => { $("q").value = ""; run(); $("q").focus(); });
+$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; $("q").value = b.textContent; run(); });
+$("results").addEventListener("click", e => {
+  const b = e.target.closest(".more"); if (!b) return;
+  const r = lastRes.find(x => x.v.id === b.dataset.id); if (!r) return;
+  b.closest(".video").outerHTML = card(r, lastQ, true);
+});
+
+/* ---- lưu file người dùng tự mở trên máy (IndexedDB, chỉ máy này) ---- */
+function idb(){ return new Promise((res, rej) => { try { const r = indexedDB.open("phuc", 1);
+  r.onupgradeneeded = () => r.result.createObjectStore("kv"); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); } catch(e){ rej(e); } }); }
+async function idbGet(k){ try { const d = await idb(); return await new Promise(res => { const q = d.transaction("kv").objectStore("kv").get(k); q.onsuccess = () => res(q.result); q.onerror = () => res(undefined); }); } catch { return undefined; } }
+async function idbSet(k, v){ try { const d = await idb(); await new Promise(res => { const t = d.transaction("kv","readwrite"); v === undefined ? t.objectStore("kv").delete(k) : t.objectStore("kv").put(v, k); t.oncomplete = res; t.onerror = res; }); } catch {} }
+
+$("file").addEventListener("change", async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    if (!Array.isArray(data.videos)) throw new Error("File không có danh sách video.");
+    await idbSet("data", data);
+    $("local").hidden = false;
+    prepare(data);
+  } catch (err){
+    $("summary").textContent = "Không đọc được file: " + err.message + " Hãy chọn đúng file data.json do script tạo ra.";
+  }
+});
+$("forget").addEventListener("click", async () => { await idbSet("data", undefined); location.reload(); });
+
+async function boot(){
+  try {
+    const r = await fetch("data.json", {cache:"no-cache"});
+    if (r.ok){ const data = await r.json(); if (Array.isArray(data.videos) && data.videos.length) return prepare(data); }
+  } catch {}
+  const local = await idbGet("data");
+  if (local && Array.isArray(local.videos)){ $("local").hidden = false; return prepare(local); }
+  prepare(DEMO);
+  $("q").value = "gan nhiễm mỡ"; run();
+}
+boot();
+})();
+</script>
+</body>
+</html>
