@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lịch sử lấy phụ đề</title>
+<style>
+:root{color-scheme:light dark;--bg:#eef3f1;--surface:#fff;--ink:#142320;--muted:#5a6b67;--line:#d3dfdb;--accent:#0d6a5a;--bad:#a12a2a}
+@media (prefers-color-scheme:dark){:root{--bg:#0c1413;--surface:#141f1d;--ink:#e2ece9;--muted:#93a6a1;--line:#25332f;--accent:#53c3a9;--bad:#f08a8a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:16px}
+h1{font-size:19px;margin:0 0 4px}
+h2{font-size:15px;margin:22px 0 8px}
+.muted{color:var(--muted);font-size:13px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+details>summary{cursor:pointer;padding:10px 14px;display:flex;gap:10px;flex-wrap:wrap;align-items:baseline}
+details[open]>summary{border-bottom:1px solid var(--line)}
+ul{list-style:none;margin:0;padding:0}
+li{padding:7px 14px;border-top:1px solid var(--line);display:flex;gap:10px;justify-content:space-between;align-items:baseline}
+li:first-child{border-top:0}
+li a{color:inherit;text-decoration:none}li a:hover{text-decoration:underline}
+.n{font:12px ui-monospace,Consolas,monospace;color:var(--muted);white-space:nowrap}
+.ok{color:var(--accent);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.bar button,.bar input{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 10px}
+.bar button[aria-pressed=true]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.bar input{flex:1;min-width:160px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Lịch sử lấy phụ đề</h1>
+  <div class="muted" id="sum">Đang tải…</div>
+
+  <h2>Các lần chạy (mới nhất trước)</h2>
+  <div id="runs"></div>
+
+  <h2>Tất cả video</h2>
+  <div class="bar">
+    <button data-f="all" aria-pressed="true">Tất cả</button>
+    <button data-f="ok" aria-pressed="false">Đã có phụ đề</button>
+    <button data-f="bad" aria-pressed="false">Lỗi</button>
+    <input id="q" type="search" placeholder="Lọc theo tiêu đề…">
+  </div>
+  <div class="card"><ul id="list"></ul></div>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const link = (id, t) => `<a href="https://www.youtube.com/watch?v=${encodeURIComponent(id)}" target="_blank" rel="noopener">${esc(t || id)}</a>`;
+const fmt = iso => new Date(iso).toLocaleString("vi-VN");
+const dur = s => s ? `${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}` : "";
+
+async function getJSON(url, optional) {
+  const r = await fetch(url, {cache: "no-cache"});
+  if (!r.ok) { if (optional) return null; throw new Error(url + " → " + r.status); }
+  return r.json();
+}
+
+(async () => {
+  let data, hist;
+  try {
+    data = await getJSON("data.json");
+    hist = await getJSON("history.json", true);
+  } catch (e) {
+    $("sum").textContent = "Không đọc được dữ liệu: " + e.message + ". Mở trang qua máy chủ, ví dụ chạy `python -m http.server` trong thư mục này rồi vào http://localhost:8000/history.html";
+    return;
+  }
+  const runs = (hist?.runs || []).slice().reverse();
+  const when = {};   // id -> thời điểm lấy (lần chạy thành công gần nhất)
+  for (const r of (hist?.runs || [])) for (const v of r.ok) when[v.id] = r.at;
+
+  const skipped = data.skipped || {};
+  $("sum").textContent = `${data.videos.length} video đã có phụ đề · ${Object.keys(skipped).length} video lỗi · cập nhật ${data.updated ? fmt(data.updated) : "?"}`;
+
+  $("runs").innerHTML = runs.length ? runs.map((r, i) => `
+    <details class="card"${i === 0 ? " open" : ""}>
+      <summary><b>${esc(fmt(r.at))}</b>
+        <span class="ok">+${r.ok.length} lấy được</span>
+        <span class="${r.failed.length ? "bad" : "muted"}">${r.failed.length} lỗi</span>
+        <span class="muted">${esc(r.status)}${r.args ? " · " + esc(r.args) : ""}</span></summary>
+      <ul>${r.ok.map(v => `<li><span>✓ ${link(v.id, v.t)}</span><span class="n">${v.lines} dòng</span></li>`).join("")}
+          ${r.failed.map(v => `<li><span>✗ ${link(v.id, v.t)}</span><span class="n bad">${esc(v.reason)}</span></li>`).join("")}
+          ${r.ok.length + r.failed.length ? "" : '<li class="muted">Không có video mới.</li>'}</ul>
+    </details>`).join("")
+    : '<div class="card"><ul><li class="muted">Chưa có lịch sử. Chạy crawl_phuc.py để bắt đầu ghi (các video đã lấy trước đó sẽ hiện là “trước khi có lịch sử”).</li></ul></div>';
+
+  const rows = [
+    ...data.videos.map(v => ({id: v.id, t: v.t, o: v.o ?? 9999, ok: true, extra: dur(v.dur), at: when[v.id]})),
+    ...Object.entries(skipped).map(([id, reason]) => ({id, t: id, o: 99999, ok: false, extra: reason})),
+  ];
+  // video lỗi: lấy tiêu đề từ lịch sử nếu có
+  for (const r of (hist?.runs || [])) for (const v of r.failed) { const x = rows.find(y => y.id === v.id && !y.ok); if (x) x.t = v.t; }
+  rows.sort((a, b) => a.o - b.o);
+
+  let filter = "all";
+  const draw = () => {
+    const q = $("q").value.trim().toLowerCase();
+    const sel = rows.filter(r => (filter === "all" || (filter === "ok") === r.ok) && (!q || r.t.toLowerCase().includes(q)));
+    $("list").innerHTML = sel.map(r => `<li><span>${r.ok ? "✓" : "✗"} ${link(r.id, r.t)}</span>
+      <span class="n ${r.ok ? "" : "bad"}">${esc(r.extra)}${r.ok ? ` · ${r.at ? fmt(r.at) : "trước khi có lịch sử"}` : ""}</span></li>`).join("")
+      || '<li class="muted">Không có video nào.</li>';
+  };
+  document.querySelectorAll("[data-f]").forEach(b => b.onclick = () => {
+    filter = b.dataset.f;
+    document.querySelectorAll("[data-f]").forEach(x => x.setAttribute("aria-pressed", x === b));
+    draw();
+  });
+  $("q").oninput = draw;
+  draw();
+})();
+</script>
+</body>
+</html>

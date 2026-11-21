@@ -1,0 +1,113 @@
+{
+ "v": 1,
+ "runs": [
+  {
+   "at": "2026-11-07T09:59:20Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [],
+   "failed": []
+  },
+  {
+   "at": "2026-11-07T12:46:32Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [],
+   "failed": []
+  },
+  {
+   "at": "2026-11-21T03:58:57Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [
+    {
+     "id": "NLwPTAnvQpY",
+     "t": "Số 140: Bí mật về NAC – “Vũ khí” tối thượng tái tạo tế bào, giải độc gan và trẻ hoá",
+     "lines": 10724
+    },
+    {
+     "id": "V9pX8BXNB1Q",
+     "t": "Số 99: Bác sĩ Phúc chia sẻ với đồng nghiệp về Sử dụng vi chất thiết yếu",
+     "lines": 4853
+    },
+    {
+     "id": "Td3ze_X38Nk",
+     "t": "Viêm mãn tính - Nguồn gốc của mọi bệnh tật",
+     "lines": 5970
+    },
+    {
+     "id": "loUFahItFho",
+     "t": "Protein được tiêu hoá, hấp thu và chuyển hoá như thế nào trong cơ thể?",
+     "lines": 5533
+    },
+    {
+     "id": "wlaW6BiGCAA",
+     "t": "Con đường đi của Chất béo: Hiểu đúng để không sợ Mỡ",
+     "lines": 5002
+    },
+    {
+     "id": "0lBz7h3y_IA",
+     "t": "CARBOHYDRATE ĐI VỀ ĐÂU SAU KHI ĂN? GIẢI MÃ CƠ CHẾ CHUYỂN HÓA",
+     "lines": 6533
+    },
+    {
+     "id": "OuMy63SomTs",
+     "t": "GẶP NHAU CUỐI NĂM – BÁC SĨ TRẦN VĂN PHÚC NÓI VỀ \"SỨC KHOẺ TOÀN DIỆN\"",
+     "lines": 5751
+    },
+    {
+     "id": "PtkpJndBQiE",
+     "t": "Hướng dẫn Bổ sung 7 vi chất cơ bản hiệu quả cùng bác sĩ Trần Văn Phúc",
+     "lines": 4989
+    },
+    {
+     "id": "zfSr42paMLI",
+     "t": "Nên hay không nên Nhịn ăn gián đoạn: Giải đáp của bác sĩ",
+     "lines": 6369
+    },
+    {
+     "id": "q7uDJG8YQ5c",
+     "t": "Những Mẹo Chọn Thực Phẩm Bổ Sung Omega 3 Hiệu Quả",
+     "lines": 5330
+    },
+    {
+     "id": "iIbIbD0jrEg",
+     "t": "Vitamin D: Cách bổ sung và các yếu tố hiệp đồng - Tìm hiểu cùng bác sĩ Trần Văn Phúc",
+     "lines": 4643
+    },
+    {
+     "id": "LPvAfKf3ZLE",
+     "t": "CẢNH BÁO: Trào ngược dạ dày thực quản - Căn bệnh của thời thượng",
+     "lines": 5348
+    },
+    {
+     "id": "4dW_jEnXyaI",
+     "t": "Hướng dẫn bạn: Bổ sung Canxi - Vi chất được mong đợi nhiều nhất",
+     "lines": 5396
+    },
+    {
+     "id": "x7JId6LrRlg",
+     "t": "Bạn có biết: Bổ sung Magie: Vẻ đẹp bất ngờ",
+     "lines": 6400
+    },
+    {
+     "id": "WhY0M0pSW04",
+     "t": "Tìm hiểu về Axit dạ dày: Những điều nhiều chuyên gia chưa nói với bạn!",
+     "lines": 4394
+    },
+    {
+     "id": "CzktPTUwsuU",
+     "t": "Giải Nobel Y học năm 2025: Khả năng dung nạp Miễn dịch ngoại vi- Bác sĩ Trần Văn Phúc Official",
+     "lines": 3714
+    }
+   ],
+   "failed": [
+    {
+     "id": "vHRAykrRjhk",
+     "t": "Số 141: Đẩy lùi “siêu thị bệnh”, hồi sinh tế bào nhờ 7 nhóm vi chất cơ bản #BacsiTranVanPhucOfficial",
+     "reason": "TranscriptsDisabled"
+    }
+   ]
+  }
+ ]
+}
