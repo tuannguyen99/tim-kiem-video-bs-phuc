@@ -26,6 +26,20 @@ Mở `index.html` trực tiếp bằng trình duyệt (double-click, hoặc kéo
 
 Để xem tiện trên điện thoại, xem phần "Đưa lên internet" dưới đây.
 
+## Tóm tắt chi tiết (summary.html)
+
+`summarize_phuc.py` chia mỗi video thành đoạn ~10 phút, nhờ Claude tóm tắt chi tiết từng đoạn (kèm mốc thời gian) rồi viết tổng quan + ý then chốt, ghi vào `summaries.json`. Trang `summary.html` (menu "📝 Tóm tắt chi tiết" ở trang chính) hiển thị và tìm kiếm trong các bản tóm tắt.
+
+```powershell
+pip install -U anthropic
+$env:ANTHROPIC_API_KEY = "sk-ant-..."
+python summarize_phuc.py --dry-run     # ước lượng khối lượng, không tốn tiền
+python summarize_phuc.py --limit 5     # tóm tắt 5 video chưa có rồi dừng
+python summarize_phuc.py --model claude-haiku-5-5   # rẻ hơn nhiều, chất lượng thấp hơn
+```
+
+Chạy tiếp được: video đã có trong `summaries.json` được bỏ qua, nên mỗi lần chạy `--limit N` sẽ làm thêm N video mới. Muốn làm lại một video: `--redo <ID>`.
+
 ## Cập nhật video mới
 
 ```powershell

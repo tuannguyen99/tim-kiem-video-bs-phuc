@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tóm tắt chi tiết video Bác sĩ Phúc</title>
+<style>
+:root{--bg:#eef3f1;--surface:#fff;--ink:#142320;--muted:#5a6b67;--line:#d3dfdb;--accent:#0d6a5a;--accent-soft:#dcefe9;--mark:#ffe28a;--mark-ink:#1c1600}
+@media (prefers-color-scheme:dark){:root{--bg:#0c1413;--surface:#141f1d;--ink:#e2ece9;--muted:#93a6a1;--line:#25332f;--accent:#53c3a9;--accent-soft:#183531;--mark:#6b5512;--mark-ink:#fff4d0;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+header .wrap{padding-block:12px;display:grid;gap:10px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+h1{margin:0;font-size:17px}h1 span{color:var(--accent)}
+a{color:var(--accent)}
+.stat{font:12px ui-monospace,Consolas,monospace;color:var(--muted)}
+input[type=search]{width:100%;font:500 16px system-ui;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:10px 14px;outline:none}
+input[type=search]:focus{border-color:var(--accent)}
+main{padding-block:16px 48px;display:grid;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.item{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:12px 14px;color:inherit;text-decoration:none;align-items:start}
+.item+.item{border-top:1px solid var(--line)}
+.item:hover .vt{text-decoration:underline}
+.n{font:600 12px ui-monospace,Consolas,monospace;color:var(--accent);background:var(--accent-soft);border-radius:6px;padding:3px 0;text-align:center}
+.vt{font-weight:600;line-height:1.4}
+.vm{display:block;font:12px ui-monospace,Consolas,monospace;color:var(--muted);margin-top:2px}
+.off{opacity:.5}
+.back{font-weight:600;text-decoration:none;display:inline-block;margin-bottom:4px}
+h2.vtitle{margin:0 0 4px;font-size:18px;line-height:1.35}
+.meta{font:12px ui-monospace,Consolas,monospace;color:var(--muted)}
+.box{padding:14px 16px}
+.box h3{margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.box p{margin:0}
+.box ul.tk{margin:0;padding-left:20px}.box ul.tk li{margin-bottom:6px}
+details{border-top:1px solid var(--line)}
+summary{cursor:pointer;padding:12px 16px;display:flex;gap:10px;align-items:baseline;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸";color:var(--muted)}
+details[open]>summary::before{content:"▾"}
+summary .st{font-weight:600;flex:1}
+.tsb{font:600 12px ui-monospace,Consolas,monospace;color:#fff;background:var(--accent);border-radius:6px;padding:2px 7px;text-decoration:none;white-space:nowrap}
+@media (prefers-color-scheme:dark){.tsb{color:#0c1413}}
+ul.pts{list-style:none;margin:0;padding:0 16px 12px}
+ul.pts li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:5px 0;align-items:start}
+mark{background:var(--mark);color:var(--mark-ink);border-radius:3px;padding:0 1px}
+.empty{text-align:center;color:var(--muted);padding:28px 8px}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+.btn{font:600 13px system-ui;color:var(--accent);background:var(--accent-soft);border:0;border-radius:8px;padding:6px 12px;cursor:pointer}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top"><h1>Tóm tắt chi tiết <span>video</span></h1><span><a href="index.html">← Tra cứu phụ đề</a></span></div>
+  <input id="q" type="search" placeholder="Tìm trong các bản tóm tắt (có dấu hay không đều được)" autocomplete="off">
+  <div class="stat" id="stat">đang tải…</div>
+</div></header>
+<main class="wrap" id="main"></main>
+<script src="summaries.js"></script>
+
+<script>
+(() => {
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = sec => { sec = Math.max(0, Math.floor(sec)); const h = Math.floor(sec/3600), m = Math.floor(sec%3600/60), s = sec%60;
+  return (h ? h + ":" + String(m).padStart(2,"0") : m) + ":" + String(s).padStart(2,"0"); };
+const yt = (id, sec) => "https://www.youtube.com/watch?v=" + encodeURIComponent(id) + (sec ? "&t=" + Math.max(0, Math.floor(sec) - 2) + "s" : "");
+const clean = t => (t || "").replace(/(\s*#\S+)+\s*$/, "").trim();
+function nc(c){ if (c === "đ" || c === "Đ") return "d"; if (/\s/.test(c)) return " "; const n = c.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); return n[0] || c; }
+const norm = s => { let o = ""; for (let i = 0; i < s.length; i++) o += nc(s[i]); return o; };
+function hl(raw, terms){
+  const n = norm(raw), r = [];
+  for (const t of terms){ let p = 0; while ((p = n.indexOf(t, p)) !== -1){ r.push([p, p + t.length]); p += t.length; } }
+  r.sort((a,b) => a[0]-b[0]);
+  const m = []; for (const x of r){ const l = m[m.length-1]; if (l && x[0] <= l[1]) l[1] = Math.max(l[1], x[1]); else m.push([...x]); }
+  let h = "", pos = 0; for (const [a,b] of m){ h += esc(raw.slice(pos,a)) + "<mark>" + esc(raw.slice(a,b)) + "</mark>"; pos = b; }
+  return h + esc(raw.slice(pos));
+}
+
+let S = null, list = [];
+
+function renderList(){
+  const done = list.filter(v => v.sum), total = list.length;
+  $("stat").textContent = done.length + " / " + total + " video đã có tóm tắt";
+  $("main").innerHTML = `<div class="card">` + list.map((v, i) => {
+    const m = v.sum ? v.sum.sections.reduce((a, s) => a + s.points.length, 0) + " ý · " + v.sum.sections.length + " phần" : "chưa tóm tắt";
+    const dur = v.dur ? "dài " + fmt(v.dur) + " · " : "";
+    const inner = `<span class="n">${i + 1}</span><span><span class="vt">${esc(clean(v.t))}</span><span class="vm">${dur}${m}</span></span>`;
+    return v.sum ? `<a class="item" href="#${encodeURIComponent(v.id)}">${inner}</a>` : `<div class="item off">${inner}</div>`;
+  }).join("") + `</div>`;
+}
+
+function renderVideo(id){
+  const v = list.find(x => x.id === id && x.sum);
+  if (!v) return renderList();
+  const s = v.sum;
+  const words = s.sections.reduce((a, x) => a + x.points.reduce((b, p) => b + p.text.split(/\s+/).length, 0), 0);
+  $("stat").textContent = s.sections.length + " phần · " + words.toLocaleString("vi-VN") + " từ tóm tắt";
+  $("main").innerHTML = `<div><a class="back" href="#">← Danh sách</a>
+    <h2 class="vtitle"><a href="${yt(v.id)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">${esc(clean(v.t))}</a></h2>
+    <div class="meta">${v.dur ? "dài " + fmt(v.dur) + " · " : ""}tóm tắt bởi ${esc(s.model || "Claude")}</div></div>
+    <div class="card"><div class="box"><h3>Tổng quan</h3><p>${esc(s.overview)}</p></div>
+    <div class="box" style="border-top:1px solid var(--line)"><h3>Ý then chốt</h3><ul class="tk">${s.takeaways.map(t => `<li>${esc(t)}</li>`).join("")}</ul></div></div>
+    <div class="tools"><button class="btn" id="open">Mở tất cả phần</button><button class="btn" id="close">Thu gọn tất cả</button></div>
+    <div class="card">${s.sections.map((sec, i) => `<details${i === 0 ? " open" : ""}><summary><a class="tsb" href="${yt(v.id, sec.start)}" target="_blank" rel="noopener">${fmt(sec.start)}</a><span class="st">${esc(sec.title)}</span></summary>
+      <ul class="pts">${sec.points.map(p => `<li><a class="tsb" href="${yt(v.id, p.t)}" target="_blank" rel="noopener">${fmt(p.t)}</a><span>${esc(p.text)}</span></li>`).join("")}</ul></details>`).join("")}</div>`;
+  $("open").onclick = () => document.querySelectorAll("details").forEach(d => d.open = true);
+  $("close").onclick = () => document.querySelectorAll("details").forEach(d => d.open = false);
+  window.scrollTo(0, 0);
+}
+
+function renderSearch(q){
+  const nq = norm(q).replace(/\s+/g, " ").trim();
+  const terms = [...new Set(nq.split(" ").filter(Boolean))];
+  const out = [];
+  for (const v of list){
+    if (!v.sum) continue;
+    const hits = [];
+    for (const sec of v.sum.sections) for (const p of sec.points){
+      const n = norm(p.text + " " + sec.title);
+      if (terms.every(t => n.includes(t))) hits.push(p);
+    }
+    if (hits.length) out.push({v, hits});
+  }
+  out.sort((a, b) => b.hits.length - a.hits.length);
+  const total = out.reduce((a, r) => a + r.hits.length, 0);
+  $("stat").textContent = out.length + " video, " + total + " ý khớp";
+  $("main").innerHTML = out.length ? out.map(r => `<div class="card"><div class="box" style="padding-bottom:4px"><a href="#${encodeURIComponent(r.v.id)}" style="font-weight:600;text-decoration:none">${esc(clean(r.v.t))}</a></div>
+    <ul class="pts" style="padding-top:6px">${r.hits.slice(0, 8).map(p => `<li><a class="tsb" href="${yt(r.v.id, p.t)}" target="_blank" rel="noopener">${fmt(p.t)}</a><span>${hl(p.text, terms)}</span></li>`).join("")}</ul>
+    ${r.hits.length > 8 ? `<div class="box meta" style="padding-top:0">… và ${r.hits.length - 8} ý khác. <a href="#${encodeURIComponent(r.v.id)}">Mở bản tóm tắt đầy đủ</a></div>` : ""}</div>`).join("")
+    : `<p class="empty">Không thấy ý nào khớp “${esc(q.trim())}” trong các bản tóm tắt đã có.</p>`;
+}
+
+function route(){
+  if ($("q").value.trim()) return renderSearch($("q").value);
+  const id = decodeURIComponent(location.hash.slice(1));
+  id ? renderVideo(id) : renderList();
+}
+let timer;
+$("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(route, 180); });
+window.addEventListener("hashchange", () => { $("q").value = ""; route(); });
+
+(async () => {
+  try {
+    if (window.SUMMARIES) S = window.SUMMARIES;   // summaries.js: chạy được cả khi mở file trực tiếp (file://)
+    else { const sr = await fetch("summaries.json", {cache: "no-cache"}); S = sr.ok ? await sr.json() : {videos: {}}; }
+  } catch { S = {videos: {}}; }
+  if (!Object.keys(S.videos || {}).length) $("stat").textContent = "Không đọc được summaries.js / summaries.json";
+  // Danh sách video: lấy từ summaries.json (đã có tiêu đề). Video chưa tóm tắt lấy thêm từ data.json nếu có.
+  const map = new Map();
+  for (const [id, s] of Object.entries(S.videos || {})) map.set(id, {id, t: s.t, o: s.o ?? 9999, dur: s.dur, sum: s});
+  try {
+    const r = await fetch("data.json"); // đã nằm trong cache trình duyệt nếu trang tra cứu vừa mở
+    if (r.ok){ const d = await r.json(); for (const v of d.videos || []) if (!map.has(v.id)) map.set(v.id, {id: v.id, t: v.t, o: v.o ?? 9999, dur: v.dur, sum: null}); }
+  } catch {}
+  list = [...map.values()].sort((a, b) => (!!b.sum - !!a.sum) || a.o - b.o);
+  route();
+})();
+})();
+</script>
+</body>
+</html>

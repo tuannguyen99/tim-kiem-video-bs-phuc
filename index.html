@@ -209,7 +209,7 @@ function renderList(){
 
 function renderChips(){
   const list = isDemo ? CHIPS_DEMO : CHIPS_DEFAULT;
-  $("chips").innerHTML = `<button class="chip" type="button" data-list="1">☰ Danh sách video</button>` + list.map(w => `<button class="chip" type="button">${esc(w)}</button>`).join("");
+  $("chips").innerHTML = `<button class="chip" type="button" data-list="1">☰ Danh sách video</button><a class="chip" href="summary.html" style="text-decoration:none;font-weight:600">📝 Tóm tắt chi tiết</a>` + list.map(w => `<button class="chip" type="button">${esc(w)}</button>`).join("");
 }
 
 function parseQuery(q){
@@ -329,7 +329,7 @@ let timer;
 $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 180); });
 $("q").addEventListener("keydown", e => { if (e.key === "Enter"){ clearTimeout(timer); run(); $("q").blur(); } });
 $("clear").addEventListener("click", () => { $("q").value = ""; run(); $("q").focus(); });
-$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; if (b.dataset.list){ $("q").value = ""; run(); window.scrollTo({top:0}); return; } $("q").value = b.textContent; run(); });
+$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b || b.tagName === "A") return; if (b.dataset.list){ $("q").value = ""; run(); window.scrollTo({top:0}); return; } $("q").value = b.textContent; run(); });
 $("vlist").addEventListener("click", e => {
   const b = e.target.closest(".pg"); if (!b || b.disabled) return;
   vpage += Number(b.dataset.p); renderList();
