@@ -108,6 +108,126 @@
      "reason": "TranscriptsDisabled"
     }
    ]
+  },
+  {
+   "at": "2026-11-21T15:07:15Z",
+   "args": "--limit 3",
+   "status": "blocked (IpBlocked)",
+   "ok": [],
+   "failed": []
+  },
+  {
+   "at": "2026-11-21T15:11:28Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [],
+   "failed": []
+  },
+  {
+   "at": "2026-11-21T16:22:25Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [],
+   "failed": []
+  },
+  {
+   "at": "2026-11-22T04:12:14Z",
+   "args": "--delay 6",
+   "status": "blocked (IpBlocked)",
+   "ok": [
+    {
+     "id": "3ei2dG0xlWc",
+     "t": "Bạn có biết: Kẽm - Trạm xăng của nam giới và Thẩm mỹ viện của nữ giới?",
+     "lines": 4326
+    },
+    {
+     "id": "060PaZS3MF4",
+     "t": "Đường truyền thống và Đường cồn: Hiểu rõ để có sức khoẻ tốt!",
+     "lines": 4413
+    },
+    {
+     "id": "KHY-LJZPktA",
+     "t": "Sức Khoẻ Tuyến Giáp Bắt Đầu Từ Đường Ruột Bạn Nên Biết!",
+     "lines": 2753
+    },
+    {
+     "id": "jvoM_7wc0wg",
+     "t": "Tuyến Giáp hoạt động như thế nào?",
+     "lines": 3604
+    },
+    {
+     "id": "BP4g6DPxMuE",
+     "t": "Tầm quan trọng đặc biệt của Magie với các bệnh về Não",
+     "lines": 4717
+    },
+    {
+     "id": "gu897Ay6ARQ",
+     "t": "Tầm quan trọng của Vitamin D với Não bộ",
+     "lines": 4358
+    },
+    {
+     "id": "ipA6CTwL2Ik",
+     "t": "Trái tim bệnh nhân và Trái tim bác sĩ: Những điều ít ai nói với bạn",
+     "lines": 4768
+    },
+    {
+     "id": "MA8FnGChmGY",
+     "t": "Khám sức khoẻ Phần 4: Vì sao Albumin lại \"đắt hơn vàng\"?",
+     "lines": 3987
+    },
+    {
+     "id": "DsmG1_k3uPU",
+     "t": "Bác sĩ Trần Văn Phúc: Vitamin D - Các bệnh về da và Làn da đẹp",
+     "lines": 3271
+    },
+    {
+     "id": "yXXYlA4GnoQ",
+     "t": "Khám sức khoẻ Phần 3: Xét nghiệm Gan ứ mật",
+     "lines": 2453
+    },
+    {
+     "id": "ven_MpkBPZQ",
+     "t": "Khám sức khỏe - Phần 2: Xét nghiệm đánh giá tổn thương tế bào gan",
+     "lines": 3809
+    },
+    {
+     "id": "b_bCSwWjQ3Q",
+     "t": "Những điều bác sĩ chưa nói với bạn về Ý nghĩa xét nghiệm công thức máu",
+     "lines": 3429
+    },
+    {
+     "id": "i-ozu8c6GX0",
+     "t": "Dầu ăn và Omega 6: Hướng dẫn từ bác sĩ để không gây hại sức khỏe",
+     "lines": 3118
+    },
+    {
+     "id": "Zs5wzWwmZpY",
+     "t": "Bạn Có Đang BỎ LỠ Lợi Ích Của Omega-3?",
+     "lines": 4159
+    },
+    {
+     "id": "bGf8pwmkGUQ",
+     "t": "Gạo Nào Tốt Nhất Cho Sức Khỏe Bạn Nên Biết!",
+     "lines": 3426
+    },
+    {
+     "id": "Y-j4gNUqj_s",
+     "t": "GIẢM BÉO Phần 4: Tối ưu Tăng cơ, Giảm mỡ với Ứng dụng Chu trình Krebs cùng bác sĩ Trần Văn Phúc",
+     "lines": 3679
+    },
+    {
+     "id": "EuDzyrniTrI",
+     "t": "Giảm béo Phần 3: Bác sĩ Phúc \"giải mã\" Chu trình Krebs - Dễ hiểu nhất",
+     "lines": 3364
+    }
+   ],
+   "failed": [
+    {
+     "id": "MtLyImRjIvQ",
+     "t": "Bác sĩ Trần Văn Phúc: Miễn dịch là gì và cải thiện hệ miễn dịch như thế nào?",
+     "reason": "TranscriptsDisabled"
+    }
+   ]
   }
  ]
 }
