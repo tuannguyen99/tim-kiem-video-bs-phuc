@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-22T10:26:06Z",
+ "updated": "2026-11-24T07:21:39Z",
  "videos": {
   "1Ft9vsq3QG4": {
    "overview": "Số 115 trong chuỗi về các vitamin nhóm B (sau B1, B2, B3, B6, B9, B12), phát sóng ngày 23/5/2026, chủ đề \"Vitamin B5 – sự hiện diện thầm lặng và khiêm cung\". Khoảng 70 phút đầu là phần giao lưu: bác sĩ trả lời bình luận khán giả, nhắc lại bảy nhóm vi chất đã xây dựng hơn hai năm qua, điểm lại 18 vi chất cơ bản và nhấn mạnh việc bổ sung vi chất cần đi cùng tình thương, hiểu biết và lối sống hài hòa. Phần chính (từ khoảng phút 78) giải thích B5 (acid pantothenic) là thành phần tạo coenzyme A, \"phương tiện\" đưa đường, béo, đạm vào ti thể để tạo năng lượng; kể năm vai trò của B5; dùng lý thuyết đồ thị để cho thấy B5 là một đỉnh bậc rất cao trong mạng chuyển hóa; phân tích đồng phân quay phải/quay trái (D/L) và vì sao điều này quan trọng khi chọn vitamin; rồi nêu nguy cơ thiếu B5 trong chế độ ăn hiện đại và ba dạng bổ sung (thực phẩm, panthenol bôi da, calcium pantothenate uống).",
@@ -9602,6 +9602,3496 @@
    "model": "claude-sonnet-5-5",
    "at": "2026-11-22T10:26:06Z",
    "dur": 22469
+  },
+  "94hTe-MX_ko": {
+   "overview": "Video số 138 của bác sĩ Trần Văn Phúc giải thích hiện tượng \"sập nguồn năng lượng tế bào\" và vai trò then chốt của phân tử NAD+. Bác sĩ hệ thống lại \"nền kinh tế năng lượng\" của tế bào: đồng tiền ATP (gắn với Mg2+) và ba hệ \"ngân phiếu\" NAD+/NADH, FAD/FADH2, NADP+/NADPH. Ông giải mã từng chữ cái trong tên phân tử, cách NADH và FADH2 quy đổi ra ATP trong ti thể, vai trò của NADPH trong xây dựng, miễn dịch và chuỗi chống oxy hóa (E, C, CoQ10, glutathion). Tiếp đó là các nguyên nhân làm cạn NAD+: tuổi tác, stress oxy hóa, viêm mạn tính, thiếu nguyên liệu, rượu bia, ăn thừa calo rỗng, và việc NAD+ nuôi các \"vị tướng\" sửa chữa ADN (PARP) và trường thọ (sirtuin). Video cũng có phần bình luận khán giả, phân tích hồ sơ sức khỏe một khán giả, bàn về lectin, nồi áp suất và các thể u lympho. Kết luận: uống hay tiêm NAD+ trực tiếp kém hiệu quả, nên hiểu cơ chế, sống khoa học và bổ sung đủ vi chất. Phù hợp với người muốn tìm hiểu sâu về chuyển hóa tế bào và phòng bệnh chủ động; nội dung mang tính phổ cập, không thay thế thăm khám.",
+   "takeaways": [
+    "Bệnh tật tiến triển từ tổn thương phân tử, tế bào, rối loạn chức năng, cơ quan rồi mới thành bệnh; mệt mỏi, sương mù não dù xét nghiệm bình thường có thể là dấu hiệu sớm do cạn năng lượng tế bào.",
+    "ATP là đồng tiền năng lượng duy nhất (luôn gắn Mg2+), đi kèm ba hệ \"ngân phiếu\": NAD+/NADH (từ vitamin B3), FAD/FADH2 (từ vitamin B2) và NADP+/NADPH; dạng có H là xe đầy electron, dạng không H hoặc có dấu + là xe rỗng.",
+    "Trong ti thể, mỗi NADH tạo tối đa khoảng 2,5–3 ATP và mỗi FADH2 khoảng 1,5–2 ATP (quy ước 4H+ tạo 1 ATP), thông qua các trạm bơm 1–4 và coenzyme Q10.",
+    "NADPH không tạo ATP mà lo xây dựng (tổng hợp hormone, chất dẫn truyền), hỗ trợ bạch cầu diệt vi khuẩn và hồi sinh glutathion, CoQ10 trong chuỗi chống oxy hóa (E → C → glutathion/CoQ10 → NADPH).",
+    "Nồng độ NAD+/NADH đạt đỉnh khoảng 20 tuổi và giảm còn khoảng một nửa ở tuổi 40–50, theo hàm số mũ có mức tối thiểu C(t) = Cmin + C0·e^(−k(t−20)).",
+    "Nguyên nhân làm cạn NAD+ gồm lão hóa, stress oxy hóa do lối sống, viêm mạn tính (cúm, Covid, lectin), thiếu nguyên liệu và vi chất, và khủng hoảng chuyển hóa như kháng insulin.",
+    "Tỉ lệ NAD+/NADH lý tưởng ở bào tương khoảng 60–700; rượu bia, ăn calo rỗng kèm lười vận động và lão hóa làm tăng NADH, ứ trệ chuyển hóa, gây mệt mỏi và gan nhiễm mỡ.",
+    "NADH vào ti thể theo hai đường: đường \"VIP\" malate–aspartate cho tim, gan, thận (2,5 ATP) và đường glycerol-3-phosphat cho cơ, não (1,5 ATP) nhưng nhanh hơn, vì não chỉ nặng 2% cơ thể mà dùng 20% năng lượng.",
+    "NAD+ còn là nguyên liệu cho PARP sửa chữa ADN (bị phá hủy không tái sử dụng được) và nuôi 7 sirtuin bảo vệ nhân, bào tương, ti thể; hai nhóm này cạnh tranh NAD+ nên cần giảm gốc tự do để tiết kiệm.",
+    "Lectin là nguyên nhân hàng đầu gây viêm mạn tính; nên hạn chế và xử lý bằng nhiệt, áp suất hoặc ngâm nước muối. Nồi áp suất 121°C là lý tưởng, nồi 115°C vẫn dùng được nếu kéo dài thời gian.",
+    "Nên bổ sung ít nhất 7 nhóm vi chất (18 sản phẩm căn bản: magie, canxi, vitamin D3, vitamin tổng hợp, vitamin C, kẽm, omega 3); hiệu quả mỗi người khác nhau tùy liều, cách uống và sự đồng bộ giữa các vi chất.",
+    "Uống NAD+ trực tiếp kém hiệu quả vì phân tử cồng kềnh, tích điện dương nên khó qua màng và bị phân hủy ở ruột; tiêm bị enzyme phá nhanh, thải qua thận và có nguy cơ, bác sĩ không ủng hộ.",
+    "Giải pháp thực tế: ăn uống cân bằng đủ vi chất, giảm gốc tự do, bổ sung tiền chất đúng cách (sẽ bàn ở các số sau), liposome còn cần thêm bằng chứng.",
+    "Lối sống khoa học gồm ngủ đủ, vận động, tránh ngồi lâu (quy tắc 20-20), giảm ánh sáng xanh, tuân thủ 8 quy tắc dinh dưỡng; nội dung kênh chỉ mang tính phổ cập kiến thức, không thay thế khám chữa bệnh."
+   ],
+   "sections": [
+    {
+     "start": 2,
+     "end": 598,
+     "title": "Sập nguồn năng lượng tế bào và vai trò phân tử NAD+",
+     "points": [
+      {
+       "t": 35,
+       "text": "Ngày phát sóng là 31/10/2026, cuối tháng 10, giao mùa thu Hà Nội; bác sĩ và biên tập viên dùng hình ảnh lá thu rụng để ví với sự trôi chảy của thời gian."
+      },
+      {
+       "t": 68,
+       "text": "Khi con người bước qua 'sườn dốc' bên kia của cuộc đời, năng lượng ở cấp độ tế bào sụt giảm âm thầm."
+      },
+      {
+       "t": 68,
+       "text": "Biểu hiện của sụt giảm năng lượng: mệt mỏi, rã rời, chân tay rệu rã, không muốn làm việc, đầu óc mụ mị như có sương mù trong tâm trí."
+      },
+      {
+       "t": 99,
+       "text": "Theo cách ví von, đó là lúc 'bình điện' trong tế bào cạn dần phân tử sinh tồn NAD+; số 138 sẽ giải thích hiện tượng 'sập nguồn tế bào' và cách duy trì sinh lực trước tuổi tác."
+      },
+      {
+       "t": 130,
+       "text": "Lưu ý: kênh YouTube Bác sĩ Trần Văn Phúc Official là kênh duy nhất; chỉ có một fanpage 'Bác sĩ Trần Văn Phúc' và một Facebook cá nhân 'Trần Văn Phúc'; cần cảnh giác kênh giả mạo."
+      },
+      {
+       "t": 162,
+       "text": "Bác sĩ và ê-kíp khẳng định không quảng cáo, không bảo trợ hay đứng sau sản phẩm, nhãn hàng nào, không nhận tiền hay lợi ích vật chất."
+      },
+      {
+       "t": 257,
+       "text": "Cơ thể cũng chịu quy luật như mùa thu: dù thời tiết mát mẻ, cảnh vật đẹp, mùa thu hoạch dồi dào, cơ thể vẫn hay mệt mỏi, yếu ớt và dễ bệnh. Bác sĩ coi đó là quy luật của vũ trụ ảnh hưởng đến cuộc sống."
+      },
+      {
+       "t": 300,
+       "text": "Một bí quyết then chốt là nguồn năng lượng của tế bào, mà bác sĩ vẫn gọi là 'hệ thống tài chính/hệ thống kinh tế của tế bào'."
+      },
+      {
+       "t": 327,
+       "text": "Khi hệ thống này trục trặc, tổn thương xảy ra theo trình tự: đầu tiên ở cấp phân tử (thành phần hóa học, năng lượng), rồi tổn thương tế bào, rồi rối loạn chức năng, sau đó tổn thương cơ quan và cuối cùng là bệnh tật thực sự."
+      },
+      {
+       "t": 377,
+       "text": "Vì vậy có người cơ thể có vẻ bình thường, xét nghiệm không bất thường nhưng vẫn mệt mỏi, thiếu năng lượng, ốm yếu; sau đó bệnh bùng nổ và mới biểu hiện qua xét nghiệm, chiếu chụp, triệu chứng, tổn thương thực thể. Khởi nguồn kín đáo của nó là vấn đề ở tế bào."
+      },
+      {
+       "t": 408,
+       "text": "Chủ đề hôm nay là NAD+, một chủ đề rất nóng trên truyền thông và báo chí."
+      },
+      {
+       "t": 439,
+       "text": "Ngoài việc bổ sung 7 nhóm vi chất, nhiều người đang đi sâu hơn sang các thành phần như glutathion, coenzyme Q10, creatin (đã phát sóng các số trước) và nay là NAD+, thứ đang được tìm kiếm nhiều."
+      },
+      {
+       "t": 470,
+       "text": "Để có cơ thể 'thân khỏe, tâm an, trí sáng', cần hiểu sâu NAD+ là gì, tác dụng trong cơ thể, điều gì xảy ra khi thiếu, và trạng thái đạt được khi bổ sung đủ, biết bảo tồn và phát huy nó."
+      },
+      {
+       "t": 501,
+       "text": "Thời điểm giao mùa thu sang đông (gió lạnh đầu mùa khoảng từ 20/11 trở đi) làm cơ thể chuyển sang trạng thái khác, nên cần cân nhắc có cần bổ sung các chất này hay không."
+      },
+      {
+       "t": 532,
+       "text": "Mệt mỏi do cạn năng lượng không chỉ gặp khi lớn tuổi: có trẻ 4-6 tuổi đi học đã kiệt quệ năng lượng, không tiếp thu được bài học."
+      },
+      {
+       "t": 565,
+       "text": "Nguyên nhân là phụ huynh, thầy cô không hiểu diễn biến bên trong tế bào của trẻ nên không làm chủ được nguồn năng lượng và 'nền kinh tế' tế bào; khi hệ thống năng lượng đổ sập thì phải trả giá rất đắt, nên chương trình mở rộng kiến thức ngày càng sâu."
+      }
+     ]
+    },
+    {
+     "start": 601,
+     "end": 1196,
+     "title": "Hệ thống ngân phiếu NAD, FAD, NADP và vai trò chữ N",
+     "points": [
+      {
+       "t": 601,
+       "text": "Bác sĩ muốn hệ thống lại các khái niệm đã học: đồng tiền năng lượng ATP và các \"tờ ngân phiếu\" gồm NAD+/NADH, FAD/FADH2, cùng các ký hiệu chữ N, A, D, F, P mà người xem thường thấy rối mắt; sau buổi này người xem sẽ gần như thuộc lòng để hiểu nền kinh tế năng lượng của tế bào."
+      },
+      {
+       "t": 665,
+       "text": "Có ba hệ thống ngân phiếu: NAD+/NADH, FAD/FADH2, và hệ thống thứ ba chưa đề cập trước đây là NADP+/NADPH."
+      },
+      {
+       "t": 725,
+       "text": "ATP là đồng tiền năng lượng duy nhất tế bào chấp nhận để thanh toán các hoạt động; ATP luôn phải gắn với Mg2+, nếu không có Mg2+ thì ATP vô nghĩa, như tiền mới in chưa có bảo chứng và chưa lưu thông được."
+      },
+      {
+       "t": 769,
+       "text": "Ba hệ thống ngân phiếu được \"in ra\" kèm theo đồng tiền ATP: thứ nhất NAD+/NADH, thứ hai FAD/FADH2, thứ ba NADP+/NADPH."
+      },
+      {
+       "t": 789,
+       "text": "Buổi này tập trung vào ngân phiếu NAD+, để xem có cần bổ sung hay không và nếu bổ sung thì bổ sung thế nào."
+      },
+      {
+       "t": 821,
+       "text": "Hệ thống NAD+/NADH nằm trong ti thể (nhà máy điện/thủy điện của tế bào); bác sĩ sẽ giải mã từng chữ cái trong tên."
+      },
+      {
+       "t": 885,
+       "text": "Chữ N là nicotinamid, tức vitamin B3. Trong hình ảnh ví von (xe tải chở ngân phiếu), chữ N đóng vai trò thùng hàng dùng để chở hàng."
+      },
+      {
+       "t": 943,
+       "text": "Thùng hàng chứa 2 electron (2e-) và H+; electron và H+ là những \"chữ ký\" trên tờ ngân phiếu. Ngân phiếu thiếu chữ ký thì không có giá trị, càng nhiều electron và H+ thì càng có giá trị."
+      },
+      {
+       "t": 1005,
+       "text": "Mỗi xe chở được 2 electron và 2 H+ khi đầy. NAD+ mang điện tích dương nên chỉ cần nạp thêm 2e- và 1 H+ để cân bằng điện, vì mỗi e- (trừ) đi cặp với một cộng."
+      },
+      {
+       "t": 1043,
+       "text": "FAD không có dấu cộng nên muốn chở đầy phải nạp thêm 2e- và 2H+, khác với NAD+ chỉ cần 1H+."
+      },
+      {
+       "t": 1075,
+       "text": "NADP+ cũng giống NAD+: cần nạp thêm 2e- và 1 H+ (bác sĩ nhắc lại để người xem suy ra từ ký hiệu)."
+      },
+      {
+       "t": 1100,
+       "text": "Quy tắc đọc ký hiệu: dạng có dấu + hoặc không có H (NAD+, FAD, NADP+) là xe rỗng cần nạp hàng; dạng có thêm chữ H (NADH, FADH2, NADPH) là thùng đã đầy, không cần nạp thêm e- và H+."
+      },
+      {
+       "t": 1130,
+       "text": "Chữ A là adenin, cùng loại với adenin trong phân tử ADN (vật chất di truyền, gồm A, T, G, X/U). Ở đây adenin không phải thùng hàng mà đóng vai biển số xe, cho biết xe cần chở đến đâu."
+      },
+      {
+       "t": 1166,
+       "text": "Ví dụ biển số của NAD+: khi có biển adenin thì xe được phép đi vào một khu vực lưu thông nhất định (câu bị cắt ở cuối đoạn)."
+      }
+     ]
+    },
+    {
+     "start": 1200,
+     "end": 1799,
+     "title": "Cấu trúc NAD+ và FAD như chiếc xe chở ngân phiếu",
+     "points": [
+      {
+       "t": 1200,
+       "text": "Ti thể chỉ cho phép đi vào khi 'biển số xe' là adenin; cả ba hệ thống (NAD, FAD, NADP) đều có biển số adenin nên được phép vào ti thể, còn phân tử không mang biển số adenin sẽ bị ti thể chặn."
+      },
+      {
+       "t": 1233,
+       "text": "Biển số xe dùng để định danh xe được đi vào hay đi ra; không có biển số thì 'bảo vệ' chặn luôn, cấm cửa không cho vào. Cấu trúc xe gồm: thùng/đầu chở hàng ở phía trước và biển số ở đuôi."
+      },
+      {
+       "t": 1263,
+       "text": "Chữ D là dinucleotit (hai nucleotit, vật chất di truyền). Mỗi nucleotit gồm hai phần: phosphat và đường ribo."
+      },
+      {
+       "t": 1274,
+       "text": "Đường ribo là vòng năm cạnh; cấu trúc vòng năm cạnh rất bền vững nên đóng vai trò khung xe, mọi thứ đều gắn lên khung này."
+      },
+      {
+       "t": 1324,
+       "text": "Phosphat đóng vai trò trục xe, đỡ khung xe ở phía trên (trục nối với hệ thống bánh chở)."
+      },
+      {
+       "t": 1342,
+       "text": "Dinucleotit có hai phosphat (hai trục) và hai ribo (hai khung): trục và khung phía trước đỡ phần đầu để chở hàng, trục và khung phía đuôi đỡ biển số xe."
+      },
+      {
+       "t": 1388,
+       "text": "Hàng hóa chở trên đầu xe là các electron và ion hydro (H+ cộng e-), chính là 'ngân phiếu' năng lượng; biển số là chữ A (adenin) quyết định xe được đi đúng đường, biển sai thì bị chặn."
+      },
+      {
+       "t": 1449,
+       "text": "Tổng kết kết cấu xe: đầu chở hàng, khung (đường ribo năm cạnh) đỡ đầu và đỡ biển số, trục (phosphat) đỡ khung ở dưới; cả đầu và đuôi đều theo cấu trúc này."
+      },
+      {
+       "t": 1511,
+       "text": "Dấu cộng (+) biểu thị xe đang rỗng, chưa có hàng; chữ H biểu thị xe đã đầy hàng."
+      },
+      {
+       "t": 1541,
+       "text": "Hệ thống thứ hai là FAD/FADH2: chữ A là adenin (biển số), D là dinucleotit với hai phosphat (hai trục) và hai đường ribo năm cacbon (hai khung)."
+      },
+      {
+       "t": 1604,
+       "text": "Chữ F là flavin, liên quan riboflavin tức vitamin B2; như vậy NAD+ do vitamin B3 tạo nên còn hệ thống xe FAD thứ hai do vitamin B2 tạo nên."
+      },
+      {
+       "t": 1634,
+       "text": "Flavin là phần đầu chở hàng, chở 2e- và 2H+ (không có dấu cộng nên chở cả 2H+, khác NAD chỉ chở một H+); đây là kiến thức hóa sinh rất khó với học sinh và sinh viên."
+      },
+      {
+       "t": 1699,
+       "text": "Đầu flavin gắn với đường ribo năm cạnh phía trước, bên dưới có trục phosphat gánh đỡ, tạo nên chiếc xe vững chắc; thiếu các thành phần này xe yếu, hỏng, không vận hành được, thể hiện nguyên lý cơ thể bố trí hợp lý, chắc chắn, khoa học."
+      },
+      {
+       "t": 1762,
+       "text": "Hệ thống xe thứ ba là NADP+/NADPH, cấu trúc giống hệ thống trước; chữ lạ thêm vào là P, tức gốc phosphat."
+      },
+      {
+       "t": 1769,
+       "text": "Với FAD, không có chữ H nghĩa là xe rỗng (FAD), có chữ H nghĩa là xe đầy (FADH2)."
+      }
+     ]
+    },
+    {
+     "start": 1802,
+     "end": 2398,
+     "title": "Hệ thống định vị GPS của NAD và vai trò NADH ở trạm bơm số 1",
+     "points": [
+      {
+       "t": 30,
+       "text": "Gốc phosphat (chữ P, 'phốp') ở hệ thống thứ ba được ví như hệ thống định vị GPS: nó chỉ định chiếc xe chở ngân phiếu phải đi đến công xưởng tế bào ở ngoài ti thể (tế bào chất), nơi sản xuất, chứ không được chạy lung tung."
+      },
+      {
+       "t": 34,
+       "text": "Hai hệ thống đầu không có GPS, còn hệ thống thứ ba có GPS bắt buộc đến công xưởng tế bào chất, dù thành phần này được sản xuất ở đâu đi nữa."
+      },
+      {
+       "t": 66,
+       "text": "Hai hệ thống số 1 và số 2 đi vào đập thủy điện ti thể, đến các trạm bơm 1, 2, 3, 4 để thực hiện đổi đồng tiền năng lượng."
+      },
+      {
+       "t": 99,
+       "text": "Hệ thống thứ ba không được phép đi vào đập thủy điện ti thể, mà thực hiện công cuộc xây dựng, tái thiết và bảo vệ tế bào (an ninh quốc phòng) ở ngoài tế bào."
+      },
+      {
+       "t": 120,
+       "text": "Nếu hệ thống thứ ba (có gốc adenin) vẫn có mặt trong ti thể thì nó chỉ làm nhiệm vụ bảo vệ ti thể, chống oxy hóa, chứ không tham gia đổi đồng tiền năng lượng."
+      },
+      {
+       "t": 172,
+       "text": "Nhắc lại cấu trúc: hồ thủy điện là khoang nằm giữa hai lớp màng ti thể (màng ngoài và màng trong); nước trong hồ chính là hydro, tức ion H+."
+      },
+      {
+       "t": 193,
+       "text": "Mỗi lớp màng ti thể gồm hai lớp phospholipid, đầu ưa nước và đầu kỵ nước sắp xếp theo quy tắc: đầu kỵ nước quay vào nhau, đầu ưa nước quay ra phía ngoài (theo cách bác sĩ mô tả), lớp màng trong cũng sắp xếp y như vậy."
+      },
+      {
+       "t": 254,
+       "text": "Màng trong chính là đập thủy điện; từ chân đập đến đỉnh đập lắp bốn trạm bơm (1, 2, 3, 4), trạm bơm số 1 có công suất lớn nhất."
+      },
+      {
+       "t": 274,
+       "text": "Ma trận nền của ti thể nằm ở hạ lưu, là nơi chứa H+, electron (e-) và các xe chở ngân phiếu; từ đây các xe chạy lên đập đến các trạm bơm."
+      },
+      {
+       "t": 381,
+       "text": "Hệ thống ngân phiếu thứ nhất là NAD+/NADH: xe NADH xuất phát từ ma trận nền, chạy theo con đường riêng, chuyên dụng gọi là con đường khung tế bào, đến trạm bơm số 1."
+      },
+      {
+       "t": 443,
+       "text": "Trạm bơm số 1 có công suất cực lớn và có đường điện cao thế được tạo từ 9 cặp nối nhau giữa nguyên tử sắt và nguyên tử lưu huỳnh (cụm Fe-S)."
+      },
+      {
+       "t": 463,
+       "text": "Thùng hàng của xe ngân phiếu là nicotinamid (N), chứa 2 e- và 2 H+; nguyên tắc luôn là 2e- và 2H+, trong đó 1 H+ lấy từ môi trường ngoài còn 1 H+ đã có sẵn trên xe."
+      },
+      {
+       "t": 504,
+       "text": "Khi NADH đến trạm bơm số 1, nó truyền 2 electron vào dòng điện cao thế 9 cặp Fe-S, đồng thời đẩy 1 H+ về ma trận nền, và xe trở thành xe rỗng NAD+."
+      },
+      {
+       "t": 536,
+       "text": "Trong quá trình 2 electron đi qua đường dây cao thế từ đầu đến cuối, trạm bơm số 1 hút 4 H+ đổ lên hồ thủy điện (khoang giữa hai màng) để sau đó tạo điện."
+      },
+      {
+       "t": 568,
+       "text": "Ở cuối trạm bơm số 1, coenzyme Q10 xuất hiện, nhận 2 electron và mang chúng từ cuối đường dây số 1 lên trạm bơm số 3."
+      }
+     ]
+    },
+    {
+     "start": 2400,
+     "end": 2999,
+     "title": "Ôn lại chuỗi chuyển điện tử: NADH và FADH2 quy đổi ATP",
+     "points": [
+      {
+       "t": 2400,
+       "text": "Coenzyme Q10 đóng vai trò chiếc phà có hai cánh tay gắp: nó nhận 2 electron từ trạm bơm số 1 chuyển lên trạm bơm số 3, và để trung hòa điện tích thì phải lấy thêm 2H+ từ ma trận nền."
+      },
+      {
+       "t": 2432,
+       "text": "Tại trạm bơm số 3 (trạm trung thế) chỉ có một cặp Fe-S (đường dây hạ thế) và một cytochrome B, mỗi thành phần chỉ nhận được 1 electron; Q10 nhả 2 electron và thả 2H+ lên hồ chứa (khoang giữa hai màng), trở thành Q10 rỗng quay lại trạm số 1 để chạy chuyến tiếp."
+      },
+      {
+       "t": 2497,
+       "text": "Trong trạm số 3, hệ thống đường dây và cytochrome hút H+ lên hồ chứa; sau khi bơm xong, electron đến cuối trạm số 3 được cytochrome C đón lên trạm số 4."
+      },
+      {
+       "t": 2527,
+       "text": "Ở trạm số 4 chỉ có cytochrome C; 2 electron lúc này đã yếu nhưng vẫn bơm thêm được 2H+ lên hồ chứa, đồng thời kết hợp với oxy để tạo thành nước (quá trình trung hòa điện; bác sĩ không đi sâu thêm)."
+      },
+      {
+       "t": 2558,
+       "text": "Với NADH (xe chở ngân phiếu): 4H+ (trạm 1) + 4H+ (trạm 3) + 2H+ (trạm 4) = 10H+; theo quy ước cứ 4H+ tạo 1 ATP nên 10 chia 4 được 2,5 ATP."
+      },
+      {
+       "t": 2589,
+       "text": "Chuyến phà Q10 hút thêm 2H+ lên hồ, tương đương thêm 0,5 ATP, nên cả quá trình từ NADH tạo tối đa khoảng 3 ATP (ba đồng tiền năng lượng). Bác sĩ nhấn mạnh phải lặp đi lặp lại để nhớ vì đây là kiến thức khó; thuộc rồi thì làm việc nhiều, không mệt mỏi."
+      },
+      {
+       "t": 2653,
+       "text": "Hệ thống thứ hai là FAD/FADH2: FADH2 là xe đã đầy electron và hydro. Thùng chứa hàng là Flavin (xuất phát từ riboflavin, tức vitamin B2); xe chở 2H+, khác với hệ NAD chỉ cần lấy 1H+."
+      },
+      {
+       "t": 2683,
+       "text": "Cấu tạo tên: A là adenin (biển số xe để đi vào ti thể); D là dinucleotide gồm đường ribose 5 carbon (khung xe) và phosphate (trục xe), đỡ thùng flavin và biển số adenin; H2 báo xe đã đầy electron và hydro."
+      },
+      {
+       "t": 2745,
+       "text": "FADH2 đi theo con đường vòng, con đường phụ nên đến muộn, không kịp đến trạm số 1 mà phải lên trạm trung chuyển số 2; trạm số 2 chỉ tiếp nhận electron chứ không bơm (0 H+), là trạm trung thế chỉ có 3 cặp Fe-S (trạm số 1 có 9 cặp) và dẫn truyền electron rất nhanh."
+      },
+      {
+       "t": 2806,
+       "text": "Coenzyme Q10 nhận 2 electron từ cuối trạm số 2, hút 2H+ từ ma trận nền để cân bằng điện, chở lên trạm số 3 rồi chuyển electron vào trạm 3 và thả H+ lên hồ chứa, sau đó quay về làm chuyến phà tiếp."
+      },
+      {
+       "t": 2871,
+       "text": "Tại trạm số 3 có hai hệ dẫn truyền: một cặp Fe-S hạ thế và cytochrome B, mỗi cái chỉ nhận thêm 1 electron; sau khi tích đủ điện thì bơm 4H+ lên hồ chứa, rồi electron chuyển qua cytochrome C lên trạm số 4, nơi bơm thêm 2H+."
+      },
+      {
+       "t": 2934,
+       "text": "Tổng với FADH2 chỉ có 4+2 = 6H+, chia 4 được 1,5 ATP; cộng 0,5 ATP từ Q10 thì tối đa 2 ATP. Sau khi trao 2 electron, FADH2 nhả 2H+ về ma trận nền để thành xe rỗng FAD."
+      },
+      {
+       "t": 2965,
+       "text": "Đây chính là quá trình quy đổi đồng tiền năng lượng trong đập thủy điện tế bào (ti thể); quá trình này, liên quan đến coenzyme Q10, gắn với hai giải Nobel (bản chất đáng lẽ là ba, nhưng gộp lại thành hai)."
+      }
+     ]
+    },
+    {
+     "start": 3001,
+     "end": 3597,
+     "title": "NADPH: xây dựng và bảo vệ tế bào, không tạo ATP",
+     "points": [
+      {
+       "t": 3000,
+       "text": "Coenzym Q10 là mắt xích của dòng điện tử trong ti thể; nếu dòng này bị gián đoạn, tế bào sẽ phồng lên, bị hủy hoại và vỡ ra."
+      },
+      {
+       "t": 3032,
+       "text": "Hệ thống số 3 (NADP/NADPH) khác hai hệ thống đầu vì có chữ P (phosphate) như một 'GPS định vị': nó không được vào 'đập thủy điện' (ti thể) hay các trạm bơm 1-2-3-4 để quy đổi tiền (tạo ATP)."
+      },
+      {
+       "t": 3063,
+       "text": "NADPH có hai nhiệm vụ chính: xây dựng (tổng hợp chất) và bảo vệ (chống oxy hóa, chống gốc tự do); hoạt động ở tế bào chất."
+      },
+      {
+       "t": 3126,
+       "text": "Hình dung: NADP là xe rỗng, NADPH là xe đầy hàng; xe rỗng nạp 2 electron (2e-) và 2H+ (để cân bằng điện tích) thì thành NADPH."
+      },
+      {
+       "t": 3189,
+       "text": "Nhờ chữ P làm GPS, xe đầy hàng đến các 'công xưởng sản xuất' là những nơi cần tổng hợp chất, như tế bào gan, tế bào nội tiết, tế bào não và các tế bào chức năng khác, tại vùng tế bào chất."
+      },
+      {
+       "t": 3221,
+       "text": "Ở tế bào chất, NADPH giúp tổng hợp nội tiết tố, enzyme, các chất hóa học trung gian, chất dẫn truyền thần kinh và nhiều chất khác."
+      },
+      {
+       "t": 3254,
+       "text": "Cơ chế tổng hợp: NADPH dùng điện (2e-) làm năng lượng để ép các mảnh carbon ngắn nối lại thành mạch carbon dài, ví dụ ép hai mảnh 3 carbon thành 6 carbon."
+      },
+      {
+       "t": 3315,
+       "text": "Khác với hệ thống tạo ATP, NADPH phục vụ sản xuất cho các hoạt động trong tế bào; chữ P giúp nó biết vị trí cần đến để ép carbon."
+      },
+      {
+       "t": 3377,
+       "text": "Vai trò bảo vệ thứ nhất: NADPH tham gia miễn dịch. Khi bạch cầu bắt được vi khuẩn nhưng khó tự tiêu diệt, NADPH phát hiện và nhường electron vào bên trong bạch cầu."
+      },
+      {
+       "t": 3437,
+       "text": "Electron 'đi lạc' ví như đứa con hoang phá làng phá xóm; một enzyme trong đó bắt electron này và biến thành gốc tự do, tạo bùng nổ gốc tự do làm nổ tung vi khuẩn hoặc yếu tố gây bệnh."
+      },
+      {
+       "t": 3502,
+       "text": "Bạch cầu tự thân quá 'hiền' để diệt vi khuẩn; nhờ NADPH thả hàng loạt electron nên tiêu diệt tác nhân gây bệnh cực kỳ nhanh. Đây là mặt tích cực của gốc tự do và là nhiệm vụ 'ngầu' nhất của NADPH."
+      },
+      {
+       "t": 3535,
+       "text": "Vai trò bảo vệ thứ hai: cấp cứu. Glutathion (vua chống oxy hóa tế bào) và coenzym Q10 khi chống gốc tự do bị 'thương' và thoi thóp; NADPH đến 'cắm sạc điện' giúp chúng hồi phục, khỏe lại và tiếp tục chiến đấu."
+      },
+      {
+       "t": 3587,
+       "text": "Còn một nhiệm vụ nữa của NADPH nằm trong ti thể, sẽ được nói tiếp."
+      }
+     ]
+    },
+    {
+     "start": 3600,
+     "end": 4197,
+     "title": "NAD+, hệ thống ngân phiếu thứ ba (NADPH) và lời nhắn gửi khán giả",
+     "points": [
+      {
+       "t": 3600,
+       "text": "Ti thể được ví như lò phản ứng hạt nhân cung cấp điện cho tế bào, sản xuất ra rất nhiều electron (e-) và H+; hai thứ này quá nhiều có thể phá vỡ ti thể và làm hỏng tế bào."
+      },
+      {
+       "t": 3610,
+       "text": "NADPH có nhiệm vụ trung hòa electron và H+ dư thừa, tức là chống lại các gốc tự do (ví như 'đứa con phá làng phá xóm'), qua đó bảo vệ ti thể; nếu không có NADPH thì ti thể bị phá vỡ ngay, nên đây là thành phần chống oxy hóa vô cùng quan trọng trong ti thể."
+      },
+      {
+       "t": 3635,
+       "text": "Đã nói ba hệ thống 'ngân phiếu': thứ nhất NAD+/NADH, thứ hai FAD/FADH2 (đã nói nhiều ở buổi trước), thứ ba là NADPH được mở rộng thêm hôm nay; chủ đề chính vẫn là NAD+ để hiểu sâu hơn."
+      },
+      {
+       "t": 3664,
+       "text": "Bác sĩ cho rằng chỉ khi mở rộng khái niệm và hiểu toàn bộ 'kịch bản' bên trong tế bào thì mới trẻ hóa cơ thể, kéo dài tuổi thọ và đẩy lùi bệnh tật."
+      },
+      {
+       "t": 3695,
+       "text": "Bác sĩ nói bản thân nhìn trẻ hơn tuổi và hơn trên hình vì hiểu các quá trình này, từ đó biết điều chỉnh cơ thể theo nhịp sinh học phù hợp nhất."
+      },
+      {
+       "t": 3726,
+       "text": "Nếu có điều kiện kinh tế thì bổ sung thêm các chất cần thiết; nếu không thì ít nhất bổ sung 7 nhóm vi chất, trong đó có 18 vi chất căn bản, sẽ giải quyết được rất nhiều vấn đề sức khỏe."
+      },
+      {
+       "t": 3756,
+       "text": "Dù có điều kiện hay không đều phải hiểu triệt để kiến thức để giữ các thành phần này ở ngưỡng lý tưởng; nếu không sẽ kiệt quệ, cơ thể lão hóa nhanh, mắc bệnh, đi hết bệnh viện này đến bệnh viện khác không ra bệnh, đến khi phát hiện thì đã muộn."
+      },
+      {
+       "t": 3798,
+       "text": "Khuyên khán giả ghi chép cẩn thận từng kiến thức (nên xem trên màn hình tivi thay vì chỉ máy tính), học dần từng ngày để hình dung các chữ cái viết tắt, quá trình chuyển hóa và suy ra các vấn đề sức khỏe của mình; kiến thức không bao giờ dễ dàng."
+      },
+      {
+       "t": 3885,
+       "text": "Phần đọc bình luận do Khánh Lành dẫn: khán giả gửi hàng nghìn bình luận, nhiều người nói đã được hồi sinh, tìm thấy hy vọng từ tri thức y khoa của chương trình."
+      },
+      {
+       "t": 3982,
+       "text": "Bình luận của bác Nguyễn Hoa (người Việt ở Đức hơn 41 năm): dù vốn tiếng Việt hạn hẹp, phải dịch thuật ngữ y khoa sang tiếng Đức và nghe đi nghe lại nhiều lần để ghi chép; bác từng yêu hóa học, học kỹ thuật phòng thí nghiệm hóa nhưng phải nghỉ vì dị ứng; khâm phục sự tận tâm của bác sĩ và người dẫn dù buổi phát sóng kéo dài gần 8 tiếng."
+      },
+      {
+       "t": 4077,
+       "text": "Bình luận của bác Đỗ Thiên (trên 70 tuổi, hơn 45 năm làm hóa hữu cơ và hóa sinh): đánh giá chương trình hữu ích, dễ hiểu, cực kỳ cập nhật, giúp người dân chủ động phòng bệnh và là tài sản vô giá cho người Việt."
+      },
+      {
+       "t": 4139,
+       "text": "Bình luận của bác Tạ Nhân (nhân viên y tế 33 năm): chưa từng thấy bác sĩ nào tâm huyết đến thế; nhiều bác sĩ chữa bệnh cho người khác nhưng bản thân mang cả 'siêu thị bệnh'; khi giới thiệu kênh cho đồng nghiệp nhiều người hoài nghi, không tin."
+      }
+     ]
+    },
+    {
+     "start": 4200,
+     "end": 4797,
+     "title": "Bình luận khán giả: kinh nghiệm áp dụng kiến thức y học nối sống",
+     "points": [
+      {
+       "t": 4200,
+       "text": "Phần cuối buổi là các bình luận của khán giả. Một người hành nghề y hơn 30 năm nói chưa từng nghe ai giảng giải tường tận như bác sĩ, trong khi ở tiệm thuốc dược sĩ chỉ bán hàng mà không giải thích bản chất thành phần cho người dân; người này sẽ tiếp tục lan tỏa kiến thức."
+      },
+      {
+       "t": 4230,
+       "text": "Cô Thúy Nguyễn, làm nghề may vá sửa quần áo, được con gái tặng loa mini nhân sinh nhật 50 tuổi để nghe kênh cả ngày mà không hỏng điện thoại; khách đến tiệm cũng nghe và nhiều người xung quanh đã cải thiện sức khỏe rõ rệt."
+      },
+      {
+       "t": 4295,
+       "text": "Cô Thúy Nguyễn thấy nhiều học sinh thừa cân béo phì, vòng bụng tới 115 cm, đến mức không mua nổi quần áo may sẵn, và mong các em được bác sĩ phân tích để cảnh tỉnh."
+      },
+      {
+       "t": 4330,
+       "text": "Bạn Đinh Đoàn, 33 tuổi, bộ đội tên lửa, không hút thuốc, sống kỷ luật, bị khàn giọng đột ngột rồi phát hiện ung thư phổi giai đoạn bốn; xem kênh giúp bạn hiểu bệnh tật đều có nguyên nhân và cội nguồn."
+      },
+      {
+       "t": 4362,
+       "text": "Bạn Đinh Đoàn vừa uống thuốc đích vừa bổ sung vi chất theo hướng dẫn của bác sĩ, hiện vẫn duy trì cuộc sống và đi làm hằng ngày, hy vọng sống thêm vài năm để hoàn thành dự định."
+      },
+      {
+       "t": 4393,
+       "text": "Bác Túc Dương, nông dân, nói cơ thể hồi sinh nhờ chế độ ăn và bổ sung vi chất, và hỏi: nhà nào ở quê cũng trồng cà chua, đậu tương chứa nhiều lectin cần loại bỏ bằng nấu nướng, nhưng nồi áp suất đạt chuẩn 121°C rất khó mua, đa phần chỉ tối đa 115°C."
+      },
+      {
+       "t": 4437,
+       "text": "Câu hỏi đặt ra: nếu dùng nồi áp suất 115°C và kéo dài thời gian nấu thì có phá hủy hết lectin hay không; bác nông dân mong bác sĩ giải đáp và hướng dẫn chọn dụng cụ phù hợp (đây là câu hỏi của khán giả, chưa được trả lời trong đoạn này)."
+      },
+      {
+       "t": 4489,
+       "text": "Bác Nguyễn Thị Dị kể gia đình mất ba người thân vì ung thư; chồng sinh năm 1973, vốn khỏe mạnh, đầu năm 2021 (dịch Covid-19) khởi phát bằng mệt mỏi như cảm cúm, rồi xuất hiện nốt đỏ đậm to bằng hạt đậu đen trong niêm mạc miệng, răng lung lay, suy thận độ hai."
+      },
+      {
+       "t": 4525,
+       "text": "Hành trình chữa bệnh của chồng: nhiều bệnh viện kê kháng sinh nhiều lần, chụp X quang và công thức máu bị đánh giá không đáng lo, hẹn tái khám 6 tháng; sinh thiết ở bệnh viện tuyến cuối sau khi cắt nốt thì chảy máu nhiều phải cấp cứu, kết quả là u lympô không Hodgkin ác tính."
+      },
+      {
+       "t": 4617,
+       "text": "Sau 3 tháng, bệnh viện ung thư từ chối hóa chất vì thận đã suy kiệt; bệnh viện khác chẩn đoán đa u tủy xương, không loại trừ u lympô không Hodgkin; qua nhiều xét nghiệm quá sức chịu đựng, một bác sĩ khuyên gia đình cho bệnh nhân dừng lại."
+      },
+      {
+       "t": 4648,
+       "text": "Sau khi xem kênh, đặc biệt số về giải Nobel Y học 2025, bác Dị hiểu rằng hành trình chữa bệnh trước đó như đi trong đêm tối với cái giá quá đắt."
+      },
+      {
+       "t": 4668,
+       "text": "Kết quả áp dụng tri thức của bác sĩ trong gia đình bác Dị: mẹ 79 tuổi từng cắt 4/5 dạ dày nay khỏe mạnh, da hồng hào, đi bơi không mệt; anh rể hết sỏi thận, hết béo phì; chị gái trẻ đẹp hơn; con cháu khỏe, thông minh, học giỏi; bản thân hết trào ngược dạ dày, đau lưng, mỏi gáy."
+      },
+      {
+       "t": 4712,
+       "text": "Chị Lê Phương Anh bị chẩn đoán trầm cảm nặng ở bệnh viện tuyến trung ương, chịu 15 năm trầm cảm, đi khắp các bệnh viện mà vẫn mang cả 'siêu thị bệnh', phải lao lực kiếm tiền trả viện phí và lo cho con cái, hai bên nội ngoại."
+      },
+      {
+       "t": 4744,
+       "text": "Chị Phương Anh tìm thấy kênh YouTube của bác sĩ, theo dõi hơn 2 năm, đã tự trang bị và bổ sung 18 loại vi chất, mạnh dạn thử cả biotin; chị cho biết mình đã hoàn toàn lột xác, thông minh hơn và học tập say sưa với sổ bút."
+      }
+     ]
+    },
+    {
+     "start": 4800,
+     "end": 5397,
+     "title": "Bình luận khán giả về hiệu quả bổ sung vi chất và kênh",
+     "points": [
+      {
+       "t": 1200,
+       "text": "Một khán giả nói kiến thức của bác sĩ rất uyên bác, đòi hỏi người học kiên tâm, bền trí; nghe qua loa trên điện thoại thì dễ quên, nên bạn dành ngày nghỉ ngồi trước tivi để học kỹ các bài giảng."
+      },
+      {
+       "t": 1261,
+       "text": "Một khán giả kể con hai tuổi nghe bác sĩ Phúc qua điện thoại và nhận ra bác sĩ; bé từng bị đánh giá chậm nói (nghi do song ngữ), sau khi bổ sung vitamin tổng hợp và DHA thì nói nhiều, lanh lợi hơn, chỉ là phát âm tiếng Việt chưa rõ."
+      },
+      {
+       "t": 1327,
+       "text": "Cũng khán giả này mua được magie (lactat, citrat, threonat), vitamin nhóm B thể hoạt động và inositol (myo và D-chiro tỉ lệ 40/1), còn thiếu năm loại; hai vợ chồng uống ba ngày thì người vợ ngủ ngon dần (đêm đầu khó ngủ, đêm hai tỉnh rồi ngủ lại nhanh, đêm ba ngủ một mạch), hết mệt khi thức dậy và đau vai gáy giảm rõ rệt."
+      },
+      {
+       "t": 1393,
+       "text": "Tác dụng phụ ghi nhận: cả hai vợ chồng bị cồn cào, mau đói sau vài giờ uống vitamin B thể hoạt động; người chồng thấy mệt hơn và chưa ngủ được, người vợ chưa hết táo bón. Họ hỏi vì sao bổ sung giống nhau mà hiệu quả khác nhau (câu hỏi dành cho bác sĩ giải đáp)."
+      },
+      {
+       "t": 1424,
+       "text": "Một khán giả xúc động khi xem số 133, cho rằng bác sĩ vừa chữa bệnh vừa phổ cập kiến thức y khoa cho hàng trăm nghìn người và thức tỉnh lối sống; xã hội hiện đại cuốn con người vào kiếm tiền và màn hình điện thoại, quên vẻ đẹp giản dị của thiên nhiên."
+      },
+      {
+       "t": 1500,
+       "text": "Khán giả bày tỏ sự kính ngưỡng, tin rằng sự thật sẽ trường tồn và người gieo điều thiện sẽ gặt quả ngọt; một người nhà nhắn tin lúc 2 giờ 10 sáng vẫn thấy người xem thả tim liên tục hơn 5 tiếng suốt buổi phát sóng."
+      },
+      {
+       "t": 1612,
+       "text": "Bình luận thứ 10 (khán giả Trần Tiến): từng bị rối loạn chuyển hóa nhiều bệnh, nay các chỉ số xét nghiệm đẹp nhờ bổ sung đúng vi chất kết hợp điều chỉnh lối sống khoa học, không còn tốn kém tiền và sức khỏe ở bệnh viện; theo dõi kênh đều đặn hai năm."
+      },
+      {
+       "t": 1673,
+       "text": "Khán giả này động viên bác sĩ không nao núng trước phản biện, suy diễn tiêu cực và coi chương trình như phao cứu sinh giúp nhận ra sai lầm sinh hoạt để tránh vết xe đổ trong bệnh viện."
+      },
+      {
+       "t": 1737,
+       "text": "Một khán giả cho biết từ khi theo dõi kênh, gan nhiễm mỡ, mỡ máu, thừa cân và men gan cao đều cải thiện, xét nghiệm trở về chuẩn, cơ thể tỉnh táo, làm việc tập trung hơn; cả gia đình bổ sung vi chất hàng ngày."
+      },
+      {
+       "t": 1767,
+       "text": "Biên tập viên Khánh Lành kết luận đó là 'duyên lành' khi tri thức y khoa đến đúng nơi đúng lúc, rồi mời bác sĩ Phúc giải đáp các bình luận và câu hỏi của khán giả."
+      }
+     ]
+    },
+    {
+     "start": 5400,
+     "end": 5998,
+     "title": "Ăn uống, lối sống là nền tảng của bệnh tật",
+     "points": [
+      {
+       "t": 1800,
+       "text": "Hiểu cơ thể từ cấp phân tử, tế bào, cơ quan đến bệnh tật là giá trị quý hơn vàng bạc, kim cương vì sức khỏe là quan trọng nhất và bao trùm mọi vấn đề cuộc sống."
+      },
+      {
+       "t": 1832,
+       "text": "Xưa nay người ta không chủ động chăm sóc sức khỏe mà đi kiếm tiền rồi dùng tiền để mua sức khỏe; đây là cách luôn thất bại."
+      },
+      {
+       "t": 1864,
+       "text": "Qua bình luận khán giả: có người phải trả giá đắt vì bệnh (chồng bị ung thư hạch hoặc u tủy xương, một anh bộ đội 33 tuổi ung thư phổi giai đoạn 4); ngược lại một khán giả trầm cảm 15 năm, đi khắp bệnh viện, sau khi trang bị kiến thức bài bản thì thoát bệnh, vui vẻ, làm việc hiệu quả hơn."
+      },
+      {
+       "t": 1925,
+       "text": "Viên thuốc của sự hiểu biết là quan trọng nhất; cần có kiến thức để phòng bệnh từ rất xa, vì khi đã có bệnh thì người bệnh trở nên bị động và câu chuyện khác đi."
+      },
+      {
+       "t": 1957,
+       "text": "Xưa nay người ta thụ động, phó thác sức khỏe cho bác sĩ, chờ có bệnh mới khám; khi đã có tổn thương thực thể thì đã muộn, nhưng muộn vẫn hơn không: có kiến thức sẽ chủ động phối hợp tốt hơn với bác sĩ, bệnh viện và phác đồ điều trị."
+      },
+      {
+       "t": 2000,
+       "text": "Qua 138 số phát sóng, nhấn mạnh gốc rễ của bệnh tật nằm ở nền tảng là ăn uống và lối sống."
+      },
+      {
+       "t": 2020,
+       "text": "Ăn uống gồm bảy nhóm chất: ba nhóm năng lượng (đường/carbohydrate, chất béo, đạm), vitamin, khoáng chất, nước và chất xơ. Chỉ ăn năng lượng thì dễ rơi vào năng lượng rỗng."
+      },
+      {
+       "t": 2112,
+       "text": "Tách đường, chất béo, đạm thành ba nhóm riêng vì từng thời kỳ người ta mất cân bằng: lúc ăn rất nhiều đường rồi bỏ hẳn carbohydrate; ăn nhiều chất béo rồi bỏ hoàn toàn, khi quay lại thì bỏ béo bão hòa và chỉ ăn dầu thực vật (sai); ăn nhiều đạm rồi ít đạm rồi lại nhiều. Mất cân bằng bảy nhóm này sẽ sinh bệnh tật."
+      },
+      {
+       "t": 2174,
+       "text": "Chất xơ là nhóm hay bị bỏ quên: cứ nghĩ ăn rau là đủ, nhưng phải ăn rất nhiều rau mới đủ 25 g chất xơ/ngày; có thể bổ sung bằng hạt, là nhóm giàu chất xơ nhất mà người ta lại bỏ đi."
+      },
+      {
+       "t": 2206,
+       "text": "Thiếu chất xơ làm rối loạn hệ vi khuẩn đường ruột: vi khuẩn không có lợi phát triển mạnh, vi khuẩn có lợi giảm, dẫn đến viêm nhiễm đường ruột, táo bón, hội chứng ruột kích thích, dò rỉ ruột."
+      },
+      {
+       "t": 2230,
+       "text": "Ruột quan trọng vì là cơ quan miễn dịch lớn nhất, chiếm khoảng 80% miễn dịch, và là bộ não thứ hai; rối loạn ruột kéo theo rối loạn tâm sinh lý và tinh thần."
+      },
+      {
+       "t": 2257,
+       "text": "Lối sống gồm chế độ làm việc, ngủ nghỉ, tâm sinh lý, đối nhân xử thế và các mối quan hệ với môi trường, đồng nghiệp, gia đình, con cái, họ hàng và với chính nội tâm."
+      },
+      {
+       "t": 2300,
+       "text": "Ví dụ: phụ nữ Việt tích mỡ trung tâm nhiều dù gầy và BMI đẹp, vì lo lắng, ngủ muộn, dậy muộn khiến cortisol tiết nhiều, gây tích mỡ trung tâm và rối loạn mỡ máu."
+      },
+      {
+       "t": 2331,
+       "text": "Khi mới sai ăn uống và lối sống thì xét nghiệm, siêu âm, X-quang, CT, cộng hưởng từ chưa bất thường; người bệnh mệt mỏi, căng thẳng, đau chỗ này chỗ khác nhưng bác sĩ bảo không bệnh, cho là tự ám thị."
+      },
+      {
+       "t": 2373,
+       "text": "Đây là giai đoạn sớm nhất của bệnh tật; chỉ cần điều chỉnh lại, bổ sung đủ vitamin và vi chất thì khỏe mạnh và khỏi ngay."
+      }
+     ]
+    },
+    {
+     "start": 6001,
+     "end": 6598,
+     "title": "Lectin, viêm mãn tính và chọn nồi áp suất khử lectin",
+     "points": [
+      {
+       "t": 6001,
+       "text": "Lối sống và ăn uống thay đổi trước hết ở cấp phân tử, rồi tiến lên cấp tế bào; tế bào tổn thương gây rối loạn hệ chuyển hóa, miễn dịch, nội tiết, thần kinh."
+      },
+      {
+       "t": 6034,
+       "text": "Để tạo ra các rối loạn hệ thống đó cần một tổn thương trung gian là viêm mãn tính, do thói quen ăn uống và lối sống hình thành."
+      },
+      {
+       "t": 6067,
+       "text": "Viêm mãn tính là khâu quan trọng nhất nhưng rất ít người quan tâm; từ đó dẫn tới tổn thương cấp tế bào cao hơn rồi thành bệnh như bệnh tự miễn, ung thư, bệnh chuyển hóa và nhiều bệnh khác."
+      },
+      {
+       "t": 6128,
+       "text": "Nhiều người bệnh nói theo dõi kênh nhưng khi hỏi đã bỏ lectin chưa thì không biết lectin là gì, dù bị đau xương khớp và nhiều bệnh mà bác sĩ nhận thấy nguyên nhân từ chế độ ăn nhiều lectin."
+      },
+      {
+       "t": 6159,
+       "text": "Bác sĩ cho rằng nhiều khán giả chỉ xem các kênh cắt ngắn, chọn một đoạn để câu view, nên thiếu kiến thức đầy đủ và không thể phòng bệnh, hiểu bệnh, chống bệnh."
+      },
+      {
+       "t": 6192,
+       "text": "Lectin là một trong những nguyên nhân hàng đầu gây viêm mãn tính; hầu hết các bệnh viêm mãn tính đều có thể xuất phát từ lectin qua ăn uống, lối sống. Bác sĩ khuyên xem lại các số đã phát sóng về lectin và ghi chép kỹ."
+      },
+      {
+       "t": 6255,
+       "text": "Nhiều bệnh tự miễn (viêm tuyến giáp Hashimoto, Basedow, viêm khớp tự miễn, lupus ban đỏ, viêm khớp dạng thấp), dị ứng, ngứa, nổi mày đay, rò rỉ ruột, hội chứng ruột kích thích đã trở về trạng thái gần bình thường sau khi loại bỏ chế độ ăn nhiều lectin, trong khi dùng nhiều thuốc không chữa được."
+      },
+      {
+       "t": 6318,
+       "text": "Không cần kiêng hoàn toàn: hạn chế thực phẩm nhiều lectin nguy hiểm, và khi ăn thì phải biết cách xử lý lectin."
+      },
+      {
+       "t": 6335,
+       "text": "Có ba con đường chính xử lý lectin: nhiệt độ cao, áp suất cao, và ngâm nước muối để tạo hiện tượng giả nảy mầm, làm bẻ gãy bớt cấu trúc lectin."
+      },
+      {
+       "t": 6350,
+       "text": "Nồi áp suất đảm bảo cả nhiệt độ cao và áp suất cao nên khử lectin được; nồi phổ biến trên thị trường có nhiệt độ 110–116 độ C, thông dụng là 115 độ C."
+      },
+      {
+       "t": 6383,
+       "text": "Nồi áp suất 121 độ C là nồi tiêu chuẩn cực tốt, vừa khử lectin nhanh và hiệu quả vừa thanh trùng, tiệt trùng; nồi dưới mức này chưa chắc diệt hẳn nha bào."
+      },
+      {
+       "t": 6413,
+       "text": "Nồi 121 độ C khá đắt (rẻ nhất vài triệu, thường hơn chục triệu đồng) và hiếm ở Việt Nam do thiếu hiểu biết; khi nhiều người biết và mua thì cung cầu sẽ làm giá hạ. Có thể mua từ nước ngoài hoặc ở các nước phương Tây."
+      },
+      {
+       "t": 6476,
+       "text": "Sau khi kênh hướng dẫn (số 122) cách chọn vi chất tốt, nhiều người đã biết mua đúng, thị trường dần tốt lên; bác sĩ tin nồi 121 độ C cũng sẽ có ở Việt Nam khi kiến thức phổ biến."
+      },
+      {
+       "t": 6508,
+       "text": "Nồi 115 độ C vẫn khử lectin rất tốt nếu tăng thời gian nấu, nhưng một số món sẽ bị nhừ, nhũn, không ăn được nên hiệu quả khử lectin giảm; nồi 110–115 độ C vẫn dùng tốt."
+      },
+      {
+       "t": 6538,
+       "text": "Lý tưởng là đạt nồi 121 độ C để hầm nấu hiệu quả cao, hướng tới sức khỏe tốt, thân khỏe tâm an chí sáng; vì vậy bác sĩ phải truyền tải nhiều kiến thức rộng để mọi người cùng hiểu biết."
+      }
+     ]
+    },
+    {
+     "start": 6600,
+     "end": 7199,
+     "title": "Viêm mãn tính, gen sửa chữa PARP và gen trường thọ Sirtuin",
+     "points": [
+      {
+       "t": 3000,
+       "text": "Bác sĩ bức xúc với bình luận cho rằng nói dài thì chỉ nên viết văn, không cứu được bệnh nhân; ông cho rằng người xem như vậy hiểu sai, có thể tuyên truyền điều lệch lạc, và nói họ không xứng đáng xem sau khi ê-kíp bỏ nhiều giờ làm chương trình."
+      },
+      {
+       "t": 3031,
+       "text": "Về câu hỏi của khán giả: tạm thời cứ dùng nồi 115°C, sau đó cố gắng mua nồi 121°C để khử lectin hiệu quả hơn, rút ngắn thời gian và đạt hiệu quả cao hơn."
+      },
+      {
+       "t": 3062,
+       "text": "Ăn uống và lối sống là nền tảng phát sinh bệnh tật; khởi đầu là viêm mạn tính mà ta không hề biết, rồi chuyển sang hàng loạt bệnh lý khác."
+      },
+      {
+       "t": 3093,
+       "text": "Khi bệnh đã biểu hiện thành triệu chứng, xét nghiệm, siêu âm, chụp chiếu thì đã quá muộn; ngoài ra còn nguyên nhân nhiễm khuẩn và yếu tố khác, nhưng nếu hiểu biết thì ta hoàn toàn khống chế được các cơ chế này."
+      },
+      {
+       "t": 3124,
+       "text": "Viêm mạn gây tổn thương hệ miễn dịch, rối loạn chuyển hóa (mỡ máu, tiểu đường, tăng huyết áp), nội tiết (dậy thì sớm/muộn, rối loạn kinh nguyệt, rối loạn giới tính, sinh sản), tổn thương thần kinh, tự kỷ, tăng động giảm chú ý, trầm cảm và các vấn đề tâm lý; tất cả xuất phát từ ăn uống và lối sống."
+      },
+      {
+       "t": 3186,
+       "text": "Ăn uống và lối sống ảnh hưởng từ cơ chế, phân tử lên đến các cấp cao; viêm mạn và thiếu các chất cần thiết sẽ gây tổn thương."
+      },
+      {
+       "t": 3219,
+       "text": "Ví dụ khán giả: bộ đội 33 tuổi ung thư phổi giai đoạn 4; người có chồng bị u lympho Hodgkin; gia đình có ba người mắc ung thư; và một bà bác bị cắt 4/5 dạ dày."
+      },
+      {
+       "t": 3250,
+       "text": "Cắt 4/5 dạ dày gần như chắc chắn do ung thư dạ dày; trước đây bác sĩ tiên lượng chỉ sống 2-3 năm, nhưng bà bác này sau khi bổ sung vi chất đầy đủ đã khỏe mạnh, hết mệt mỏi, trở lại bình thường."
+      },
+      {
+       "t": 3283,
+       "text": "Ung thư phổi giai đoạn 3-4 không phải giai đoạn cuối: điều trị đích, hóa chất, đa mô thức kết hợp thay đổi ăn uống, lối sống, bổ sung vi chất đủ thì nhiều bệnh nhân rất tốt, thoát khỏi tình trạng bệnh; ung thư chỉ là bệnh mạn tính khi ta hiểu nó."
+      },
+      {
+       "t": 3335,
+       "text": "Chế độ ăn và lối sống sai gây viêm mạn tính, kích hoạt hàng loạt vấn đề ở gen; ông ví gen sửa chữa là 'vị tướng sửa chữa' (PARP) và gen trường thọ là 'vị tướng trường thọ' (sirtuin, SIRT1 đến SIRT7)."
+      },
+      {
+       "t": 3407,
+       "text": "Khi ăn sai sống sai, xuất hiện các chất trung gian hóa học gây tổn thương, làm tổn thương PARP, vốn sửa chữa sai sót ở tế bào và cấu trúc phân tử, quan trọng nhất là ADN."
+      },
+      {
+       "t": 3438,
+       "text": "Nếu ADN lỗi trong quá trình sao chép/tổng hợp sẽ gây bệnh, đáng sợ nhất là ung thư, ngoài ra là các bệnh hiếm, khó điều trị; nếu PARP không đảm bảo thì ADN không được sửa chữa, đó là nguồn cơn ung thư."
+      },
+      {
+       "t": 3500,
+       "text": "Hai 'vị tướng' sửa chữa và trường thọ luôn đi kèm và tác động qua lại lẫn nhau: cái này ảnh hưởng cái kia."
+      },
+      {
+       "t": 3530,
+       "text": "Vị tướng trường thọ có nhiều vị trí làm việc, một trong số đó là bảo vệ telomere, phần đầu nhiễm sắc thể ví như cái khuy ở đầu dây buộc giày; khuy mòn thì dây bị phá, tuổi thọ ngắn đi."
+      },
+      {
+       "t": 3581,
+       "text": "Khi PARP kém chất lượng, hoạt động kém hiệu quả thì ADN đột biến, gây các bệnh miễn dịch, nội tiết, thần kinh, chuyển hóa, ung thư và nhiều bệnh khác."
+      },
+      {
+       "t": 3592,
+       "text": "Bác sĩ bắt đầu quay lại ví dụ khán giả nữ có chồng được chẩn đoán u lympho (non-Hodgkin/Hodgkin) vùng răng hàm mặt để phân tích tiếp."
+      }
+     ]
+    },
+    {
+     "start": 7201,
+     "end": 7797,
+     "title": "Ung thư hệ miễn dịch: Hodgkin, non-Hodgkin và đa u tủy xương",
+     "points": [
+      {
+       "t": 1,
+       "text": "Lymphoma có hai thể: thể non-Hodgkin (nông Hodgkin) và thể Hodgkin. Một ca khán giả kể có chồng bị bệnh, gia đình có ba người khác bị ung thư, có tiền sử cắt dạ dày vì ung thư; sau này chẩn đoán là đa u tủy xương."
+      },
+      {
+       "t": 32,
+       "text": "Lymphoma Hodgkin, non-Hodgkin và đa u tủy xương đều là ung thư của hệ thống miễn dịch."
+      },
+      {
+       "t": 64,
+       "text": "Chuỗi liên hệ: PARP (vị tướng sửa chữa) không sửa chữa được ADN thì hệ miễn dịch hỏng, ADN có vấn đề dẫn tới ung thư; ung thư liên quan gen trường thọ nên làm rút ngắn tuổi thọ. Các yếu tố này luôn gắn với nhau, không tách rời."
+      },
+      {
+       "t": 96,
+       "text": "Tế bào miễn dịch gồm lympho T và lympho B; bệnh phụ thuộc việc tổn thương xảy ra ở giai đoạn nào và theo cách nào."
+      },
+      {
+       "t": 128,
+       "text": "Tình huống 1: lympho B hoặc T (hoặc cả hai) còn chưa trưởng thành, tức tế bào còn ngây thơ, chưa được đào tạo, mới được tạo ra ở tủy xương và tuyến ức."
+      },
+      {
+       "t": 159,
+       "text": "Tế bào chưa trưởng thành bị tổn thương xuất hiện tế bào RS: tế bào khổng lồ, kích thước lớn bất thường (gấp hai, ba lần bình thường), phình to nhanh, có thể có hai nhân; bản chất vẫn là tế bào lympho B."
+      },
+      {
+       "t": 222,
+       "text": "Tế bào ngây thơ bị tấn công bởi viêm mạn tính, lectin, hóa chất, yếu tố độc hại, thay đổi lối sống, ăn thiếu vi chất (vitamin...) sẽ bị đột biến gen, hỏng ADN rồi phình to thành tế bào RS."
+      },
+      {
+       "t": 284,
+       "text": "Nếu tế bào chưa trưởng thành bị tổn thương và có tế bào RS thì là thể Hodgkin; nếu không có tế bào RS thì là thể non-Hodgkin."
+      },
+      {
+       "t": 315,
+       "text": "Tình huống 2: tế bào lympho B/T đã trưởng thành, đã thực hiện chức năng, lympho B sản xuất các yếu tố miễn dịch như IgG, IgA. Khi tế bào trưởng thành này bị bệnh thì gọi là đa u tủy xương."
+      },
+      {
+       "t": 376,
+       "text": "Tóm lại cả ba bệnh đều xuất phát từ tế bào miễn dịch, khác nhau ở giai đoạn và cách tổn thương."
+      },
+      {
+       "t": 406,
+       "text": "Hodgkin: tế bào B/T ngây thơ bị nhiều yếu tố tác động do ăn uống mất cân bằng, sống sai, hỏng ADN và cấu trúc, dẫn tới to bất thường. Non-Hodgkin: cũng do lối sống, ăn uống sai gây tổn thương ADN nhưng không có tế bào to bất thường."
+      },
+      {
+       "t": 437,
+       "text": "Đa u tủy xương: tế bào đã được huấn luyện, chuẩn bị chiến đấu nhưng bị hỏng, không chiến đấu nữa mà nằm im gây ung thư của hệ."
+      },
+      {
+       "t": 467,
+       "text": "Tế bào miễn dịch được sản xuất ở tuyến ức và tủy xương. Tủy xương nằm ở vùng xương xốp (lớp tủy đỏ khi ninh xương), tập trung ở đầu xương dẹt và đầu khớp như khuỷu, cổ tay, vai, xương chậu, xương bả vai."
+      },
+      {
+       "t": 498,
+       "text": "Các cơ quan chứa tế bào miễn dịch gồm lách, gan, tuyến ức."
+      },
+      {
+       "t": 530,
+       "text": "Hệ bạch huyết có cấu trúc dạng ống, đi từ mô và tế bào, dồn dần về ống lớn như hệ mạch máu; lên vùng bụng rồi tạo đường đi bên phải cột sống lên ngực (bác sĩ hứa nói sâu hơn sau)."
+      }
+     ]
+    },
+    {
+     "start": 7800,
+     "end": 8397,
+     "title": "U lympho Hodgkin và không Hodgkin: đặc điểm, vị trí, tiên lượng",
+     "points": [
+      {
+       "t": 600,
+       "text": "Ống ngực đi sang bên trái rồi lên vùng cổ, thu cả hệ bạch huyết đầu mặt cổ đổ vào tĩnh mạch cổ bên trái; ống ở vùng cổ khá to, có thể thấy rõ khi siêu âm."
+      },
+      {
+       "t": 631,
+       "text": "Hạch bạch huyết là các trạm giam giữ 'tội phạm' (vi khuẩn, virus, tế bào ung thư lang thang); tế bào lympho đi tuần phát hiện, đủ sức thì tiêu diệt, không đủ thì lôi về nhốt ở hạch."
+      },
+      {
+       "t": 661,
+       "text": "Nếu tế bào ung thư bị nhốt mà hạch không đủ sức tiêu diệt, nó tự diễn biến, làm hư tế bào hạch và dẫn tới di căn hạch bạch huyết."
+      },
+      {
+       "t": 673,
+       "text": "Tế bào RS (Reed-Sternberg) của u lympho thể Hodgkin có kích thước rất lớn, ví như xe tải quá khổ bị hỏng, đi đến đâu gây bệnh đến đó; do quá to nên chỉ nằm được ở nơi có ống bạch huyết kích thước lớn."
+      },
+      {
+       "t": 713,
+       "text": "Vì vậy nơi nhiều hạch bạch huyết và dễ tiếp xúc tác nhân gây bệnh nhất là vùng cổ thì ung thư thể Hodgkin xuất hiện nhiều hơn."
+      },
+      {
+       "t": 723,
+       "text": "Bác sĩ nhắc lại lời khuyên khi ăn thịt gà, thịt lợn nên bỏ phần cổ vì vùng này có rất nhiều hạch bạch huyết, là nơi tập trung nhiều bệnh tật."
+      },
+      {
+       "t": 754,
+       "text": "Vùng cổ người có 6 nhóm hạch bạch huyết (nhóm 1 đến 6); khi viêm họng rất dễ nổi hạch vì vùng cổ có tai, mũi, họng, thức ăn, không khí hít thở, nói, ngáp, ruồi muỗi lọt vào, nên hạch cổ dễ tổn thương."
+      },
+      {
+       "t": 785,
+       "text": "U lympho Hodgkin thường gặp đầu tiên ở vùng cổ, sau đó kích thước ống bạch huyết giảm dần nên bệnh lan dần xuống."
+      },
+      {
+       "t": 790,
+       "text": "Hạch cổ bên trái hay gặp hơn bên phải vì ống bạch huyết bên trái lớn hơn, nhiều hơn, thông thương hơn; thứ tự lan thường là cổ trái, cổ phải, ngực, nách rồi mới đến bụng."
+      },
+      {
+       "t": 817,
+       "text": "Thể Hodgkin rất ít khi đi xa đến vùng bẹn hay vào tạng, vì xe tải kích thước lớn nên đi tuần tự từng vị trí."
+      },
+      {
+       "t": 829,
+       "text": "Tế bào RS dụ dỗ tế bào B lành, T lành và các tế bào lành khác tiết ra chất viêm; các tế bào này bỏ bê nhiệm vụ miễn dịch, an ninh bình thường, và chất viêm lại tiếp tục gây ung thư."
+      },
+      {
+       "t": 880,
+       "text": "U lympho thể không Hodgkin không có tế bào RS lớn mà là các tế bào T, B ung thư kích thước nhỏ, ví như xe máy, xe đạp, nên luồn lách đi khắp nơi."
+      },
+      {
+       "t": 911,
+       "text": "Vì thế u lympho không Hodgkin có thể gặp bất cứ chỗ nào: cổ, bẹn, ruột non, đại tràng, gan, vùng mặt... Nó chạy lung tung, không theo trật tự như thể Hodgkin."
+      },
+      {
+       "t": 974,
+       "text": "Ví dụ một bệnh nhân vùng mũi đỏ lên rồi viêm nhiễm, chữa mũi mãi không khỏi; bác sĩ khuyên sinh thiết da ngay thì ra u lympho không Hodgkin của mũi, phát hiện khá muộn."
+      },
+      {
+       "t": 1006,
+       "text": "Bệnh nhân đó bổ sung vi chất, thay đổi lối sống, điều trị hóa chất, hơn chục năm nay khỏe mạnh bình thường, trong khi một số người cùng điều trị nhưng không bổ sung vi chất, không đổi lối sống thì không sống được lâu."
+      },
+      {
+       "t": 1037,
+       "text": "Đa u tủy xương: tế bào đã trưởng thành nhưng trú ở tủy xương; thay vì tiết yếu tố miễn dịch tham gia trận chiến miễn dịch, nó nằm im trong tủy xương và gây ung thư ở đó."
+      },
+      {
+       "t": 1067,
+       "text": "Việc xác định bệnh nhân cụ thể thuộc thể nào phải dựa vào bệnh cảnh lâm sàng và giải phẫu bệnh."
+      },
+      {
+       "t": 1099,
+       "text": "Thể Hodgkin biểu hiện lâm sàng bằng hạch rất to (hạch cổ, hạch nách có thể tới 5–6 cm), hệ miễn dịch suy giảm, có thể sốt; hạch xuất hiện có hệ thống từ cổ đến các vị trí khác, tiến triển chậm."
+      },
+      {
+       "t": 1131,
+       "text": "Thể Hodgkin dễ khu trú và tấn công, nên thường có tiên lượng tốt hơn vì nhìn rõ đối thủ và có chiến lược tốt hơn, thời gian diễn biến chậm hơn."
+      },
+      {
+       "t": 1161,
+       "text": "Thể không Hodgkin khó lường hơn vì phải đi tìm xem nó ẩn ở đâu và đánh giá bài bản mới tấn công hiệu quả; đa u tủy xương cũng ẩn sâu, cần nhiều biện pháp khác nhau mới đánh giá được hết."
+      }
+     ]
+    },
+    {
+     "start": 8400,
+     "end": 8997,
+     "title": "Căn nguyên bệnh, vitamin nhóm B và vai trò của hiểu biết khi bổ sung vi chất",
+     "points": [
+      {
+       "t": 2400,
+       "text": "Trường hợp chồng của khán giả mắc bệnh vào đúng thời điểm đại dịch Covid: virus mới tấn công hệ miễn dịch rất mạnh và làm suy giảm miễn dịch."
+      },
+      {
+       "t": 2400,
+       "text": "Đại dịch còn đẩy cả xã hội vào trạng thái sợ hãi; sợ hãi làm hệ miễn dịch suy giảm cực nhanh và là một trong những yếu tố khiến bệnh từ ung thư đến các bệnh mãn tính bùng phát, kể cả ở người đang khỏe mạnh."
+      },
+      {
+       "t": 2464,
+       "text": "Nếu hiểu rõ diễn biến, không quá lo lắng (coi SARS-CoV-2 chỉ là một loài virus), phòng tránh tốt, cùng với bổ sung vi chất, thay đổi lối sống và kết hợp chẩn đoán, điều trị đa mô thức thì hệ miễn dịch được đẩy lên và việc vượt qua bệnh không quá khó."
+      },
+      {
+       "t": 2495,
+       "text": "Cần biết nền tảng căn nguyên gây bệnh để khắc phục, không ỷ lại hoàn toàn vào chẩn đoán giải phẫu bệnh rồi điều trị theo phác đồ; đó chỉ là phần ngọn và dễ thất bại nếu không thay đổi phần gốc."
+      },
+      {
+       "t": 2526,
+       "text": "Với các bệnh như u lympho Hodgkin, non-Hodgkin, đa u tủy xương, nhiều bệnh nhân sau khi được hướng dẫn kiến thức rồi đến bệnh viện huyết học, ung thư chuyên khoa (nơi có phác đồ tốt và chẩn đoán chính xác) đã điều chỉnh được cuộc sống và thoát khỏi tình trạng bệnh."
+      },
+      {
+       "t": 2557,
+       "text": "Cao hơn việc chữa bệnh là không để cơ thể rơi vào tình trạng bệnh, và muốn vậy phải có kiến thức, hiểu biết."
+      },
+      {
+       "t": 2587,
+       "text": "Vitamin nhóm B (đặc biệt B thể hoạt động) tan trong nước, khi uống môi trường nghiêng về hướng axit hóa (pH thấp) nên có thể kích ứng niêm mạc tiêu hóa (dạ dày, ruột non, đại tràng) ở người nhạy cảm, gây cồn cào ruột gan, khó chịu."
+      },
+      {
+       "t": 2619,
+       "text": "Người bị cồn cào, khó chịu chỉ cần uống sau khi ăn; người không bị thì uống lúc nào cũng được. Đại đa số người uống lúc đói vẫn không sao."
+      },
+      {
+       "t": 2650,
+       "text": "Các vitamin B1, B2 và đặc biệt B6 làm rỗng dạ dày rất nhanh, tăng chuyển hóa, kích thích tiêu hóa nên người uống nhanh thấy đói; có người ăn ngon miệng hơn trước và có thể tăng cân."
+      },
+      {
+       "t": 2692,
+       "text": "Vitamin nhóm B cực kỳ quan trọng với coenzym Q10 và các chất đang bàn; chúng kích thích 'nhà máy điện' trong ty thể hoạt động, đốt cháy cơ chất để sinh năng lượng, nên ăn uống ngon hơn, chuyển hóa hiệu quả hơn."
+      },
+      {
+       "t": 2744,
+       "text": "Hiện tượng cồn cào, nhanh đói cho thấy vitamin B có tác dụng tốt; chỉ cần điều chỉnh để không ăn quá nhiều dẫn đến tăng cân béo phì."
+      },
+      {
+       "t": 2775,
+       "text": "Bổ sung vi chất hiệu quả khác nhau giữa người này và người kia vì nhiều yếu tố; trước hết, uống bằng kiến thức và niềm tin hiệu quả hơn nhiều so với uống bằng sự nghi ngờ hay không hiểu biết."
+      },
+      {
+       "t": 2807,
+       "text": "Các yếu tố khác: đã uống đủ hàm lượng chưa, đúng cách chưa, có phù hợp cơ thể không; mỗi người khác nhau nên người cần tăng liều, người giảm, người đổi cách uống."
+      },
+      {
+       "t": 2822,
+       "text": "Sự đồng bộ các vi chất khác nhau ở mỗi người: ví dụ nhu cầu vitamin D hay kẽm của người này cao hơn người kia; nếu chưa đạt nồng độ kẽm hay vitamin D cần thiết thì canxi, magie, vitamin D vẫn chưa đạt hiệu quả mong muốn. Vì vậy có người phải chờ một thời gian, có người hiệu quả tức thì."
+      },
+      {
+       "t": 2870,
+       "text": "Khi uống đúng và đủ sẽ thấy thay đổi rõ rệt; cần cùng tìm hiểu, nghiên cứu kỹ, hiểu cơ thể và điều chỉnh kịp thời, nếu không có thể không cảm nhận được sự thay đổi dù nó đã xảy ra."
+      },
+      {
+       "t": 2930,
+       "text": "Không có kiến thức để xâu chuỗi các vấn đề thì cái giá phải trả rất lớn; bình luận của khán giả để lại bài học quý cho người khác."
+      },
+      {
+       "t": 2962,
+       "text": "Bác sĩ khuyến khích khán giả tăng cường bình luận, chia sẻ; kênh sẽ chọn bình luận hay, có ý nghĩa để bác sĩ phân tích, và bác sĩ cam kết đọc kỹ tất cả bình luận, mỗi số sẽ nâng cấp và đi sâu hơn."
+      }
+     ]
+    },
+    {
+     "start": 9000,
+     "end": 9597,
+     "title": "Hồ sơ sức khỏe chị Tống và lời bình mở đầu bằng thơ",
+     "points": [
+      {
+       "t": 9000,
+       "text": "Phần dẫn chương trình: bản chất cơ thể là một hệ sinh thái tinh vi; các con số như tuổi tác, kết quả xét nghiệm phía sau đều phản ánh câu chuyện của từng tế bào, có thể là tiếng kêu cứu lặng thầm nếu không chịu lắng nghe."
+      },
+      {
+       "t": 9065,
+       "text": "Chuyên mục 'Sức khỏe của bạn' cùng bác sĩ Phúc giúp khán giả tìm căn nguyên bệnh tật; hôm nay xem hồ sơ của khán giả họ Tống (gọi là chị Tống, giấu bớt thông tin cá nhân)."
+      },
+      {
+       "t": 9125,
+       "text": "Thông tin chung: chị Tống sinh năm 1983, quê Vĩnh Bảo, Hải Phòng, cử nhân công nghệ thông tin, đã làm nhiều nghề."
+      },
+      {
+       "t": 9157,
+       "text": "Chỉ số cơ thể: cao 1,47 m, nặng 45 kg; vòng ngực 78, bụng 71, mông 84; vòng cổ 37 cm, bắp tay 22 cm, cổ tay 12 cm, đùi 42, bắp chân 30, sải tay 145 cm."
+      },
+      {
+       "t": 9188,
+       "text": "Tiền sử: từng viêm loét dạ dày do vi khuẩn HP, điều trị tại Đài Loan, kiểm tra lại âm tính (đã khỏi) nhưng vẫn tái diễn các cơn đau nhẹ 2–3 lần."
+      },
+      {
+       "t": 9198,
+       "text": "Triệu chứng cơ xương khớp: đau âm ỉ hai khớp gối, đôi khi như kim châm thành vòng quanh gối; khi không bổ sung vi chất thì xuất hiện cảm giác nóng âm ỉ lan xuống cẳng chân trước, thời điểm không cố định."
+      },
+      {
+       "t": 9218,
+       "text": "Thỉnh thoảng khi nằm nghiêng có điểm đau dữ dội ở gối khiến chân không cử động được, phải nằm yên 5–7 phút mới cử động nhẹ và đỡ dần; thỉnh thoảng chuột rút làm cong gập bàn chân; buổi tối thường khó ngủ."
+      },
+      {
+       "t": 9252,
+       "text": "Huyết học: độ phân bố hồng cầu 37,3 (thấp, tham chiếu 42–53,6); PDW 8,3 thấp; PLCR 11,5% thấp; các chỉ số khác bình thường."
+      },
+      {
+       "t": 9282,
+       "text": "Vi chất: canxi, magie, kẽm, sắt, ferritin, transferrin, sắt huyết thanh bình thường; vitamin B12 984,4 pg/ml (cao, ngưỡng 191–946); vitamin D 61,91 ng/ml; đồng 67,99 (giảm, tham chiếu 70–155)."
+      },
+      {
+       "t": 9314,
+       "text": "Gan thận: AST 19,66, ALT 9,89 bình thường; bilirubin toàn phần 19,47 µmol/L bình thường; bilirubin trực tiếp 6,3 tăng nhẹ (tham chiếu 0–5,0); các chỉ số khác bình thường."
+      },
+      {
+       "t": 9346,
+       "text": "Nước tiểu: tổng phân tích cơ bản bình thường, cặn nước tiểu có dịch nhầy."
+      },
+      {
+       "t": 9360,
+       "text": "Chẩn đoán hình ảnh: siêu âm tuyến giáp, mạch cảnh, ổ bụng bình thường; siêu âm gối hai bên có dày màng hoạt dịch, dịch khớp không đáng kể; X-quang tim phổi thẳng nghiêng bình thường."
+      },
+      {
+       "t": 9379,
+       "text": "Bác sĩ Trần Văn Phúc viết bản nhận xét sức khỏe toàn diện cho chị Tống, đi từ dấu hiệu lâm sàng đến chuyển hóa trong tế bào; dẫn chương trình mở đầu bằng hai câu thơ 'Dạ mộng kim ngân tỉnh lai không / Lập chí mưu nghiệp vận bất thông' như ẩn dụ cho số phận người phụ nữ giàu hoài bão nhưng long đong."
+      },
+      {
+       "t": 9472,
+       "text": "Diễn giải câu 1: đêm mơ vàng bạc, tỉnh dậy tay trắng, là nỗi hụt hẫng, cô đơn, thất vọng trước thực tại vô thường."
+      },
+      {
+       "t": 9535,
+       "text": "Diễn giải câu 2: lập chí mưu nghiệp mà vận không thông, là bi kịch của người có trí lớn, nỗ lực đến kiệt sức nhưng bị hoàn cảnh chặn lại, mọi mưu tính tan thành mây khói, tổn thương lòng tự tôn."
+      }
+     ]
+    },
+    {
+     "start": 9602,
+     "end": 10199,
+     "title": "Phân tích chỉ số cơ thể và xét nghiệm của chị Tống",
+     "points": [
+      {
+       "t": 2400,
+       "text": "Chị Tống sinh vào giữa mùa hè (tháng tám dương lịch); bác sĩ mô tả chị có trí tuệ nhạy bén, tâm hồn kiêu hãnh, nhưng bên trong có ngọn lửa nội tâm nồng nhiệt dễ thiêu đốt chính mình, bề ngoài hòa nhã vui vẻ nhưng bên trong hay băn khoăn, trăn trở."
+      },
+      {
+       "t": 2433,
+       "text": "Chị lớn lên ở Vĩnh Bảo, Hải Phòng, tuổi thơ vất vả, tự lập sớm, vừa học vừa kiếm tiền lương thiện đỡ đần gia đình."
+      },
+      {
+       "t": 2495,
+       "text": "Chị sang Đài Loan mưu sinh, làm ngày làm đêm trong nhiều hoàn cảnh vất vả, cô đơn nơi đất khách."
+      },
+      {
+       "t": 2528,
+       "text": "Sau nhiều năm, chị gây dựng giá trị riêng, trở thành cầu nối ngôn ngữ, truyền tri thức và hy vọng cho hàng trăm ngàn người đồng cảnh ngộ; đằng sau thành công là một tâm hồn nhiều tổn thương, chưa từng thảnh thơi trọn vẹn."
+      },
+      {
+       "t": 2560,
+       "text": "Phần một – phân tích chỉ số cơ thể: cao 1,47 m, nặng 45 kg, BMI khoảng 20,8 (trong ngưỡng cân đối), nhưng khung xương mỏng manh phải gồng gánh nguồn năng lượng nội sinh và áp lực tâm lý lớn."
+      },
+      {
+       "t": 2620,
+       "text": "Số đo: vòng ngực 78 cm, vòng eo 66–71 cm, vòng mông 84 cm, tỉ lệ eo/hông (WHR) gần 0,85; cổ tay 12 cm, vòng đùi 42 cm, bắp chân 30 cm – khung xương nhỏ, ngoại vi thon nhưng bắt đầu có sự dịch chuyển và tích tụ mỡ trung tâm bất thường."
+      },
+      {
+       "t": 2670,
+       "text": "Phân bổ mỡ không đồng đều là hệ quả của lối sống tĩnh tại: làm văn phòng ngồi hàng giờ, thức đêm kéo dài, áp lực dồn lên vùng chậu, cột sống, thân trên; cơ tay chân co cứng do thiếu vận động ngoài trời."
+      },
+      {
+       "t": 2714,
+       "text": "Điểm đáng chú ý nhất là vòng cổ 37 cm, vượt ngưỡng thông thường của phụ nữ trưởng thành (dưới 35 cm)."
+      },
+      {
+       "t": 2747,
+       "text": "Cổ dày ở người tạng nhỏ phản ánh tích tụ mỡ dưới cằm và quanh đường thở, đồng thời phản ánh sự dày lên của lớp nội mạc động mạch cảnh."
+      },
+      {
+       "t": 2765,
+       "text": "Vòng cổ 37 cm tiềm ẩn nguy cơ chuyển hóa: giảm HDL cholesterol (cholesterol tốt), kháng insulin dẫn tới nguy cơ đái tháo đường, hội chứng chuyển hóa, gan nhiễm mỡ, gánh nặng tim mạch, sơ vữa động mạch, thiếu máu cơ tim và ngưng thở khi ngủ."
+      },
+      {
+       "t": 2808,
+       "text": "Vóc dáng nhỏ nhưng tích mỡ thân trên và cổ là biểu hiện vật lý của nội tâm giằng xé: bề ngoài mềm mỏng hòa nhã, bên trong cố chấp, cầu toàn, không chịu thỏa hiệp, luôn muốn kiểm soát mọi tình huống và tự gánh vác."
+      },
+      {
+       "t": 2840,
+       "text": "Suy nghĩ quá nhiều và quá nhạy cảm tạo áp lực nội sinh khiến cơ thể luôn căng như dây đàn bị vặn quá đà, luôn sẵn sàng chiến đấu và cô đơn."
+      },
+      {
+       "t": 2871,
+       "text": "Phần hai – xét nghiệm và chẩn đoán hình ảnh: huyết học cho thấy hồng cầu và huyết sắc tố ổn định, nhưng độ phân bố hồng cầu RDW-SD giảm nhẹ ở mức 37,3 cùng các thể tích tiểu cầu gợi ý hệ tuần hoàn vận hành dè dặt, mệt mỏi sau những đêm khó ngủ."
+      },
+      {
+       "t": 2934,
+       "text": "Sinh hóa: bilirubin trực tiếp nhỉnh nhẹ ở mức 6,3, bilirubin toàn phần bình thường; vitamin B12 là 984,4 pg/ml, chỉ vượt giới hạn phòng xét nghiệm chưa tới 4% và nằm trong vùng an toàn theo tiêu chuẩn quốc tế rộng hơn như Nhật Bản, châu Âu."
+      },
+      {
+       "t": 2970,
+       "text": "Các chênh lệch này chỉ là dao động sinh học tự nhiên, nhiễu kỹ thuật hoặc biến động ngẫu nhiên, không có ý nghĩa bệnh lý thực thể vì men gan AST, ALT, GGT và các dòng tế bào máu đều bình ổn."
+      },
+      {
+       "t": 2995,
+       "text": "Chỉ số đồng giảm nhẹ còn 67,99, gợi ý sự tiêu hao vi chất thầm lặng của cơ thể trước áp lực chuyển hóa; phần tiếp theo chuyển sang kết quả cặn nước tiểu."
+      }
+     ]
+    },
+    {
+     "start": 10202,
+     "end": 10797,
+     "title": "Hướng dẫn dinh dưỡng 8 quy tắc và chăm sóc thân-tâm-trí",
+     "points": [
+      {
+       "t": 4202,
+       "text": "Mốc 62,9 được đặt vào bản chất y học là vấn đề của hệ tiết niệu và cơ quan bài tiết: phản ánh kích thích hoặc viêm nhẹ niêm mạc bàng quang, hoặc đơn giản là sự hòa lẫn sinh lý của dịch tiết tự nhiên khi người phụ nữ kiệt sức do thức khuya, căng thẳng thần kinh và thay đổi nội tiết tố tạm thời."
+      },
+      {
+       "t": 4233,
+       "text": "Hiện tượng này đi cùng cảm giác nóng dọc xuống cẳng chân và những cơn chuột rút về đêm, nhắc rằng hệ tuần hoàn và bài tiết đang chịu áp lực mỏi mệt, nguyên nhân cụ thể là thiếu vi chất, đặc biệt là thiếu magie."
+      },
+      {
+       "t": 4244,
+       "text": "Tổn thương rõ nhất nằm ở hệ cơ xương khớp: siêu âm khớp gối hai bên ghi nhận dày bao hoạt dịch và lớp dịch mỏng không đáng kể."
+      },
+      {
+       "t": 4264,
+       "text": "Ở tuổi 43, bệnh nhân đau như kim châm quanh khớp gối, nóng dọc xuống cẳng chân phía trước, và khi nằm nghiêng có lúc nhói đau dữ dội đến mức không cử động được."
+      },
+      {
+       "t": 4276,
+       "text": "Nguyên nhân là hệ quả của quá trình nhiều năm ăn chế độ chứa nhiều lectin từ các loại hạt, ngũ cốc, đậu và thực phẩm chưa chế biến kỹ, phù hợp với cơ địa, kết hợp thiếu hụt vi chất âm thầm thời bươn trải tuổi trẻ như thiếu magie và vitamin nhóm B."
+      },
+      {
+       "t": 4296,
+       "text": "Lectin cùng với thiếu vi chất kích hoạt phản ứng viêm màng hoạt dịch âm ỉ, bao quanh lớp đệm sụn khớp, khiến mỗi bước đi đều kèm nỗi đau thể xác bị giấu sau nụ cười."
+      },
+      {
+       "t": 4329,
+       "text": "Phần ba là hướng dẫn chăm sóc sức khỏe toàn diện: mỏi mệt của cơ thể không chỉ đến từ chỉ số sinh hóa hay tổn thương vi thể ở bao hoạt dịch, mà là tiếng kêu cứu của một chỉnh thể cần được chữa lành ở cả ba cõi thân, tâm và trí, hướng tới thân khỏe, tâm an, trí sáng."
+      },
+      {
+       "t": 4361,
+       "text": "Về thân, dinh dưỡng cân bằng và khoa học là chìa khóa; chế độ ăn hằng ngày cần tuân thủ tám quy tắc. Quy tắc 1: thực phẩm đa dạng, phối hợp hợp lý, lấy ngũ cốc làm chủ đạo; bữa ăn gồm ngũ cốc, khoai củ, rau quả, thịt, gia cầm, cá, trứng, sữa và đậu."
+      },
+      {
+       "t": 4391,
+       "text": "Trung bình mỗi ngày ăn từ 12 loại thực phẩm trở lên và trên 25 loại mỗi tuần; ngũ cốc 200–300 g/ngày, trong đó 50–150 g là ngũ cốc nguyên hạt và các loại đậu, kèm 50–100 g khoai củ để cung cấp năng lượng bền."
+      },
+      {
+       "t": 4424,
+       "text": "Quy tắc 2: cân bằng ăn uống và vận động để duy trì cân nặng khỏe mạnh; ăn có chừng mực, kiểm soát năng lượng nạp vào, vận động thể chất vừa phải ít nhất 5 ngày/tuần với tổng thời gian trên 150 phút."
+      },
+      {
+       "t": 4457,
+       "text": "Kết hợp khoảng 6000 bước chân mỗi ngày, tập kháng lực và sức bền 2–3 ngày/tuần, tránh ngồi lâu và cứ mỗi giờ đứng dậy vận động nhẹ."
+      },
+      {
+       "t": 4469,
+       "text": "Quy tắc 3: ăn nhiều rau quả, sữa, ngũ cốc nguyên hạt và đậu; bữa ăn luôn có rau, không dưới 3 lạng rau tươi mỗi ngày, trong đó rau màu sẫm chiếm ít nhất một nửa."
+      },
+      {
+       "t": 4489,
+       "text": "Ăn 200–350 g hoa quả tươi mỗi ngày (nước ép không thay được trái cây tươi), dùng các sản phẩm từ sữa tương đương trên 300 ml sữa mỗi ngày, thường xuyên ăn sản phẩm từ đậu nành và bổ sung hạt khô vừa phải."
+      },
+      {
+       "t": 4520,
+       "text": "Quy tắc 4: ăn lượng vừa phải cá, gia cầm, trứng và thịt nạc, giữ đạm động vật ở mức 120–200 g/ngày; cá 2–3 lần/tuần hoặc 300–500 g, trứng 300–350 g, thịt gia cầm và thịt nạc 300–500 g (các mức này theo phụ đề, có vẻ tính theo tuần)."
+      },
+      {
+       "t": 4552,
+       "text": "Ưu tiên chọn cá, tuyệt đối hạn chế thịt chế biến sâu, thịt hun khói hoặc muối chua; khi ăn trứng nên ăn cả lòng đỏ và lòng trắng để hấp thu trọn vẹn dinh dưỡng."
+      },
+      {
+       "t": 4569,
+       "text": "Quy tắc 5: ít muối, ít dầu, kiểm soát đường, hạn chế rượu bia; ăn thanh đạm, tránh đồ chiên rán và thực phẩm mặn; muối dưới 5 g/ngày, dầu ăn 25–30 g/ngày."
+      },
+      {
+       "t": 4586,
+       "text": "Đường bổ sung không quá 50 g/ngày, tốt nhất dưới 25 g; không uống hoặc hạn chế tối đa đồ uống có đường công nghiệp; nói không với rượu bia để bảo vệ hệ chuyển hóa."
+      },
+      {
+       "t": 4604,
+       "text": "Quy tắc 6: ăn uống có quy luật, uống đủ nước; ăn các bữa chính đều đặn, hạn chế bỏ bữa sáng, không ăn quá độ hoặc nhịn ăn cực đoan."
+      },
+      {
+       "t": 4616,
+       "text": "Uống nước chia nhỏ nhiều lần trong ngày, khoảng 1,5 lít/ngày, ưu tiên nước lọc ấm hoặc trà xanh nhạt, không dùng nước ngọt thay nước lọc."
+      },
+      {
+       "t": 4628,
+       "text": "Quy tắc 7: biết chọn lựa, chế biến và đọc nhãn thực phẩm; luôn ưu tiên thực phẩm tươi mới có độ dinh dưỡng cao, tập đọc nhãn bao bì, trân trọng hương vị tự nhiên qua nấu nướng thanh đạm, và khi ăn ngoài giữ nguyên tắc điều độ, cân bằng."
+      },
+      {
+       "t": 4650,
+       "text": "Quy tắc 8: dùng đũa chung, chia phần ăn, chống lãng phí; chọn thực phẩm tươi sạch an toàn, tách biệt đồ sống và đồ chín khi chế biến, đun sôi kỹ thức ăn thừa khi hâm lại."
+      },
+      {
+       "t": 4677,
+       "text": "Dùng đũa chung, bát riêng và chia phần ăn để giữ vệ sinh, bảo vệ đường tiêu hóa, thể hiện lối sống văn minh và trân trọng thành quả lao động."
+      },
+      {
+       "t": 4686,
+       "text": "Về tâm và trí: người hay trăn trở, ôm đồm áp lực công việc và nhìn màn hình máy tính mỗi đêm cần học cách buông xả; mất ngủ và bão lòng không giải quyết bằng cố chấp vắt kiệt sức mà cần sự tĩnh lặng và lòng trắc ẩn."
+      },
+      {
+       "t": 4718,
+       "text": "Hãy đặt giới hạn thời gian nghiêm ngặt, tự cho phép ngắt kết nối với thế giới bên ngoài khi đêm xuống để tâm trí thả lỏng theo hơi thở đều."
+      },
+      {
+       "t": 4740,
+       "text": "Để củng cố sinh lực bền vững sau nhiều năm bươn chải, nên bổ sung đều đặn bảy nhóm vi chất nền tảng: magie, canxi, vitamin D3, vitamin tổng hợp, vitamin C, kẽm và omega 3."
+      },
+      {
+       "t": 4771,
+       "text": "Nhóm vi chất này đóng vai trò lớp đệm sinh học, bảo vệ màng hoạt dịch khớp gối, xoa dịu co rút cơ về đêm và bồi đắp sức bền cho trí tuệ; khi thân được nuôi dưỡng đúng, tâm an và trí sáng thì đạt cân bằng."
+      }
+     ]
+    },
+    {
+     "start": 10802,
+     "end": 11396,
+     "title": "Nhận xét hồ sơ chị Tống: kết quả đẹp nhưng ẩn nhiều vấn đề sâu bên trong",
+     "points": [
+      {
+       "t": 182,
+       "text": "Biên tập viên khép lại bản nhận xét bằng thông điệp dành cho chị Tống và khán giả: người phụ nữ gồng gánh bao năm cần được tháo bỏ 'áo giáp', quay về chăm sóc, ôm lấy bản thân bằng sự dịu dàng; những cơn đau khớp, mất ngủ và chỉ số sinh hóa không phải bất công của số phận mà là tín hiệu của cuộc đời gồng gánh."
+      },
+      {
+       "t": 221,
+       "text": "Bác sĩ Trần Văn Phúc giới thiệu chị Tống là phụ nữ 44 tuổi, quê Vĩnh Bảo (Hải Phòng), sang Đài Loan sinh sống, lập nghiệp, làm nhiều công việc, theo dõi kênh và gửi hồ sơ khám sức khỏe để được nhận xét đầy đủ, chi tiết."
+      },
+      {
+       "t": 251,
+       "text": "Nếu chỉ nhìn bộ xét nghiệm thì ai cũng nói kết quả đẹp như mơ; nhìn bề ngoài, chị có cuộc sống như trong mơ: thành đạt, thân hình cân đối, trẻ trung, công việc và lối sống tốt, vui vẻ, hòa đồng, là chỗ dựa cho người khác và cho bản thân."
+      },
+      {
+       "t": 314,
+       "text": "Bác sĩ nhìn từ y học toàn diện, đi sâu từ nhiều góc độ nên thấy bức tranh ẩn bên trong rất khác bề ngoài: phía sau là những giọt nước mắt nuốt thầm, trăn trở, day dứt, va đập, nỗi đau và cô đơn mà thường chỉ đêm về mới cảm nhận được."
+      },
+      {
+       "t": 376,
+       "text": "Những điều ấy thể hiện qua chuỗi con số xét nghiệm, biểu hiện bên ngoài và các đường nét tinh tế của cơ thể mà phải nhìn sâu mới thấy; vì vậy bác sĩ khuyên người trẻ khi học vấn đề gì cũng phải đào sâu, tiếp cận từ nhiều hướng."
+      },
+      {
+       "t": 407,
+       "text": "Trong thực hành y khoa không được nhìn hời hợt bề nổi hay chỉ nhìn con số vô hồn; phải để các con số và hình ảnh đen trắng trên siêu âm, X-quang, CT, cộng hưởng từ 'cất tiếng nói' thì mới đi vào bản chất cuộc sống và con người."
+      },
+      {
+       "t": 438,
+       "text": "Ví dụ: thể hình và xét nghiệm của chị Tống rất đẹp, nhưng tính chất công việc là công việc kiểu văn phòng, tốn nhiều thời gian, ngồi nhiều; chị làm cả ban ngày rồi ban đêm lại tiếp tục làm, trong trạng thái ứ trệ do ngồi lâu."
+      },
+      {
+       "t": 481,
+       "text": "Bác sĩ không đủ thời gian phân tích từng mối quan hệ, nhưng nêu các dấu hiệu đơn giản ẩn trong hồ sơ: vòng cổ (dù các chỉ số khác đẹp) rõ ràng không ổn; chỉ số mỡ máu chỉ nhích lên chút ít nhưng đã phản ánh vấn đề; tổng phân tích nước tiểu các chỉ số đều đẹp nhưng lại xuất hiện cặn nước tiểu."
+      },
+      {
+       "t": 520,
+       "text": "Những chi tiết nhỏ như cặn nước tiểu phản ánh nhiều điều sâu bên trong mà nếu không đi sâu vào y học phân tử, bản chất hóa học, cơ chế sống, lối sống và tâm sinh lý thì sẽ không biết được."
+      },
+      {
+       "t": 532,
+       "text": "Chị Tống có thể nghĩ công việc không quá vất vả vì ban tối vẫn còn năng lượng để làm việc, lo cho cuộc sống tuổi già, làm chỗ dựa cho chồng, con, gia đình, bố mẹ, anh chị em."
+      },
+      {
+       "t": 563,
+       "text": "Suy nghĩ cố gắng thêm một chút, kiếm thêm để giúp được nhiều người là suy nghĩ tốt, nhưng đôi khi nó trở thành gánh nặng vận vào chính cuộc sống của mình, đến lúc nào đó cơ thể sẽ cất tiếng kêu cứu."
+      },
+      {
+       "t": 591,
+       "text": "Ở tuổi 44, người ngoài nhìn vào sẽ cho rằng chị trẻ trung xinh đẹp, nhưng bác sĩ cho rằng cơ thể chị đã phát đi những tiếng kêu cứu rõ ràng."
+      }
+     ]
+    },
+    {
+     "start": 11400,
+     "end": 11999,
+     "title": "Sống có trách nhiệm, chế độ sinh hoạt và vai trò NAD+ chống gốc tự do",
+     "points": [
+      {
+       "t": 3600,
+       "text": "Sau khi bổ sung vi chất, người được tư vấn sẽ thấy cơ thể khỏe hơn, thoải mái, hạnh phúc, xinh đẹp hơn so với trước; nhưng nếu chỉ so với người xung quanh thì dễ bằng lòng, còn sau bản nhận xét này sẽ có suy nghĩ khác."
+      },
+      {
+       "t": 3630,
+       "text": "Trong cuộc sống đôi khi phải 'vô tâm' một chút để người khác có trách nhiệm hơn với chính họ; cuộc sống chỉ cộng hưởng tốt khi mỗi người tự chịu trách nhiệm về bản thân."
+      },
+      {
+       "t": 3662,
+       "text": "Nếu một người rất có trách nhiệm còn xung quanh nhiều người vô tâm, dựa dẫm vào người đó, thì cả nhóm chỉ kéo nhau chìm xuống, luôn mệt mỏi, căng thẳng và khó khăn."
+      },
+      {
+       "t": 3693,
+       "text": "Người sống như vậy sau mỗi ngày làm việc thường không định hình được mình là ai, sống vì điều gì, tức là mất phương hướng; ban ngày tưởng mọi cố gắng đều tốt, ban đêm thấy chông chênh, cô đơn, áp lực vô hình đè nặng."
+      },
+      {
+       "t": 3724,
+       "text": "Những áp lực đó biểu hiện ra ngoại hình, các con số xét nghiệm và triệu chứng sớm; ở tuổi 44 mà đã đau âm ỉ như kim châm quanh gối, mệt mỏi, căng thẳng là tiếng kêu cứu từ tế bào."
+      },
+      {
+       "t": 3755,
+       "text": "Nếu chậm thêm vài ba năm, hàng loạt vấn đề bệnh tật sẽ ập đến, phải đi hết bệnh viện này đến bệnh viện khác và rơi vào vòng xoắn bệnh lý khó thoát."
+      },
+      {
+       "t": 3787,
+       "text": "Bác sĩ tin sau bản nhận xét sức khỏe toàn diện này, người được tư vấn sẽ thay đổi ngoạn mục về tâm tư, tâm sinh lý, lối sống và đặc biệt chế độ ăn uống; bác sĩ đã soạn một bản chi tiết về ăn uống, sinh hoạt, ngủ nghỉ gồm 8 nội dung chính và khuyên khán giả ghi chép, áp dụng, điều chỉnh dần cho phù hợp cơ thể mình."
+      },
+      {
+       "t": 3850,
+       "text": "Không nên chỉ lao đi kiếm tiền để lo cho mọi người; hãy hài lòng với thu nhập mình có và điều tiết hài hòa ăn uống, ngủ nghỉ, sinh hoạt thì sẽ trẻ hơn nhiều so với hình hài hiện tại."
+      },
+      {
+       "t": 3882,
+       "text": "Cần nghiên cứu sâu hơn: lectin là gì và loại bỏ nó, chế độ ăn cân bằng dinh dưỡng, bổ sung vi chất tốt; làm được thì ở tuổi 44 cơ thể có thể trở về trạng thái như 24 tuổi, không bước sang bên kia dốc cuộc đời."
+      },
+      {
+       "t": 3915,
+       "text": "Cần đổi cách làm việc: giảm số giờ làm, không ngồi một chỗ quá lâu, áp dụng công thức 20-20: ngồi trên 20 phút thì đứng dậy, đổi tư thế và nhìn xa khoảng 20 feet (khoảng 6 m) trong 20 giây."
+      },
+      {
+       "t": 3975,
+       "text": "Cần giảm thời gian nhìn màn hình ánh sáng xanh (điện thoại, máy tính, tivi) vì rất nguy hiểm; nên nhìn vật thật, thế giới thật, bước ra khỏi bàn làm việc, căn phòng, ngôi nhà, khu phố, càng mở rộng không gian sống và thay đổi thì cơ hội phát triển càng tốt."
+      },
+      {
+       "t": 4038,
+       "text": "Lối sống sai (ngủ muộn dậy muộn, ăn uống mất cân bằng, làm việc và vận động sai, tâm sinh lý sai) sẽ tạo ra ROS, tức gốc tự do, là thứ cực kỳ nguy hiểm, hủy hoại cơ thể rất nhiều."
+      },
+      {
+       "t": 4068,
+       "text": "Trong hệ thống đồng tiền năng lượng, NADP+/NADPH là thành phần cực kỳ quan trọng để chống gốc tự do."
+      },
+      {
+       "t": 4100,
+       "text": "Có ba hệ: NAD+/NADH và FAD/FADH2 thiên về tạo ra 'đồng tiền' ATP (ATP gắn với Mg2+); các yếu tố bảo vệ ở hai hệ này chỉ đóng vai trò yếu."
+      },
+      {
+       "t": 4131,
+       "text": "Hệ NADP+/NADPH thiên về xây dựng và bảo vệ: xây dựng là ghép các mảnh carbon ngắn thành carbon dài để tạo hormone, chất trung gian hóa học và các chất quan trọng cho chức năng sống ở 'công trường tế bào'."
+      },
+      {
+       "t": 4162,
+       "text": "Bảo vệ gồm chống gốc tự do (gốc oxy hóa) và sửa chữa các sai sót bên trong tế bào, cùng kích hoạt gen trường thọ; đó là nhóm ở trên, còn chủ đề hôm nay chủ yếu là NAD+."
+      }
+     ]
+    },
+    {
+     "start": 12002,
+     "end": 12598,
+     "title": "Gốc tự do và chuỗi chống oxy hóa: vitamin E, C, CoQ10, glutathion, NADPH",
+     "points": [
+      {
+       "t": 3202,
+       "text": "NADP+/NADPH là yếu tố bảo vệ rất quan trọng chống lại gốc tự do; bác sĩ nhắc lại gốc tự do đã nói ở hai số trước."
+      },
+      {
+       "t": 3212,
+       "text": "Gốc superoxit (O2•−) gồm hai nguyên tử oxy cùng mang một electron độc thân; electron lẻ này 'phá làng phá xóm'."
+      },
+      {
+       "t": 3263,
+       "text": "Gốc hydroxyl (OH•) được coi là nguy hiểm nhất: chỉ có một nguyên tử oxy gánh một electron độc thân nên kích thước nhỏ, rất linh động. Superoxit có hai oxy chia nhau electron nên kích thước lớn hơn và ít linh động hơn. Ngoài ra còn có oxy già, ozon..."
+      },
+      {
+       "t": 3368,
+       "text": "Ví dụ minh họa: một người thức khuya liên tục, làm việc vất vả cả tuần, tối thứ bảy còn thức khuya làm việc trên màn hình máy tính, mệt mỏi, căng thẳng, bức xúc, uống nước ngọt, nước có ga... đều làm sinh ra rất nhiều gốc tự do (ROS)."
+      },
+      {
+       "t": 3391,
+       "text": "Gốc tự do (ROS) tấn công ba đích: ADN (vật chất di truyền), protein, và màng lipid của tế bào/ti thể."
+      },
+      {
+       "t": 3443,
+       "text": "Tấn công ADN gây biến đổi ADN, dẫn đến bệnh hiếm, bệnh mãn tính, bệnh nguy hiểm và ung thư. Tấn công protein chức năng gây rối loạn hormone và các vấn đề về enzyme."
+      },
+      {
+       "t": 3494,
+       "text": "Tấn công màng tế bào và màng ti thể gây biến đổi, tổn thương tế bào và có thể sụp đổ toàn bộ hệ thống tế bào."
+      },
+      {
+       "t": 3524,
+       "text": "Bác sĩ dựng kịch bản tấn công đơn giản nhất: gốc tự do (như superoxit) tấn công ở ngoài màng ti thể, trong bào tương, để minh họa tế bào phản ứng thế nào; các kịch bản mức cao hơn sẽ nói sau."
+      },
+      {
+       "t": 3548,
+       "text": "Vitamin E là 'chiến sĩ cảm tử' đầu tiên lao ra, bẫy gốc tự do rồi nhường electron và H+ để gốc tự do thành H2O trung hòa."
+      },
+      {
+       "t": 3560,
+       "text": "Sau khi nhường electron, vitamin E trở thành gốc tự do yếu, không gây hại đáng kể, nằm im thoi thóp chờ được cứu."
+      },
+      {
+       "t": 3612,
+       "text": "Vitamin C vừa trung hòa gốc tự do, vừa nhường electron để cứu vitamin E, đưa vitamin E từ dạng gốc tự do về bình thường."
+      },
+      {
+       "t": 3667,
+       "text": "Coenzyme Q10 bảo vệ màng ti thể (nơi xung quanh có nhiều gốc tự do bắn ra), trung hòa gốc tự do và cứu vitamin C."
+      },
+      {
+       "t": 3748,
+       "text": "Glutathion được gọi là 'vua chống gốc tự do': nhóm SH hoạt động như cái kìm kẹp gốc tự do để trung hòa; sau đó bản thân glutathion thành gốc tự do và được NADPH cứu."
+      },
+      {
+       "t": 3777,
+       "text": "Coenzyme Q10 sau khi trung hòa gốc tự do cũng thành gốc tự do và cũng được NADPH cứu."
+      },
+      {
+       "t": 3809,
+       "text": "Tóm lại chuỗi cứu hộ: vitamin E hy sinh trước, vitamin C cứu E, CoQ10 cứu C, và NADPH là chất cứu chủ yếu cho CoQ10 và glutathion, giúp tái tạo cả chuỗi chống oxy hóa."
+      }
+     ]
+    },
+    {
+     "start": 12601,
+     "end": 13197,
+     "title": "Chuỗi chống oxy hóa tế bào: E, C, Q10, glutathion, NADPH",
+     "points": [
+      {
+       "t": 1801,
+       "text": "Các chất chống oxy hóa cứu lẫn nhau theo vòng khép kín: NADPH cứu glutathion và coenzyme Q10, glutathion cứu vitamin C và vitamin E, nên khó nhớ; cách dễ nhớ là nhớ vị trí chiến đấu của từng chất."
+      },
+      {
+       "t": 1832,
+       "text": "Coenzyme Q10 là vị tướng chống gốc tự do rất quan trọng, nằm sát màng ti thể, có nhiệm vụ chính là bảo vệ màng ti thể."
+      },
+      {
+       "t": 1874,
+       "text": "Vitamin E tan trong dầu nên không thể nằm trong tế bào chất (chủ yếu là nước); nó ẩn sâu trong lớp lipid kép của màng tế bào và bảo vệ màng tế bào."
+      },
+      {
+       "t": 1927,
+       "text": "Vitamin C và glutathion tan trong nước nên nằm lơ lửng ở tế bào chất; glutathion lang thang khắp nơi, tiếp cận được cả sát màng ti thể lẫn gần màng tế bào, vì thế là vua chống oxy hóa tế bào."
+      },
+      {
+       "t": 1959,
+       "text": "Khi gốc tự do tấn công màng tế bào, vitamin E là chiến sĩ cảm tử đầu tiên; nhưng vì ẩn sâu trong lớp mỡ nên coenzyme Q10 và glutathion khó thò vào cứu (Q10 bận nhiệm vụ quan trọng hơn, glutathion bận đi dẹp nhiều nơi)."
+      },
+      {
+       "t": 2052,
+       "text": "Vitamin E vì thế chiến đấu đầu tiên nhưng được cứu muộn nhất; khi thành gốc tự do nó nguy hiểm thấp, nằm im chờ, nếu không được cứu thì thoái triển, nếu được cứu thì quay lại chiến đấu, nên gây hại ít nhất."
+      },
+      {
+       "t": 2084,
+       "text": "Vitamin C là lá chắn thứ hai, chống gốc tự do ở tế bào chất; sau khi bị tổn thương nó được glutathion cứu rất nhanh."
+      },
+      {
+       "t": 2118,
+       "text": "Vitamin C còn tham gia tích cực cứu vitamin E; thiếu vitamin C thì vitamin E rất khó được cứu, nên bổ sung E mà không có C thì E cũng chết dở, do đó phải bổ sung cả C để cứu E."
+      },
+      {
+       "t": 2182,
+       "text": "Sau khi trung hòa gốc tự do, vitamin C thành gốc tự do yếu nằm thoi thóp ở tế bào chất chờ được glutathion cứu rất nhanh; glutathion vừa trung hòa gốc tự do vừa cứu vitamin C."
+      },
+      {
+       "t": 2196,
+       "text": "Glutathion và coenzyme Q10 sau khi chiến đấu cũng trở nên thoi thóp và được NADPH cứu."
+      },
+      {
+       "t": 2212,
+       "text": "NADPH cứu trực tiếp glutathion và coenzyme Q10 (như cắm điện trực tiếp nên hồi phục rất nhanh), nhưng không tham gia cứu vitamin C và E; phần đó nhường cho các thành phần khác."
+      },
+      {
+       "t": 2243,
+       "text": "NADPH trong ti thể rất quan trọng để chống gốc tự do vì ti thể sinh ra rất nhiều gốc tự do; nếu thiếu NADPH, tế bào sẽ sụp đổ, nổ tung."
+      },
+      {
+       "t": 2275,
+       "text": "Tóm tắt vị trí: Q10 ở sát màng ti thể bảo vệ màng ti thể; E ở màng tế bào; C ở tế bào chất và đi cứu E; glutathion là vua ở quanh khu vực đó, trung hòa gốc tự do tế bào chất, cứu C và cứu Q10; NADPH cứu glutathion và Q10."
+      },
+      {
+       "t": 2335,
+       "text": "Nếu không bổ sung đủ vitamin C, E, vitamin nhóm B (như B2, B3), canxi, magie và nhiều thành phần khác thì chuỗi chống oxy hóa bị rối loạn; bổ sung đầy đủ thì không xảy ra tình trạng gốc tự do dư thừa."
+      },
+      {
+       "t": 2368,
+       "text": "Gốc tự do quá nhiều gây viêm mạn tính, đột biến gen và nhiều bệnh hiếm."
+      },
+      {
+       "t": 2386,
+       "text": "Trước khi thành bệnh, gốc tự do dư thừa gây mệt mỏi, tụt năng lượng, căng thẳng, đau người, đau xương khớp, sương mù não."
+      }
+     ]
+    },
+    {
+     "start": 13200,
+     "end": 13799,
+     "title": "Ba hệ thống 'ngân phiếu' NAD+, FAD, NADP+ và 7 nhóm vi chất",
+     "points": [
+      {
+       "t": 3600,
+       "text": "Chế độ ăn uống, thay đổi lối sống, bổ sung vitamin, khoáng chất và cân bằng các chế độ đóng vai trò rất quan trọng đối với sức khỏe."
+      },
+      {
+       "t": 3600,
+       "text": "Cần bổ sung ít nhất bảy nhóm vi chất, chia thành 18 vi chất căn bản: magiê, canxi, vitamin D3, vitamin tổng hợp, vitamin C, kẽm và omega 3."
+      },
+      {
+       "t": 3630,
+       "text": "Mỗi nhóm có nhiều thành phần; ví dụ magiê có bốn thành phần."
+      },
+      {
+       "t": 3663,
+       "text": "Trào ngược dạ dày thực quản chưa hết có thể do chưa bổ sung đúng và phù hợp magiê, canxi, vitamin D."
+      },
+      {
+       "t": 3670,
+       "text": "Canxi nên mua hai loại để uống. Vitamin tổng hợp ngoài vitamin chung cần chú ý nhóm B vì rất quan trọng. Cộng tất cả lại có 18 sản phẩm cần mua để uống nhằm đảm bảo chất lượng cuộc sống."
+      },
+      {
+       "t": 3694,
+       "text": "Bổ sung đủ tạo nền tảng khỏe mạnh vững chắc, chống oxy hóa tế bào, giảm gốc tự do và giảm bệnh tật."
+      },
+      {
+       "t": 3725,
+       "text": "Bác sĩ mong khán giả gửi hồ sơ bệnh án đầy đủ xét nghiệm để phân tích sâu hơn. Quan trọng hơn là có đủ kiến thức để điều chỉnh ăn uống, lối sống và thoát khỏi bệnh tật."
+      },
+      {
+       "t": 3791,
+       "text": "Nhiều người trung niên mặc định sự kiệt quệ là điều đương nhiên của tuổi tác: chóng mặt, nhanh mệt, trí óc mụ mị, kém minh mẫn, sau làm việc chỉ muốn nằm."
+      },
+      {
+       "t": 3823,
+       "text": "Một khán giả bình luận rằng trước đây thở không ra hơi, mặt xanh, mệt, đi nhiều bệnh viện không ra bệnh, theo đông y cải thiện nhưng chưa thực sự khỏe. Sau khi uống bổ sung bảy vi chất (dù chưa mua đủ loại) sức khỏe khác hẳn, không còn mệt mỏi, sợ hãi."
+      },
+      {
+       "t": 3917,
+       "text": "Nhiều người mệt mỏi dù xét nghiệm các chỉ số nằm trong khoảng an toàn; ở cấp độ tế bào, hàng triệu ti thể (nhà máy sản xuất năng lượng) có thể đang 'sập nguồn' do cạn kiệt phân tử NAD+."
+      },
+      {
+       "t": 3949,
+       "text": "NAD+ được ví như đồng tiền năng lượng, chìa khóa sinh tồn của mọi tế bào; kho dự trữ NAD+ cạn dần khi tuổi thanh xuân qua đi."
+      },
+      {
+       "t": 3981,
+       "text": "Có ba hệ thống 'ngân phiếu': NAD+/NADH, FAD/FADH2 và NADP+/NADPH. Chủ đề hôm nay tập trung vào NAD+, nhưng cần biết ý nghĩa các chữ cái N, A, D, F, P, H."
+      },
+      {
+       "t": 4046,
+       "text": "Công thức phức tạp trên hình là phân tử NAD; phần thay đổi (thêm hydro và electron) chỉ là phần phía trên khi chuyển giữa NAD+ và NADH, phần còn lại giữ nguyên."
+      },
+      {
+       "t": 4076,
+       "text": "Phân tử được ví như một chiếc xe chở hàng: nhóm phosphat (một photpho với bốn oxy xung quanh) đóng vai trò trục xe."
+      },
+      {
+       "t": 4106,
+       "text": "Có hai nhóm phosphat (chữ 'D' là di = hai), một ở đầu và một ở đuôi, liên kết với nhau, đóng vai trò hai trục xe."
+      },
+      {
+       "t": 4137,
+       "text": "Trên hai trục có hai khung/thùng xe là hai đường ribose (năm cạnh), mỗi đường ribose gắn vào một nhóm phosphat để xe vững chắc."
+      },
+      {
+       "t": 4168,
+       "text": "Khung xe ở đầu (đường ribose đầu) gánh phần chữ N, tên là nicotinamide, có nguồn gốc từ vitamin B3."
+      }
+     ]
+    },
+    {
+     "start": 13801,
+     "end": 14398,
+     "title": "NAD+/NADH: cấu tạo 'xe chở ngân phiếu' và suy giảm theo tuổi",
+     "points": [
+      {
+       "t": 3601,
+       "text": "Phần đầu của phân tử (nicotinamide) đóng vai trò thùng xe chở hàng, chở 2 electron và 2 hydro (H+). Nguyên tử nitơ ở đầu này luôn tích điện dương nên có xu hướng hút electron; khi nhận electron âm thì cần thêm hydro để trung hòa về điện."
+      },
+      {
+       "t": 3663,
+       "text": "Phần đầu xe gồm hệ thống trục, khung xe và thùng chở hàng gắn với nhau; phần đuôi cũng có trục, khung xe và gắn 'biển số' là adenin."
+      },
+      {
+       "t": 3694,
+       "text": "Adenin là biển số để nhận diện và đi vào ti thể; nếu không có adenin thì phân tử không đi vào được ti thể."
+      },
+      {
+       "t": 3714,
+       "text": "Cụm gồm đường ribose và nhóm phosphat gọi là nucleotide; có hai đường ribose gắn hai nhóm phosphat nên là dinucleotide (hai trục, hai khung nâng đỡ hai bộ phận khác nhau)."
+      },
+      {
+       "t": 3725,
+       "text": "Giải nghĩa tên NADH: N = nicotinamide (đầu chở hàng), A = adenine (biển số xe), D = dinucleotide, dấu + = đang tích điện dương, cần hydro và electron, H = xe đã đầy hàng."
+      },
+      {
+       "t": 3755,
+       "text": "Muốn sang hệ thống thứ hai chỉ cần thay N (nicotinamide) bằng flavin, tức vitamin B2 (FAD)."
+      },
+      {
+       "t": 3779,
+       "text": "Hệ thống thứ ba: vẫn là xe đó nhưng gắn thêm một nhóm phosphat (NADPH), như hệ thống định vị toàn cầu đưa xe đến công trường tế bào để làm nhiệm vụ xây dựng (lắp carbon)."
+      },
+      {
+       "t": 3796,
+       "text": "Hệ thống số ba còn có nhiệm vụ quan trọng là cứu glutathione và coenzyme Q10 đang thoi thóp (tái tạo chúng)."
+      },
+      {
+       "t": 3848,
+       "text": "Thùng chở tích điện dương nên hút electron, và khi hút electron thì phải hút thêm ion hydro, chuyển NAD+ thành NADH; quá trình này là cơ chế hoạt động của công thức cấu tạo."
+      },
+      {
+       "t": 3874,
+       "text": "Bình luận của khán giả: đi xét nghiệm bình thường nhưng mệt mỏi, kiệt quệ, đầu óc mụ mị, não sương mù, không suy nghĩ hay làm việc được. Đây là tình trạng chung khi tế bào đói 'đồng tiền năng lượng'."
+      },
+      {
+       "t": 3908,
+       "text": "Hệ thống số ba chủ yếu xây dựng và bảo vệ; hệ thống số một và hai chủ yếu dị hóa protein, axit amin, glucose để tạo ATP cho cơ thể hoạt động (ngoài ra có chức năng khác như chống oxy hóa)."
+      },
+      {
+       "t": 3971,
+       "text": "Nếu NAD+/NADH không đảm bảo thì tế bào đói năng lượng, rơi vào khủng hoảng 'hệ thống tài chính' của tế bào, không còn năng lượng hoạt động và ti thể suy sụp."
+      },
+      {
+       "t": 4003,
+       "text": "Nguyên nhân đầu tiên là lão hóa, tuổi tác. Bác sĩ nhắc công thức đã xây dựng hôm trước: C(t) = C0 · e^(−k(t−20)), dạng hàm số mũ giảm theo tuổi."
+      },
+      {
+       "t": 4033,
+       "text": "Công thức được cải tiến cho chính xác hơn vì thực tế luôn có một nguồn năng lượng tối thiểu C_min, mức thấp nhất để cơ thể sống lay lắt, không thể thấp hơn."
+      },
+      {
+       "t": 4065,
+       "text": "Công thức mới: C(t) = C_min + C0 · e^(−k(t−20)), với C0 là phần có thêm ở trạng thái đỉnh cao."
+      },
+      {
+       "t": 4097,
+       "text": "Ý nghĩa: C_min là nồng độ NAD+/NADH tối thiểu mà dù ốm đau, già yếu, bệnh tật đến đâu cơ thể vẫn có để tồn tại; C0 ứng với thanh niên ở tuổi 20, khi nồng độ NAD+/NADH cao nhất."
+      },
+      {
+       "t": 4158,
+       "text": "Sau tuổi 20 nồng độ giảm dần; đến khoảng 40–50 tuổi thì giảm đi một nửa, tức là tụt rất nhiều khi bước sang 'bên kia con dốc cuộc đời'."
+      },
+      {
+       "t": 4180,
+       "text": "Nồng độ 'ngân phiếu năng lượng' tụt thê thảm khiến dễ rơi vào kiệt quệ và mệt mỏi; đồ thị có dạng đi lên đến đỉnh rồi đi xuống."
+      }
+     ]
+    },
+    {
+     "start": 14401,
+     "end": 14998,
+     "title": "Nguyên nhân gây suy giảm NAD+/NADH và kiệt quệ năng lượng",
+     "points": [
+      {
+       "t": 1,
+       "text": "Nồng độ NAD+ và NADH đạt đỉnh (C max) ở khoảng 20 tuổi, từ khoảng 40 tuổi trở đi giảm mạnh, còn khoảng một nửa so với lúc trẻ; sự suy giảm này tuân theo phương trình hàm số mũ."
+      },
+      {
+       "t": 34,
+       "text": "Sau 40 tuổi nếu không có chiến lược bảo vệ, cơ thể nhanh chóng kiệt quệ, mệt mỏi dù xét nghiệm bình thường và xuất hiện nhiều triệu chứng như khán giả bình luận. Lão hóa và tuổi tác là nguyên nhân thứ nhất."
+      },
+      {
+       "t": 64,
+       "text": "Nguyên nhân thứ hai là căng thẳng stress oxy hóa do lối sống: ăn uống mất cân bằng, thức khuya, dậy muộn, căng thẳng, ăn quá nhiều đường, chất béo mất cân đối (bão hòa/không bão hòa), đồ rán, nước ngọt có ga, tia UV, thuốc lá."
+      },
+      {
+       "t": 126,
+       "text": "Các yếu tố trên làm tăng gốc tự do, cơ thể phải huy động chống gốc tự do và các nhà máy trong tế bào bị quá tải, dẫn đến kiệt quệ rất nhanh."
+      },
+      {
+       "t": 156,
+       "text": "Người trẻ 19-20 tuổi cũng có thể uể oải, mệt mỏi vì thức khuya, chơi game online, dùng mạng xã hội, ít tiếp xúc thiên nhiên, căng thẳng kéo dài, bị bắt nạt mạng, cộng với chế độ ăn sai; điều này làm kiệt quệ NAD+ và NADH."
+      },
+      {
+       "t": 216,
+       "text": "Nguyên nhân thứ ba là viêm mãn tính, như chế độ ăn (leptin), cúm, Covid, nhiễm virus, sốt xuất huyết. Không nên coi thường cúm: sau cúm miễn dịch có thể suy giảm 6 tháng đến cả năm, tiêu hủy rất nhiều NAD+ và NADH; Covid có hậu Covid kéo dài."
+      },
+      {
+       "t": 263,
+       "text": "Tiêu tốn nhiều NAD+/NADH sinh ra rất nhiều gốc tự do tấn công 'đập' bên trong ti thể, gây rỉ sét các trạm bơm số 1, 2, 3...; công suất kém, thậm chí có tế bào không hoạt động được, không bơm được H+ lên và không tạo được đồng tiền năng lượng (ATP)."
+      },
+      {
+       "t": 315,
+       "text": "Hệ quả của viêm mãn tính là mệt mỏi, thở không ra hơi, không muốn làm gì, không suy nghĩ được. Cần nâng cao thể trạng để chống virus nhanh, tránh bão cytokine và tình trạng quá nặng."
+      },
+      {
+       "t": 365,
+       "text": "Khi bạch cầu bắt virus nhốt vào bên trong, nó phải dựa vào NADPH thả electron để biến enzyme trong bạch cầu thành gốc tự do mãnh liệt, gây 'nổ' phá hủy virus nhanh; muốn vậy cần có đủ năng lượng."
+      },
+      {
+       "t": 409,
+       "text": "Nguyên nhân thứ tư là thiếu nguyên liệu tổng hợp: chế độ ăn mất cân bằng khối năng lượng (đường, mỡ, đạm). Ví dụ ăn không đủ adenin thì không tạo được 'biển số' (thành phần cấu trúc), ăn không đủ tryptophan cũng thua."
+      },
+      {
+       "t": 470,
+       "text": "Không thể thiếu vitamin nhóm B (B2, B3, B5, B6...) vì rất quan trọng cho việc tạo các đồng tiền năng lượng."
+      },
+      {
+       "t": 500,
+       "text": "Enzyme hoạt động cần các đồng yếu tố: magie, canxi, vitamin D, kẽm, omega 3... đi cùng nhau, không thể thiếu thành phần nào."
+      },
+      {
+       "t": 532,
+       "text": "Chế độ ăn hiện nay thiếu vi chất nghiêm trọng (vitamin và khoáng chất) và mất cân bằng khối năng lượng nên không tổng hợp đủ; vì vậy sau khi bổ sung vi chất người thấy khỏe hơn, còn chưa bổ sung thì mệt, thở không ra hơi. Cần bổ sung đủ nguồn nguyên liệu."
+      },
+      {
+       "t": 565,
+       "text": "Nguyên nhân thứ năm là khủng hoảng chuyển hóa, như kháng insulin và khủng hoảng các nhà máy dị hóa bên ngoài ti thể (dị hóa đường - đường phân, chất béo, axit amin); nguyên nhân do ăn quá nhiều đường gây kháng insulin."
+      }
+     ]
+    },
+    {
+     "start": 15000,
+     "end": 15597,
+     "title": "NAD+/NADH phân bố ở tế bào chất, ti thể và tác hại của rượu bia",
+     "points": [
+      {
+       "t": 4600,
+       "text": "Ăn quá nhiều đường, quá nhiều chất béo (đặc biệt chất béo bão hòa mất cân đối với chất béo không bão hòa) làm quá tải các con đường chuyển hóa, gây khủng hoảng thừa/thiếu và tạo gốc tự do; đó là những nguyên nhân khiến 'tờ ngân phiếu năng lượng' bị khủng hoảng."
+      },
+      {
+       "t": 4632,
+       "text": "NAD+ và NADH tập trung ở hai nơi: ti thể (nơi tạo đồng tiền năng lượng ở 'trạm thủy điện' thông qua các trạm bơm số 1, 3, 4) và tế bào chất."
+      },
+      {
+       "t": 4687,
+       "text": "NAD+ và NADH phân bố không đồng đều giữa hai khu vực. Ví dụ ẩn dụ: NAD+ là xe rỗng, NADH là xe đầy hàng."
+      },
+      {
+       "t": 4727,
+       "text": "Ở tế bào chất, tỉ lệ 'vàng' là khoảng 60 đến 700 xe rỗng (NAD+) mới có một xe đầy hàng (NADH)."
+      },
+      {
+       "t": 4758,
+       "text": "Ở ti thể, nơi tạo ra rất nhiều electron và H+ nên xe có xu hướng đầy hàng: chỉ khoảng 7 đến 8 xe rỗng đã có một xe đầy hàng."
+      },
+      {
+       "t": 4780,
+       "text": "Lý do tế bào chất có nhiều xe rỗng: ở đó quá trình dị hóa diễn ra rất mạnh (chuyển đường, chất béo, đạm thành axit amin, axit béo, glycerol... rồi vào chu trình Krebs), và dị hóa luôn tạo ra electron và H+."
+      },
+      {
+       "t": 4852,
+       "text": "Phải có đội xe rỗng rất lớn để chất electron và H+ lên; nếu ít xe rỗng, E và H+ tự do bị ứ đọng và đi tấn công tế bào ('phá làng phá xóm'). Ở ti thể E và H+ dày đặc nên xe đầy hàng nhiều hơn nhưng vẫn giữ được tỉ lệ 7-8 xe rỗng/1 xe đầy."
+      },
+      {
+       "t": 4913,
+       "text": "Cách sắp xếp này nhằm bảo vệ tế bào khỏi gốc tự do, electron và H+ vốn phá ba thứ cơ bản: lipid màng (màng tế bào, màng ti thể), ADN và protein."
+      },
+      {
+       "t": 4945,
+       "text": "Kịch bản lý tưởng là đúng theo tỉ lệ vàng; cơ thể luôn phấn đấu theo tỉ lệ này. Mọi lệch khỏi tỉ lệ đều nguy hiểm."
+      },
+      {
+       "t": 4974,
+       "text": "Kịch bản nguy hiểm: xe rỗng (NAD+) giảm mạnh còn xe đầy hàng (NADH) tăng. Khi đó xe đầy hàng ứ trệ, làm rối loạn các hệ thống chuyển hóa và hệ thống ti thể, ti thể không sinh được năng lượng, cơ thể mệt mỏi và sinh nhiều triệu chứng rồi bệnh tật."
+      },
+      {
+       "t": 5058,
+       "text": "Nguyên nhân hàng đầu làm xe rỗng giảm, xe đầy tăng là độc chất, đứng đầu là rượu bia (kinh khủng nhất), sau đó là thuốc lá và các độc chất khác."
+      },
+      {
+       "t": 5088,
+       "text": "Cơ chế của rượu bia: khi uống, gan phải giải độc, quá trình này tạo ra rất nhiều electron và H+ (gốc tự do), chất hết lên xe rỗng khiến toàn xe đầy hàng, xe rỗng còn rất ít."
+      },
+      {
+       "t": 5130,
+       "text": "Xe rỗng ít là tín hiệu để cơ thể dừng toàn bộ quá trình tổng hợp và phân hủy (đồng hóa và dị hóa) của đường, chất béo và đạm, dẫn đến thiếu năng lượng và mệt mỏi."
+      },
+      {
+       "t": 5150,
+       "text": "Chất béo không được chuyển hóa nên gan bị nhiễm mỡ; đây là lời giải thích cho gan nhiễm mỡ do rượu."
+      },
+      {
+       "t": 5160,
+       "text": "Người nghiện rượu bia, uống nhiều kéo dài thường hôm nay say, hôm sau mệt không chịu nổi, thở không ra hơi, chân không buồn bước, não sương mù, do thiếu năng lượng, gốc tự do tấn công và quá trình tổng hợp, chuyển hóa bị dừng."
+      }
+     ]
+    },
+    {
+     "start": 15600,
+     "end": 16197,
+     "title": "Ba tình huống mất cân bằng NAD+/NADH và con đường VIP vào ti thể",
+     "points": [
+      {
+       "t": 4220,
+       "text": "Tình huống thứ nhất gây mất cân bằng là lạm dụng rượu bia (và thuốc lá, chất kích thích)."
+      },
+      {
+       "t": 4220,
+       "text": "Tình huống thứ hai là ăn nhiều calo rỗng (quá nhiều đường, đạm, chất béo, đặc biệt chất béo chuyển hóa, nước ngọt có ga, đồ ngọt, đồ chiên rán) kết hợp lười vận động, thường gặp ở nhân viên văn phòng và giới trẻ."
+      },
+      {
+       "t": 4233,
+       "text": "Nếu vận động thì ti thể hoạt động, kích thích chuyển hóa các thành phần dư thừa và năng lượng được lưu thông; lười vận động thì quá trình chuyển hóa bị dừng lại."
+      },
+      {
+       "t": 4264,
+       "text": "Khi chuyển hóa dừng lại, lượng thức ăn nạp vào sinh ra gốc tự do, electron (E) và H+, tất cả được chất lên 'xe rỗng' (NAD+) biến thành 'xe đầy hàng' (NADH); xe đầy hàng tăng lại làm dừng chuyển hóa, tạo vòng luẩn quẩn dẫn tới thiếu năng lượng, mệt mỏi, căng thẳng."
+      },
+      {
+       "t": 4294,
+       "text": "Tình huống thứ ba là tuổi tác, lão hóa: theo thời gian và bệnh tật, hàm lượng NAD+ (xe rỗng) giảm, trong khi gốc tự do và H+ tăng, nên lượng đổ vào xe rỗng làm xe đầy hàng tăng lên."
+      },
+      {
+       "t": 4355,
+       "text": "Ngoài ba tình huống trên còn nhiều yếu tố khác như lối sống, chế độ ăn. Trường hợp thường gặp (trường hợp 1) là xe rỗng giảm và xe đầy hàng tăng."
+      },
+      {
+       "t": 4367,
+       "text": "Trường hợp 2 (xe rỗng tăng, xe đầy hàng giảm) vô cùng hiếm, chỉ gặp khi bị bỏ đói kéo dài, nhịn ăn cực đoan như 21 ngày hoặc hàng tháng."
+      },
+      {
+       "t": 4417,
+       "text": "NAD+/NADH nằm ở hai vị trí: tế bào chất và ti thể, với chức năng khác nhau. Trong ti thể nó tham gia tạo ATP, 'đồng tiền' hòa vào lưới điện quốc gia để cơ thể hoạt động."
+      },
+      {
+       "t": 4452,
+       "text": "Ở tế bào chất, nó gom electron và H+ để không tạo gốc tự do, nhiệm vụ quan trọng nhất là sau đó đưa chúng vào bên trong ti thể."
+      },
+      {
+       "t": 4479,
+       "text": "Ngoài tế bào chất diễn ra các hoạt động dị hóa như 'công trường': đường dị hóa thành pyruvat rồi acetyl-CoA; chất béo thành glycerol và acid béo rồi cũng thành acetyl-CoA; đạm thành amino acid rồi cũng thành acetyl-CoA, để đi vào chu trình Krebs rồi chuỗi hô hấp tế bào."
+      },
+      {
+       "t": 4545,
+       "text": "Tất cả quá trình này tạo ra E và H+; nếu không xử lý thì gốc tự do tấn công màng tế bào, màng ti thể, protein vùng tế bào chất rất nguy hiểm, nên NAD+/NADH đóng vai trò 'xe' thu gom E và H+ rồi đưa vào ti thể."
+      },
+      {
+       "t": 4574,
+       "text": "Có hai con đường đưa vào ti thể: con đường VIP và con đường bình thường. Con đường VIP chủ yếu xảy ra ở cơ tim, gan và thận (các cơ quan quan trọng)."
+      },
+      {
+       "t": 4638,
+       "text": "Trên con đường VIP, xe rỗng NAD+ nhận 2 E và 1 H+ để thành xe đầy hàng NADH, rồi được chở đến sát màng ti thể theo khung xương tế bào, con đường quy định riêng, không đi lung tung."
+      },
+      {
+       "t": 4669,
+       "text": "Màng ti thể có cấu trúc đặc biệt nên không dễ đi qua: acetyl-CoA cần cơ chế vận chuyển riêng, còn NADH đầy hàng thì màng ti thể không cho đi qua."
+      },
+      {
+       "t": 4732,
+       "text": "Vì vậy ngay trên đường đi, NADH tìm các 'thùng chứa hàng' là oxaloacetat (chất của chu trình Krebs, một loại đường); mỗi thùng cho phép thả 2 electron và H+ vào, thực tế tối đa là 2E và 1H+ vì 1H+ phải giữ lại trên xe."
+      }
+     ]
+    },
+    {
+     "start": 16200,
+     "end": 16798,
+     "title": "Hai con đường vận chuyển electron của NADH vào ti thể",
+     "points": [
+      {
+       "t": 1800,
+       "text": "Trên con đường VIP (hệ con thoi malate–aspartate, diễn giải bằng ẩn dụ xe/shipper), thùng hàng oxaloacetat nhận 2e và H+ từ NADH, rồi đổi thành malat; malat như shipper được cấp visa đặc biệt để đi qua màng ti thể."
+      },
+      {
+       "t": 1831,
+       "text": "Malat mang 2e và 2H+ qua màng ti thể vào bên trong, nơi có sẵn một 'xe rỗng' NAD+ chờ đón; NAD+ nhận 2e và H+ từ malat để thành NADH đầy hàng, nằm ở ma trận nền ti thể, sẵn sàng đi lên trạm bơm số 1 (phức hợp I)."
+      },
+      {
+       "t": 1926,
+       "text": "Sau khi nhả hàng, malat trở lại thành oxaloacetat; oxaloacetat không có visa nên không thể đi ngược ra qua màng ti thể."
+      },
+      {
+       "t": 1959,
+       "text": "Để ra ngoài, oxaloacetat phải 'cải trang' (mượn áo khoác) thành aspartat, chất này được phép đi qua màng ti thể; ra ngoài bào tương thì trở lại thành oxaloacetat để tiếp tục đón hàng tiếp theo."
+      },
+      {
+       "t": 1991,
+       "text": "Tóm tắt các bước: NAD+ nhận 2e và 1H+ từ quá trình dị hóa ở bào tương thành NADH; NADH thả e và H+ vào oxaloacetat tạo malat; malat qua màng ti thể thả 2e và H+ cho NAD+ bên trong; malat cải trang thành aspartat để đi ra, rồi trở lại oxaloacetat."
+      },
+      {
+       "t": 2084,
+       "text": "Con đường VIP này ưu tiên cho tim, gan, thận là ba cơ quan rất quan trọng; mỗi NADH đi theo con đường này tạo ra 2,5 ATP, số lượng lớn."
+      },
+      {
+       "t": 2115,
+       "text": "Con đường thứ hai là con đường 'trả phí' (hệ glycerol-3-phosphat), áp dụng cho cơ xương và cả não."
+      },
+      {
+       "t": 2180,
+       "text": "Ở con đường trả phí, NADH (từ NAD+ nhận 2e và 1H+) không thả hàng vào oxaloacetat mà thả vào một loại thùng hàng rẻ tiền là glycerol-3-phosphat, chứa 2e và 1H+."
+      },
+      {
+       "t": 2244,
+       "text": "Glycerol-3-phosphat không cần chất vận chuyển: nó được 'ném' qua một khe hẹp trên màng ti thể nằm sát trạm bơm số 2 (phức hợp II), nơi có sẵn FAD."
+      },
+      {
+       "t": 2285,
+       "text": "FAD nhận 2e và 2H+ (lấy thêm một H+) từ glycerol-3-phosphat để thành FADH2 và chuyển cho trạm bơm số 2, tạo ra 1,5 ATP."
+      },
+      {
+       "t": 2330,
+       "text": "So với con đường VIP (2,5 ATP/NADH), con đường trả phí hao hụt 1 ATP, nhưng đổi lại là con đường tắt, rất nhanh, tốc độ 'khủng khiếp', phù hợp với các tạng ít quan trọng hơn như cơ xương."
+      },
+      {
+       "t": 2379,
+       "text": "Não rất quan trọng nhưng vẫn đi theo con đường trả phí vì não chỉ chiếm 2% trọng lượng cơ thể nhưng tiêu thụ 20% năng lượng; chỉ cần thiếu năng lượng một chút là nguy hiểm, nên não ưu tiên con đường nhanh vì con đường số 1 quá vòng vo (phải xin visa, cải trang, đổi tên)."
+      }
+     ]
+    },
+    {
+     "start": 16802,
+     "end": 17399,
+     "title": "NAD+/NADH: con đường tắt của não và hai chức năng then chốt",
+     "points": [
+      {
+       "t": 4002,
+       "text": "Con đường chuyển hóa vòng (con đường khó khăn) phải qua rất nhiều bước phức tạp nên chậm; khi cần năng lượng gấp mà đi đường này thì não sẽ bị thiếu năng lượng."
+      },
+      {
+       "t": 4010,
+       "text": "Não chấp nhận 'trả phí' (hiệu quả thấp hơn) để đổi lấy tốc độ cực nhanh, vì cần có năng lượng ngay; do đó não đi con đường tắt chứ không đi con đường 'VIP' dành cho tim, gan, thận."
+      },
+      {
+       "t": 4032,
+       "text": "Cơ cũng chọn con đường tắt này vì cơ tốn nhiều năng lượng; cơ thiếu năng lượng thì chỉ bị chuột rút, còn não thiếu thì rất nguy hiểm, nên não chọn đường nhanh để đảm bảo tốc độ."
+      },
+      {
+       "t": 4061,
+       "text": "Tổng kết phần trước: đã trả lời NAD+/NADH là gì từ công thức hóa học, các con đường hoạt động trong ti thể (ví dụ 'đập thủy điện'), và việc đưa 'hàng' từ ngoài bào tương vào ti thể theo hai con đường khôn ngoan."
+      },
+      {
+       "t": 4094,
+       "text": "Ở bào tương, NAD+ phải duy trì tỷ lệ NAD+/NADH khoảng 60–700 (nhiều 'xe rỗng', ít 'xe đầy hàng'); nếu tỷ lệ nhỏ hơn 60 (xe đầy hàng tăng) cơ thể rơi vào trạng thái không tốt, có hại và nguy hiểm cho sức khỏe."
+      },
+      {
+       "t": 4104,
+       "text": "Chiều ngược lại (tỷ lệ quá cao) hiếm xảy ra, không đáng lo, trừ khi nhịn đói kéo dài."
+      },
+      {
+       "t": 4124,
+       "text": "Nếu không bổ sung đủ vi chất, cơ thể không tạo được oxaloacetat, không chuyển hóa/'ngụy trang' thành aspartat để đi ra được, khiến các dòng chuyển hóa bị ứ trệ; vì vậy phải sống thật khoa học và bổ sung vi chất đầy đủ."
+      },
+      {
+       "t": 4156,
+       "text": "Hiểu NAD+/NADH giúp nắm toàn bộ bức tranh vận hành đồng tiền năng lượng, nền kinh tế tế bào, quá trình chống oxy hóa và xử lý gốc tự do, từ đó quản trị sức khỏe để tránh bệnh tật."
+      },
+      {
+       "t": 4208,
+       "text": "Câu hỏi đặt ra: bổ sung NAD như thế nào, khi thị trường có nhiều loại và nhu cầu bổ sung là có thật."
+      },
+      {
+       "t": 4239,
+       "text": "Chức năng số một, không thể thiếu của NAD+/NADH là tạo ra đồng tiền năng lượng ATP, bằng cách đảm bảo dòng chuyển hóa đường, chất béo, đạm; thiếu nó cơ thể sụp đổ, nên mục tiêu là giữ nền kinh tế tế bào ổn định, ATP luôn đủ."
+      },
+      {
+       "t": 4305,
+       "text": "Chức năng quan trọng thứ hai: NAD+ kích hoạt hai nhóm 'vị tướng' – nhóm sửa chữa (PARP) và nhóm 'bộ trưởng trường thọ' gồm 7 ông SIRT (sirtuin) từ số 1 đến 7; hai cụm này luôn đi cùng nhau, không tách rời."
+      },
+      {
+       "t": 4395,
+       "text": "Tổn thương đáng sợ nhất là hỏng ADN (vật chất di truyền), gây bệnh phức tạp, nguy hiểm và ung thư; ngoài ra màng tế bào, màng ti thể, ribosom cũng có thể hỏng và cần sửa chữa."
+      },
+      {
+       "t": 4426,
+       "text": "Bước 1 của PARP: hàng ngày, hàng giờ đi tuần dọc phân tử ADN để phát hiện chỗ hỏng."
+      },
+      {
+       "t": 4458,
+       "text": "Bước 2: khi phát hiện chỗ hỏng, PARP bám chặt vào đó, gắn 'chuông báo động' và huy động toàn bộ lực lượng kỹ sư sửa chữa đến sửa ADN."
+      },
+      {
+       "t": 4530,
+       "text": "Bước 3: PARP đập vỡ NAD+ và NADH (những 'xe chở ngân phiếu') để lấy nguyên liệu sửa chữa như adenin, vitamin, nucleotit — giống như cần xi măng, cốt thép, dàn giáo khi sửa nhà; không thành phần nào có nhiều bằng NAD."
+      },
+      {
+       "t": 4589,
+       "text": "Sau khi sửa chữa thành công, PARP tháo dàn giáo và rút lui để ADN trở lại bình thường."
+      }
+     ]
+    },
+    {
+     "start": 17401,
+     "end": 17998,
+     "title": "Sửa chữa ADN tốn NAD+ và vai trò các Sirtuin (SIRT1-3)",
+     "points": [
+      {
+       "t": 4801,
+       "text": "Quá trình sửa chữa ADN cực kỳ tốn NAD+ và NADH; nếu không đủ thì việc sửa chữa thất bại vì thiếu nguyên liệu ('dàn giáo'), dù kỹ sư sửa chữa đã bám vào được chỗ tổn thương."
+      },
+      {
+       "t": 4830,
+       "text": "Nguyên nhân gây tổn thương ADN là gốc tự do; để đỡ tốn NAD+ cần giảm gốc tự do bằng lối sống văn minh, khoa học. Nếu không, cơ thể kiệt quệ, dễ mắc bệnh và ung thư."
+      },
+      {
+       "t": 4873,
+       "text": "Khác với các quá trình chuyển hóa khác mà NAD+ được quay vòng, tái sử dụng nhiều lần, thành phần bị 'đập vỡ' trong sửa chữa ADN mất đi một đi không trở lại, nên quá trình này tiêu hao rất nhiều."
+      },
+      {
+       "t": 4924,
+       "text": "Các Sirtuin (SIRT 1–7) là 'bộ trưởng An ninh và Trường thọ', bảo vệ các thành phần của tế bào; chia làm ba quân khu chính, kích hoạt chúng sẽ bảo vệ tế bào."
+      },
+      {
+       "t": 4932,
+       "text": "Quân khu 1 bảo vệ nhân tế bào (cơ quan đầu não) và gồm ba bộ trưởng: SIRT1, SIRT6, SIRT7."
+      },
+      {
+       "t": 4957,
+       "text": "SIRT1 (Bộ trưởng Kế hoạch và Đầu tư) bắt buộc đốt cháy hết đường, không để thừa chất béo, và dọn rác trong nhân tế bào; việc này kéo theo kích hoạt insulin và các con đường chuyển hóa dọn dẹp, tránh ứ đọng làm hỏng tế bào."
+      },
+      {
+       "t": 5017,
+       "text": "SIRT6 (Bộ trưởng An ninh biên giới) bảo vệ telomere – phần đầu nhiễm sắc thể giống khuy kim loại ở đầu dây giày – không cho bị mòn ngắn đi; telomere mòn càng nhanh thì tuổi thọ càng rút ngắn."
+      },
+      {
+       "t": 5114,
+       "text": "SIRT7 (Bộ trưởng Giáo dục) đảm bảo ADN sao chép ra ADN mới và ra mRNA chính xác, không sai sót, nếu không sẽ gây đột biến gen nguy hiểm."
+      },
+      {
+       "t": 5176,
+       "text": "Tóm lại: SIRT1 đốt đường, không để chất béo và rác ứ đọng trong nhân (kích hoạt insulin và các phản ứng khác); SIRT6 giữ telomere không ngắn; SIRT7 giữ sao chép ADN/mRNA chuẩn xác."
+      },
+      {
+       "t": 5777,
+       "text": "Quân khu 2 do SIRT2 (Bộ trưởng Giao thông vận tải) phụ trách: bảo đảm hệ thống giao thông trong tế bào chất diễn ra trình tự, thông suốt, không đi sai đường."
+      },
+      {
+       "t": 5810,
+       "text": "SIRT2 điều phối để NAD+/NADH đi đúng đường và sắp xếp đúng vị trí các chất như oxaloacetate, glycerol-3-phosphate; các xe không va chạm, đi tuần tự, logistics tốt, biển báo rõ ràng. Vai trò này gắn với khung xương tế bào."
+      },
+      {
+       "t": 5872,
+       "text": "Nếu thiếu SIRT2, vận chuyển trong tế bào hỗn loạn và hỏng; điều này liên quan đến giải Nobel y học đã nói trước đó: mọi chất trong cơ thể phải đi đúng địa chỉ, đến đúng nơi đúng chốn."
+      },
+      {
+       "t": 5903,
+       "text": "Hàng tỷ 'xe' vận chuyển trong một tế bào mà va chạm hoặc ùn ứ thì rất nguy hiểm, nên hệ thống phải sạch sẽ và chuẩn xác."
+      },
+      {
+       "t": 5935,
+       "text": "Quân khu 3 bảo vệ mọi hoạt động bên trong ti thể (do 'Bộ trưởng Thủy điện/Năng lượng' phụ trách), gồm SIRT3, với nhiệm vụ không để hệ thống 'trạm bơm' (chuỗi hô hấp ti thể) hỏng hóc."
+      },
+      {
+       "t": 5966,
+       "text": "SIRT3 ví như ông bộ trưởng lo lắng đến mức tự cầm bàn chải lau dọn các trạm bơm số 1, 2, 3, 4, gỡ đường, mỡ và các thành phần khác bám vào."
+      }
+     ]
+    },
+    {
+     "start": 18001,
+     "end": 18599,
+     "title": "NAD+ không uống bổ sung hiệu quả; giải pháp thay thế",
+     "points": [
+      {
+       "t": 0,
+       "text": "Bộ trưởng ST3 không trực tiếp vận hành bốn trạm bơm (chuỗi hô hấp) mà chỉ giữ cho chúng không bị hỏng: bảo dưỡng, kỳ cọ chỗ có đường, mỡ bám, xử lý gốc oxy hóa, huy động các thành phần khác cùng làm và tự tay bắt tay vào sửa."
+      },
+      {
+       "t": 30,
+       "text": "Bộ trưởng ST4 điều tiết năng lượng: khi năng lượng tạo ra quá nhiều thì ra lệnh giảm bơm, ngừng đốt tiếp; khi năng lượng/lượng hydro ít thì ra lệnh tăng bơm. Ông căn cứ vào thực tế 'dòng điện lưới' để quyết định tăng hay giảm quá trình đổi tiền (tạo năng lượng)."
+      },
+      {
+       "t": 62,
+       "text": "Bộ trưởng ST5 là 'bộ vệ sinh môi trường' của toàn ti thể: thấy chỗ nào bẩn thì yêu cầu dọn sạch, đôn đốc để không xảy ra ứ đọng. Khác ST3 chỉ vệ sinh và bảo vệ hệ thống trạm bơm thông suốt, ST5 lo cho toàn bộ ti thể."
+      },
+      {
+       "t": 92,
+       "text": "Chỉ cần một bộ trưởng (an ninh, trường thọ) bị trục trặc thì tuổi thọ tế bào giảm, kéo theo tuổi thọ cơ thể giảm."
+      },
+      {
+       "t": 123,
+       "text": "Các bộ trưởng an ninh–trường thọ lấy năng lượng để hoạt động từ NAD+ và NADH bằng cách bẻ gãy phân tử; mỗi lần bẻ gãy sinh ra năng lượng. Họ được ưu tiên dùng NAD+/NADH trực tiếp để bảo vệ những công việc quan trọng."
+      },
+      {
+       "t": 153,
+       "text": "Tướng sửa chữa (ví dụ sửa ADN) cũng đập phá NAD+ để lấy nguyên liệu. Hai bên cạnh tranh nguồn này: nếu tướng sửa chữa dùng quá nhiều thì các bộ trưởng hết nguyên liệu, và ngược lại thì tướng sửa chữa không còn gì để sửa. Vì vậy phải giảm công việc cho họ, tức thực hành lối sống khoa học."
+      },
+      {
+       "t": 245,
+       "text": "NAD+/NADH quan trọng đến mức việc bổ sung đang là lĩnh vực rất hot, nhiều nơi đua nhau tìm mua để nâng cao sức khỏe, sửa chữa ADN phòng ung thư và kéo dài tuổi thọ."
+      },
+      {
+       "t": 276,
+       "text": "Lý do thứ nhất uống NAD+/NADH trực tiếp kém hiệu quả: phân tử quá cồng kềnh (hai nucleotide/hai đường ribose, một nicotinamide tương đương vitamin B3, một adenin giống adenin trong ADN) nên màng tế bào không có cửa nào đủ lớn cho nó đi qua."
+      },
+      {
+       "t": 337,
+       "text": "Lý do thứ hai: NAD+ tích điện dương ở nguyên tử nitơ trong vòng nicotinamide, mà màng tế bào ghét chất tích điện dương nên đẩy bật ra. Vì vậy quảng cáo hay nhưng uống vào hiệu quả không cao."
+      },
+      {
+       "t": 402,
+       "text": "Khi uống vào đường ruột, phân tử bị phá vỡ thành các thành phần nên hầu như không hiệu quả khi bổ sung trực tiếp; thà uống các thành phần rời (bổ sung đủ vitamin nhóm B, vi chất) còn có khi hiệu quả hơn vì dù sao cũng bị phá."
+      },
+      {
+       "t": 454,
+       "text": "Giải pháp 1: ăn uống khoa học, bổ sung đầy đủ cơ chất để cơ thể hấp thu, đây là điều quan trọng nhất."
+      },
+      {
+       "t": 464,
+       "text": "Giải pháp 2: giảm gốc tự do, giảm công việc cho tướng sửa chữa và các bộ trưởng để họ không tiêu thụ nhiều NAD+, nhờ đó mức NAD+ được nâng lên."
+      },
+      {
+       "t": 497,
+       "text": "Giải pháp 3: bổ sung tiền chất (như methionine, glutathione đã nói ở các số trước); bổ sung nguyên chất cũng không hiệu quả. Cách bổ sung tiền chất sẽ nói ở các số sau, nếu không biết cách sẽ tốn nhiều tiền; tiền chất cũng quay lại câu chuyện chế độ ăn uống."
+      },
+      {
+       "t": 538,
+       "text": "Giải pháp 4: công nghệ liposome, có cấu trúc giống màng nên hy vọng xâm nhập qua màng tế bào; đang được quảng cáo nhưng cần chờ kết quả thực sự, và chi phí đắt."
+      },
+      {
+       "t": 580,
+       "text": "Giải pháp tiêm: bác sĩ không bao giờ ủng hộ vì tiêm vào mạch máu nguy hiểm, có thể gây sốc, cần hết sức cẩn thận."
+      }
+     ]
+    },
+    {
+     "start": 18602,
+     "end": 18988,
+     "title": "Kết luận về NAD+ và lời chào kết thúc chương trình",
+     "points": [
+      {
+       "t": 18002,
+       "text": "Tiêm NAD+ trực tiếp bị bác sĩ không ủng hộ: sau khi tiêm, các enzyme trong máu phá hủy nó rất nhanh nên chưa kịp vào tế bào thì đã bị phá hủy."
+      },
+      {
+       "t": 18002,
+       "text": "Lý do thứ ba: NAD+ tiêm vào máu bị đào thải qua thận quá nhanh, chưa kịp đến tế bào; cơ thể còn coi đây là một chất tiêm vào 'lạ', nên bác sĩ khuyên đừng nghĩ đến giải pháp tiêm (đoạn đầu còn nhắc đến một nguy cơ/hiểm họa khác của việc tiêm)."
+      },
+      {
+       "t": 18032,
+       "text": "Kết luận: nên hiểu cơ chế và thay đổi lối sống để giảm tiêu thụ NAD+ (giảm các yếu tố làm hao NAD+ đã nêu trong buổi), đồng thời ăn uống đầy đủ vi chất và tiền chất để cơ thể tổng hợp tốt."
+      },
+      {
+       "t": 18064,
+       "text": "Việc có nên bổ sung tiền chất hay không, gồm tiền chất của glutathione và tiền chất của NAD+/NADH, sẽ được bác sĩ trao đổi và cân nhắc trong các số sau."
+      },
+      {
+       "t": 18096,
+       "text": "Quan trọng nhất là hiểu cơ chế và tầm quan trọng của NAD+ để kích hoạt cơ thể tự tổng hợp, tự duy trì và sử dụng NAD+ một cách khoa học, hiệu quả; cách này tốt hơn nhiều so với bổ sung một cách mù quáng."
+      },
+      {
+       "t": 18096,
+       "text": "Bổ sung mù quáng thường là bị cuốn theo quảng cáo thương mại; có thể có hiệu quả nhưng bác sĩ cho rằng không thần kỳ, và đa số chuyên gia trên thế giới cho rằng bổ sung đường uống không hiệu quả nhiều như kỳ vọng."
+      },
+      {
+       "t": 18126,
+       "text": "NAD+ là thành phần vô cùng quan trọng trong hệ thống năng lượng (hệ thống 'kinh tế') của tế bào; không hiểu nó thì không làm chủ và quản trị được sức khỏe của mình."
+      },
+      {
+       "t": 18756,
+       "text": "Lời nhắc an toàn từ ekip: nội dung kênh chỉ mang tính phổ cập kiến thức y khoa và giáo dục sức khỏe, không thay thế chẩn đoán, điều trị hay thăm khám trực tiếp; khi có vấn đề sức khỏe cần đến cơ sở y tế chuyên khoa uy tín để được khám, chẩn đoán, tư vấn và điều trị kịp thời."
+      }
+     ]
+    }
+   ],
+   "t": "Số 138: Bản chất của sự sập nguồn tế bào – Bí mật phân tử NAD+ #BacsiTranVanPhucOfficial",
+   "o": 3,
+   "model": "claude-sonnet-5-5",
+   "at": "2026-11-22T10:28:12Z",
+   "dur": 18989
+  },
+  "73aRPOk1ysE": {
+   "overview": "Số 108 của kênh (phát sóng 4/4/2026) do bác sĩ Phúc, một bác sĩ chẩn đoán hình ảnh kiêm nhạc sĩ, cùng biên tập viên Khánh Lành thực hiện. Video dùng hình ảnh nốt Son thăng trong âm nhạc và chuỗi Fourier trong toán học để giải thích cortisol, hormone điều phối phản ứng căng thẳng. Cortisol và adrenalin được ví như cặp vợ chồng sinh tồn. Adrenalin hành động trong vài giây, còn cortisol làm hậu phương, huy động đường cho não và tạm 'đình chiến' hệ miễn dịch.\n\nCortisol có lợi khi tuân theo nhịp 24 giờ: cao buổi sáng, thấp ban đêm. Lối sống hiện đại làm nhịp này sai lệch. Các nguyên nhân gồm hóa chất, lectin, thức khuya, căng thẳng và mạng xã hội. Hậu quả là cortisol cao kéo dài, gây mất ngủ, da xấu, rối loạn tim, tiêu hóa, sinh dục và tích mỡ bụng. Video nêu cách nhận biết, cách kiểm soát, vai trò của bảy vi chất cơ bản và của kiến thức nền. Nội dung phù hợp với người quan tâm đến quản trị sức khỏe toàn diện (thân khỏe, tâm an, trí sáng) và sẵn sàng học kiến thức y khoa dài, chuyên sâu.",
+   "takeaways": [
+    "Cortisol là hormone steroid của vỏ thượng thận, hoạt động như hệ thống báo động sinh tồn. Nó cùng adrenalin (tiết ở tủy thượng thận) tạo thành cặp 'vợ chồng' trong phản ứng chiến đấu hoặc bỏ chạy.",
+    "Adrenalin tồn tại tính bằng giây và làm tăng nhịp tim, huyết áp, giãn phế quản, tăng thở. Cortisol bền hơn nhiều, tồn tại hàng giờ đến hàng ngày vì có bốn vòng cacbon bền vững (C21H30O5).",
+    "Chuỗi tín hiệu là hạ đồi tiết CRH, tuyến yên tiết ACTH, rồi vỏ thượng thận tiết cortisol (trục HPA). Cortisol tiết theo thời gian thực, không có kho dự trữ.",
+    "Khi nguy hiểm, cortisol huy động đường cho não bằng cách phân hủy cơ và mỡ ở tay chân thành glucose. Nó cũng tăng co bóp tim, giữ nước và natri để tăng huyết áp, đưa máu lên não.",
+    "Cortisol 'tắt' hệ miễn dịch bằng cách chặn histamin và cytokine như IL-1, IL-2. Triệu chứng viêm giảm đi nhưng đó chỉ là sự êm dịu giả, và corticoid uống cũng chỉ che triệu chứng.",
+    "Nhịp bình thường trong 24 giờ: cortisol đạt đỉnh khoảng 6-8 giờ sáng và thấp nhất từ khoảng 9 giờ tối đến 2-3 giờ sáng để vào giấc ngủ sâu. Thức khuya, cà phê, mạng xã hội và căng thẳng làm xuất hiện các đỉnh nhọn ban đêm.",
+    "Cortisol cao kéo dài cấm các cơ quan dùng đường, dẫn đến da xám, nhăn, thâm quầng, nhìn mờ, rối loạn nhịp tim, rối loạn tiêu hóa, lãnh cảm hoặc yếu sinh lý, buồng trứng đa nang.",
+    "Cortisol cao cũng làm tăng insulin, gây gan nhiễm mỡ, mỡ máu, tiểu đường. Mỡ dồn vào bụng, mặt tròn, vai u trong khi tay chân teo, đồng thời gây thèm ngọt và thèm mặn.",
+    "Dấu hiệu nghi cortisol tăng: cần cà phê mới tỉnh lúc 9 giờ sáng hoặc 3 giờ chiều, nọng cằm và mặt tròn ở người trẻ, thức dậy lúc 2-3 giờ sáng dù đã đủ magie, tụt huyết áp khi đứng dậy dù đã đủ vi chất.",
+    "Cách kiểm soát: tránh hóa chất độc hại, lectin, rượu bia, thuốc lá; sống tuần tự, không bức xúc; bổ sung vitamin C, canxi, magie, vitamin D; ngủ đúng giờ.",
+    "Bảy vi chất cơ bản là magie, canxi, vitamin D3, vitamin tổng hợp, vitamin C, kẽm, omega 3. Bác sĩ cho rằng bổ sung đúng cùng lối sống khoa học giúp sống khỏe tới 100 tuổi, và kênh hướng tới mục tiêu 175 tuổi.",
+    "Chuỗi Fourier f(t) = a0/2 + Σ[an·cos(2πnt/T) + bn·sin(2πnt/T)] dùng để mô hình hóa cortisol. a0 là mức cơ bản, còn an và bn phản ánh các tác động tích cực hoặc tiêu cực lên đường cong. Mục tiêu là đường mềm mại thay vì các đỉnh nhọn.",
+    "Yếu tố quan trọng nhất của sức khỏe là kiến thức: hiểu quy luật cơ thể thì ít căng thẳng và ít bệnh. Bác sĩ khuyến khích học toán, lý, hóa và xem đi xem lại cả 108 số thay vì xem video ngắn.",
+    "Gia đình và sự thấu hiểu giữa vợ chồng được xem là 'liều thuốc' quý. Nhiều khán giả báo cải thiện sau khi bổ sung vi chất, như thoát nguy cơ phẫu thuật và vôi hóa tuyến giáp giảm, nhưng đây là lời kể cá nhân trong video."
+   ],
+   "sections": [
+    {
+     "start": 2,
+     "end": 598,
+     "title": "Mở đầu: Cortisol, âm nhạc và nốt son thăng",
+     "points": [
+      {
+       "t": 2,
+       "text": "Chương trình phát sóng 9:00 sáng thứ bảy hàng tuần, hôm nay là thứ bảy 04/04/2026. Biên tập viên Khánh Lành đặt vấn đề: vì sao ta nỗ lực đến kiệt cùng nhưng cơ thể rệu rã như phím đàn lỗi nhịp, và vì sao ta mong bến đỗ bình yên nhưng trong tâm trí vẫn là những cơn sóng ngầm không dứt."
+      },
+      {
+       "t": 65,
+       "text": "Ca khúc 'Thương nhớ mùa đông' do nhạc sĩ - bác sĩ Trần Văn Phúc sáng tác đang được phát trên sóng VOV3. Tiết tấu đảo phách và nốt Son thăng chơi vơi được ví như chân dung con người: trênh vênh giữa hiện tại và khát vọng, như nốt nhạc dở dang luôn tìm cách giải quyết để trở về âm chủ bình yên."
+      },
+      {
+       "t": 97,
+       "text": "Trong tư duy sức khỏe toàn diện 'thân khỏe, tâm an, trí sáng', âm nhạc là vị thuốc xoa dịu tinh thần. Nhưng để thân vững và trí tinh anh cần hiểu 'đạo diễn ngầm' là cortisol, chất điều phối bản giao hưởng căng thẳng trong từng tế bào."
+      },
+      {
+       "t": 130,
+       "text": "Mục tiêu của chủ đề: học cách điều phối tần số cortisol, đưa bản nhạc cuộc đời từ những đỉnh nhọn hỗn loạn về trạng thái bình yên, êm ái, tràn nhựa sống."
+      },
+      {
+       "t": 160,
+       "text": "Bác sĩ Phúc cho biết ca khúc 'Thương nhớ mùa đông' viết cách đây 11 năm, được Đài Tiếng nói Việt Nam phát ở ba khung giờ 7:30, 14:30 và 21:30, và từng được phát trên đài truyền hình trước đây; bác sĩ nhắc tới một ngày có nhiều sự kiện toàn cầu và thông điệp 'đừng để cơ thể biến thành công xưởng hóa chất độc hại'."
+      },
+      {
+       "t": 224,
+       "text": "Bác sĩ vừa là người thầy thuốc chữa lành thân thể, vừa là nhạc sĩ (hội viên Hội Nhạc sĩ Việt Nam) viết ca khúc chữa lành tâm hồn."
+      },
+      {
+       "t": 256,
+       "text": "Dự án sức khỏe toàn diện gồm sức khỏe thể chất, tâm hồn và trí tuệ. Ngoài triệu chứng bệnh, biện pháp phòng và điều trị, bác sĩ còn trao 'liều thuốc tinh thần' qua ca khúc và bài viết về nghệ thuật, xã hội."
+      },
+      {
+       "t": 286,
+       "text": "Các lĩnh vực tưởng xa vời như toán học, hóa học, vật lý, văn sử địa, xã hội học, thậm chí triết học đều cực kỳ quan trọng với sức khỏe, và chương trình sẽ đưa chúng vào để người xem có sức khỏe toàn diện tốt nhất."
+      },
+      {
+       "t": 318,
+       "text": "Ca khúc viết ở giọng La thứ nhưng dùng thủ pháp đảo phách và nốt đen có chấm dôi để thể hiện cảm xúc, nhịp tim, tình yêu và trăn trở; rất ít nhạc sĩ dùng thủ pháp này. Lý do: giống người khác thì chỉ dễ thương, còn tạo khác biệt thì dễ nhớ; nhớ nhung đòi hỏi nỗ lực hơn là sự thương mến."
+      },
+      {
+       "t": 411,
+       "text": "Nốt đen có chấm dôi tượng trưng cho những khoảng lặng, tiếng thở dài, băn khoăn day dứt phải nén vào trong rồi có lúc đưa ra để tạo sự bình ổn. Bác sĩ ví cortisol cũng giống nốt đen có chấm dôi."
+      },
+      {
+       "t": 441,
+       "text": "Cuộc sống luôn có trắc trở, khó khăn, bất ổn; cần biến chúng thành cơ hội và xử lý có nghệ thuật để tác động tốt, thay vì gây hại sức khỏe và những điều đáng tiếc."
+      },
+      {
+       "t": 472,
+       "text": "Nốt Son thăng là thách thức khi viết ca khúc: tạo sự thăng hoa vút cao nhưng chơi vơi, trông chênh, khó tồn tại, có thể rơi xuống, bay lên hoặc lơ lửng mãi. Bác sĩ kể một ca sĩ tập chưa tốt, hát đến nốt Son thăng không xuống được nên hát lặp như lỗi đĩa, ban nhạc phải chơi theo."
+      },
+      {
+       "t": 536,
+       "text": "Về nghệ thuật, nốt Son thăng bắt buộc phải giải quyết về âm chủ để ổn định, để bài hát kết thúc được, và để bình yên đến khi tâm hồn đang trông chênh."
+      },
+      {
+       "t": 567,
+       "text": "Khi giải quyết về âm chủ, bác sĩ đi bằng một con đường khác tương ứng với 'chuỗi Fourier' trong toán học, và tin rằng tương lai sẽ dùng mô hình chuỗi Fourier nhiều trong sức khỏe, tiếp nối các nội dung toán học trước đó như dãy, hàm số, tích phân, vi phân."
+      }
+     ]
+    },
+    {
+     "start": 600,
+     "end": 1198,
+     "title": "Cortisol, ca khúc cá nhân và phản hồi khán giả",
+     "points": [
+      {
+       "t": 600,
+       "text": "Bác sĩ mở đầu bằng việc nói chuỗi Fourier (Forier) và chủ đề cortisol cho thấy có thể biến điều phức tạp, khó giải quyết thành đơn giản, tìm ra lối đi mới, sự ổn định và vững chãi cho bản thân."
+      },
+      {
+       "t": 631,
+       "text": "Bác sĩ cho rằng cortisol là một trong những chìa khóa sức khỏe của cơ thể; nếu không biết đưa nó về trạng thái bình ổn (hội tụ) thì con người sẽ thất bại."
+      },
+      {
+       "t": 631,
+       "text": "Bác sĩ ví cortisol với nốt son thăng trong ca khúc giọng thứ trầm buồn của mình: đó là thử thách khó nhất khi sáng tác, và trong cơ thể cortisol cũng là một 'nốt son thăng' tương tự."
+      },
+      {
+       "t": 662,
+       "text": "Trong triết lý 'thân khỏe, tâm an, trí sáng', cortisol là hormone cực kỳ quan trọng trong hệ nội tiết; nếu không hiểu và không nắm được nó thì cuộc đời sẽ mở ra những chương u tối, không thể tươi sáng."
+      },
+      {
+       "t": 694,
+       "text": "Bác sĩ gọi cortisol là hormone của ánh sáng trong cơ thể: đôi khi gây khó khăn, phiền toái, nhưng cũng có nhiều lợi ích mà ta cần biết để phát huy và cân bằng nó."
+      },
+      {
+       "t": 724,
+       "text": "Khi cortisol tăng và ta rơi vào trạng thái căng thẳng (stress) không giải quyết được, thay vì tìm cách tiêu diệt cortisol, hãy vỗ về, an ủi, chung sống và yêu thương nó; chỉ bằng yêu thương và hiểu biết mới đưa cortisol về trạng thái bình ổn và cơ thể đạt tình trạng tốt nhất."
+      },
+      {
+       "t": 756,
+       "text": "Cortisol theo quy luật ngày và đêm: ban ngày cao để hoạt động tốt, khỏe mạnh, tươi sáng; ban đêm thấp để có đêm êm ái và đi vào giấc ngủ sâu."
+      },
+      {
+       "t": 788,
+       "text": "Bác sĩ thông báo sáng thứ bảy mùng 4 tháng 4, Đài Tiếng nói Việt Nam (VOV3, hệ âm nhạc và giải trí) phát ca khúc của ông theo yêu cầu thính giả; ca khúc được phát các khung 7:30, 9:00, 14:30 và 21:30."
+      },
+      {
+       "t": 820,
+       "text": "Bác sĩ mời nghe ca khúc 'Thương nhớ mùa đông' lúc 21:30, khi cortisol đã xuống mức thấp nhất để đi vào giấc ngủ bình yên."
+      },
+      {
+       "t": 852,
+       "text": "Bác sĩ đọc lời ca khúc ('em thèm đến cuồng điên, một nụ hôn trên bờ môi ngập nắng...') mô tả người phụ nữ cuộn mình ôm nỗi nhớ trong chiều đông buốt giá, mà ông xem là tình yêu vĩnh cửu, khao khát chia sẻ và đong đầy."
+      },
+      {
+       "t": 913,
+       "text": "Biên tập viên Khánh Lành cho biết chương trình hôm nay sẽ rút ngắn thời lượng để khán giả kịp ăn trưa và ngủ trưa ngon."
+      },
+      {
+       "t": 949,
+       "text": "Biên tập viên đọc phản hồi của khán giả nữ biệt danh TN: chị khen chị Lành làm thơ ý nghĩa, kể chồng tặng bài thơ con cóc nhắc chị nghe bác sĩ thường xuyên để làm bác sĩ riêng cho chồng con, tặng 20 trái tim và cho rằng khi thực sự trăn trở về sức khỏe gia đình, vũ trụ sẽ cho mình gặp đúng người và nghe đúng điều cần nghe."
+      },
+      {
+       "t": 1041,
+       "text": "Bác sĩ phản hồi: tần số của chị thanh sạch, ấm áp; sự hiện diện của chị là cộng hưởng (theo khoa học) và giao thoa của những linh hồn cùng lý tưởng (theo triết học); khi tâm đủ tĩnh để trăn trở, vũ trụ mở ra cánh cửa tri thức."
+      },
+      {
+       "t": 1103,
+       "text": "Bác sĩ cho rằng bài thơ con cóc tuyệt vời vì trong y học, liều thuốc quý nhất nằm ở sự thấu hiểu và chăm sóc của người bạn đời; người phụ nữ biết quản trị sức khỏe cho chồng con bằng trí tuệ và tận tâm là vị thuốc bình an nhất cho mái ấm."
+      },
+      {
+       "t": 1134,
+       "text": "Bác sĩ nói kiến thức y khoa khô khan được Khánh Lành thổi chất thơ, giúp những con số, vi chất trở nên mềm mại, dễ đi vào lòng người."
+      },
+      {
+       "t": 1166,
+       "text": "Khánh Lành chúc chị TN và gia đình thân khỏe, tâm an, trí sáng, rồi cho biết bác sĩ giao đề bài khó: đặt mình vào vị trí và cảm xúc của chị để viết tặng chồng chị một bài thơ."
+      }
+     ]
+    },
+    {
+     "start": 1201,
+     "end": 1799,
+     "title": "Cortisol và adrenaline như cặp vợ chồng; thơ tặng chồng",
+     "points": [
+      {
+       "t": 1201,
+       "text": "Khánh Lành nói bài thơ của mình được chắt chiu nhiều ngày đêm, vừa tạo áp lực vừa là cảm hứng vì tình cảm gia đình quá lớn; bài thơ là 'bài tập về nhà' đứng ở vị trí khán giả TN để làm thơ tặng chồng chị."
+      },
+      {
+       "t": 1233,
+       "text": "Lời nhắn thay chị TN gửi chồng: cảm ơn anh đã tặng bài thơ ý nghĩa nhất dịp 8/3; chị tìm tri thức quý để tự hoàn thiện mỗi ngày, và nhận ra liều thuốc tốt nhất cho tổ ấm không chỉ nằm ở vi chất mà ở sự tin cậy, thấu hiểu; anh đã tin tưởng đặt chị làm 'bác sĩ riêng' của đời anh, hai vợ chồng cùng khỏe mạnh đi qua nhiều mùa xuân."
+      },
+      {
+       "t": 1264,
+       "text": "Bài thơ vần 'con cóc' nói về vợ làm thuốc quý, chồng nhắn nhủ sắt son, luyện thân tâm trí sáng, quản trị ưu phiền, bàn tay vợ xua hờn oán, đêm đêm thuyết pháp yêu thương để yên vui."
+      },
+      {
+       "t": 1328,
+       "text": "Bác sĩ Phúc cảm ơn Khánh Lành đã mạnh dạn làm thơ (đây là bài thứ hai), cho rằng Khánh Lành đã bước vào 'ngôi đền' văn học nghệ thuật; ông thừa nhận bài đầu đúng là 'con cóc' và nhiều lời khen chỉ mang tính động viên."
+      },
+      {
+       "t": 1362,
+       "text": "Quan điểm của bác sĩ: thơ hay không nằm ở câu chữ sắc sảo mà ở việc toát ra từ trái tim, tâm hồn và cảm xúc chân thật; khi làm thơ ông luôn tôn trọng cảm xúc và nhịp đập của mình."
+      },
+      {
+       "t": 1422,
+       "text": "Ông nhận xét bài thơ nghe như Khánh Lành đọc tặng chồng ở nhà hoặc tặng ông, và đề bài giao (đứng vị trí chị TN, dựa trên bình luận và món quà chị gửi cả ekip) thực sự khó."
+      },
+      {
+       "t": 1455,
+       "text": "Lý do chọn đề bài: chủ đề hôm nay là cortisol, hormone có một 'cặp' là adrenaline, được ví như cặp vợ chồng."
+      },
+      {
+       "t": 1487,
+       "text": "Adrenaline là 'anh chồng', được tiết ra ở tủy tuyến thượng thận; tuyến thượng thận nằm trên hai quả thận, nhỏ như chiếc mũ phủ lên mỗi quả thận. Ông khuyên khán giả tra Google hình ảnh tuyến thượng thận để hình dung."
+      },
+      {
+       "t": 1550,
+       "text": "Hormone thứ hai là cortisol, cũng tiết ra từ tuyến thượng thận nhưng ở vỏ tuyến thượng thận; hai hormone này tạo thành cặp vợ chồng."
+      },
+      {
+       "t": 1550,
+       "text": "Vợ chồng chị TN tâm đầu ý hợp, cùng quản gia đình và cùng hội tụ về kênh sau khi xem kênh, chung mục tiêu quản trị sức khỏe để đạt thân khỏe, tâm an, trí sáng."
+      },
+      {
+       "t": 1580,
+       "text": "Bác sĩ xúc động, coi những bình luận và quà như vậy là phần thưởng vô giá và động lực cho dự án 10 năm của ekip, với mục tiêu cuối cùng là sức khỏe toàn diện: thân khỏe, tâm an, trí sáng."
+      },
+      {
+       "t": 1644,
+       "text": "Người chồng viết thơ mong vợ trở thành bác sĩ của gia đình để chăm sóc chồng con, cả nhà khỏe mạnh, hạnh phúc viên mãn."
+      },
+      {
+       "t": 1674,
+       "text": "Triết lý cuộc đời: liều thuốc quý nhất chữa bệnh thân thể không phải thuốc ở hiệu thuốc mà là tình cảm vợ chồng dành cho nhau, xoa dịu nỗi đau thể xác lẫn tâm hồn."
+      },
+      {
+       "t": 1674,
+       "text": "Viên vi chất quý nhất không phải 7 vi chất cơ bản đã truyền đạt hơn 2 năm qua mà là vi chất về tâm hồn, trí tuệ, cảm xúc giữa con người; không thứ gì mua ngoài thị trường quý bằng điều vun đắp bằng trái tim, tình cảm, hơi ấm hạnh phúc."
+      },
+      {
+       "t": 1737,
+       "text": "Từ đó bác sĩ liên tưởng tới hai hormone như cặp vợ chồng: adrenaline và cortisol."
+      },
+      {
+       "t": 1737,
+       "text": "Ông dẫn về lịch sử loài người: khi chuyển từ cây xuống mặt đất, con người phải đối mặt nhiều bất trắc, trong đó có thú dữ, đáng sợ nhất là con hổ trong rừng."
+      },
+      {
+       "t": 1768,
+       "text": "Các cụ dạy đi rừng thấy hai đốm sáng trong đêm phải cẩn thận vì đó là 'ông 30' (hổ); đối diện hổ đòi hỏi phản xạ rất nhanh và xử trí tốt, một lựa chọn là bỏ chạy và phải có phương án chạy."
+      }
+     ]
+    },
+    {
+     "start": 1801,
+     "end": 2399,
+     "title": "Adrenalin và cortisol: cặp hormone vợ chồng khi gặp nguy hiểm",
+     "points": [
+      {
+       "t": 1801,
+       "text": "Khi gặp hổ, cần hai điều: trèo thật nhanh lên cây cao mà hổ không trèo được, và thật bình tĩnh (ngồi xuống, quan sát hổ bằng thái độ bình thản, không sợ hãi, không khiêu khích). Đây là kinh nghiệm cha ông truyền lại để vượt qua hiểm nguy, nếu không sẽ thất bại và bị diệt vong."
+      },
+      {
+       "t": 1834,
+       "text": "Trong tình huống này cơ thể có hai hormone đóng vai trò như cặp vợ chồng điều tiết: adrenalin (người chồng) và cortisol (người vợ)."
+      },
+      {
+       "t": 1866,
+       "text": "Trong 2-3 giây đầu, vùng hạ đồi tạo tín hiệu CRH, chuyển xuống tuyến yên; tuyến yên là trạm trung chuyển, tiết ACTH chạy thẳng xuống tuyến thượng thận để báo cơ thể đang gặp nguy hiểm."
+      },
+      {
+       "t": 1897,
+       "text": "Tuyến thượng thận (nằm phía trên quả thận) nhận ACTH như một lá thư hỏa tốc, lập tức tiết adrenalin trong vòng vài giây, tràn ngập cơ thể."
+      },
+      {
+       "t": 1928,
+       "text": "Adrenalin đưa cơ thể vào trạng thái nguy hiểm và đặt bài toán chiến đấu hay chạy trốn; để thực hiện, các cơ quan não bộ và phản xạ phải nhanh nhất."
+      },
+      {
+       "t": 1959,
+       "text": "Adrenalin bắt tim hoạt động công suất tối đa (nhịp tim tăng tối đa) để đẩy máu và dưỡng chất lên não mạnh nhất, giúp não chỉ huy chiến đấu hay bỏ chạy."
+      },
+      {
+       "t": 1990,
+       "text": "Huyết áp phải tăng lên để máu được đẩy đi nhanh nhất lên não."
+      },
+      {
+       "t": 2010,
+       "text": "Máu mang oxy, nên phế quản giãn ra để tiếp thu nhiều oxy, và chúng ta thở nhanh, sâu hơn để đưa nhiều oxy lên não, giúp não đủ tỉnh táo quyết định. Tóm lại adrenalin làm: tăng nhịp tim, tăng huyết áp, giãn phế quản và tăng thở."
+      },
+      {
+       "t": 2053,
+       "text": "Adrenalin tiết ra trong những giây đầu, đóng vai trò người chồng quyết định phải làm gì (sống hay chết, tồn tại hay không)."
+      },
+      {
+       "t": 2084,
+       "text": "Đồng thời, người vợ cortisol là hậu phương phía sau cùng người chồng giải quyết vấn đề; trục hạ đồi - tuyến yên - tuyến thượng thận cũng tạo ra một tín hiệu khẩn cấp, hỏa tốc nhất trong cơ thể, báo cơ thể rơi vào trạng thái nguy hiểm."
+      },
+      {
+       "t": 2147,
+       "text": "Khi adrenalin đã quyết định chiến đấu hay bỏ chạy, nhiệm vụ của cortisol là canh gác sự bình an, làm hậu phương vững chắc, cung cấp mọi thứ cơ thể cần để giải quyết tình huống."
+      },
+      {
+       "t": 2179,
+       "text": "Cortisol hỗ trợ quyết định của adrenalin: giúp cơ thể bình tĩnh, bình an trở lại, quyết định việc cần làm và không cần làm, cơ quan nào cần làm việc, cơ quan nào cần nghỉ ngơi, cơ quan nào cần trở về trạng thái bình thường."
+      },
+      {
+       "t": 2210,
+       "text": "Adrenalin và cortisol là cặp hormone sinh tồn, giúp tổ tiên tồn tại và phát triển đến nay, hội tụ để tạo ra hướng giải quyết tốt nhất ở ranh giới sống - chết."
+      },
+      {
+       "t": 2241,
+       "text": "Do hiểu biết sai sót trong quá trình sống, cô vợ cortisol bị bỏ bê, định hướng sai, khiến cuộc đấu tranh sinh tồn biến thành sự căng thẳng thường trực; cơ thể trở thành công xưởng hóa chất (như số trước), cortisol rơi vào trạng thái rất căng thẳng, gây stress và sang chấn tâm lý, đẩy ta vào trạng thái tiêu cực."
+      },
+      {
+       "t": 2318,
+       "text": "Cortisol rối loạn ảnh hưởng trí não: suy nghĩ không sáng suốt, hiểu biết ì trệ (hỏng về tâm và trí)."
+      },
+      {
+       "t": 2335,
+       "text": "Cortisol còn gây tiêu hủy cơ, tích mỡ, làm biến dạng thân thể; tức tổn thương cả thân, tâm và trí."
+      },
+      {
+       "t": 2339,
+       "text": "Hỏng về thân: teo cơ, tiêu cơ, tích mỡ ở nơi không cần thiết, cơ thể biến dạng kém đẹp. Hỏng về tâm: cuộc sống bị xáo trộn, không bình lặng, ảnh hưởng tâm tư tình cảm. Hỏng về trí: không suy nghĩ thông suốt, không học hỏi được, luôn nghĩ tiêu cực."
+      },
+      {
+       "t": 2366,
+       "text": "Vì vậy rất cần vai trò người chồng động viên người vợ và ngược lại, như vợ chồng anh chị TN động viên nhau bằng những bài thơ \"con cóc\" ngày 8/3."
+      }
+     ]
+    },
+    {
+     "start": 2401,
+     "end": 2997,
+     "title": "Phương trình cảm xúc mở rộng và quản trị sức khỏe bằng mô hình toán",
+     "points": [
+      {
+       "t": 2401,
+       "text": "Bác sĩ nhấn mạnh gia đình nên là điểm hội tụ của sức khỏe toàn diện; mong người vợ trở thành bác sĩ của gia đình, và đây là sự tương tác giữa các bên."
+      },
+      {
+       "t": 2432,
+       "text": "Bác sĩ là bác sĩ chẩn đoán hình ảnh (X-quang, CT, cộng hưởng từ, siêu âm). Các hình ảnh vốn là những lát cắt rời rạc, nhưng khi kết nối lại thành chuỗi liên tục thì tìm ra bệnh và phương án chẩn đoán, điều trị hiệu quả. Ông ví đó như những 'lát cắt cuộc đời'."
+      },
+      {
+       "t": 2464,
+       "text": "Cách kết nối này không phải triết lý suông mà tương ứng với khái niệm chuỗi Fourier trong toán học, áp dụng cho cả gia đình lẫn quản lý sức khỏe."
+      },
+      {
+       "t": 2496,
+       "text": "Nhắc lại phương trình cảm xúc buổi trước: f(t) = sin t + cos t, gồm hai hàm lên xuống tương đối đều đặn. Khi một biến đi lên, biến kia đi xuống nên phải tìm cách cân bằng để hiệu quả nhất."
+      },
+      {
+       "t": 2527,
+       "text": "Hàm đạt giá trị cực đại khi t = π/4; lúc đó sin t và cos t giao hòa, cơ thể ở trạng thái cân bằng tốt nhất (điểm rơi)."
+      },
+      {
+       "t": 2561,
+       "text": "Mở rộng phương trình bằng hai hệ số: f(t) = an·sin t + bn·cos t. Hai hệ số thể hiện hai dòng cảm xúc, ví dụ sin t là tình yêu dành cho chồng, cos t là tình yêu dành cho con."
+      },
+      {
+       "t": 2593,
+       "text": "Cảm xúc tự nhiên lúc lên lúc xuống; muốn nó thành đường đi lên, đi xuống hay nằm ngang thì phải điều chỉnh hệ số an, tương tự với bn."
+      },
+      {
+       "t": 2626,
+       "text": "Từ khi kênh phát sóng (16/5/2024), bác sĩ nói chỉ cần bổ sung đúng và đủ bảy vi chất, kết hợp điều chỉnh ăn uống, sinh hoạt, làm việc khoa học thì hầu hết sống tới 100 tuổi khỏe mạnh, không bệnh tật; số bệnh nhân bệnh viện sẽ giảm mạnh, giảm tắc nghẽn bệnh viện."
+      },
+      {
+       "t": 2678,
+       "text": "Sau 2 năm phát sóng, nước Mỹ đã 'lật ngược tháp dinh dưỡng' và nhiều quốc gia làm điều tương tự; kênh cũng học hỏi và giao thoa kiến thức với thế giới."
+      },
+      {
+       "t": 2690,
+       "text": "Mục tiêu của kênh là hướng tới tuổi thọ 175 tuổi với thân khỏe, tâm an, trí sáng; có thể nghe viển vông nhưng thế giới đang bắt đầu chú ý đến ngưỡng tuổi rất cao."
+      },
+      {
+       "t": 2722,
+       "text": "Ví dụ: ngày 9/5/2025 (theo phụ đề 'mùng... tháng năm 2025') Chủ tịch Trung Quốc nói con người 70 tuổi được coi là trẻ con và có cơ sở khoa học để sống 150 tuổi; gần đây tổng thống Mỹ nói bác sĩ cho biết nếu ăn uống lành mạnh và thay đổi một số thói quen có thể sống tới 200 tuổi. Vì vậy đây không còn là giấc mơ mà là lộ trình đang thực hiện."
+      },
+      {
+       "t": 2786,
+       "text": "Phương trình mới f(t) = an·sin t + bn·cos t: so với buổi trước (chỉ có sin, cos) nay thêm hệ số, kiến thức được nâng dần và phức tạp dần."
+      },
+      {
+       "t": 2819,
+       "text": "Muốn sống tới 175 tuổi thì bảy vi chất là không đủ; phải thay đổi nhiều hơn, ví dụ não cần đủ khoảng 20 chất như melatonin, GABA, glutamat, serotonin, dopamin; nhân với các bộ phận cơ thể thì sẽ lên tới hàng trăm chất, không thể uống 'một rổ vi chất' mỗi ngày."
+      },
+      {
+       "t": 2851,
+       "text": "Giải pháp dựa trên nguyên lý phân loại: nguyên tố đa lượng (ví dụ canxi, magie) ra vào cơ thể nhiều nên phải bổ sung hàng ngày."
+      },
+      {
+       "t": 2882,
+       "text": "Nguyên tố vi lượng (kẽm, sắt, đồng, và nói nôm na cả vitamin D) ra vào cơ thể rất ít và tích lũy nhiều nên không cần uống hàng ngày mà uống theo từng đợt."
+      },
+      {
+       "t": 2914,
+       "text": "Việc quyết định ngày nào uống kẽm, sắt, đồng, canxi, magie... vượt quá khả năng tính tay; cần mô hình toán học chạy trên máy tính để xác định thời điểm bổ sung phù hợp nhất giúp cơ thể đạt trạng thái tốt nhất."
+      },
+      {
+       "t": 2945,
+       "text": "Ngoài bổ sung chất, còn phải quản trị tâm tư, tình cảm, cuộc sống, lối sống bằng lý tính thay vì cảm tính, tính toán bằng phương trình."
+      },
+      {
+       "t": 2970,
+       "text": "Ví dụ: với phương trình cảm xúc của vợ, khi hệ số an (tình cảm với chồng) tăng và hàm cos t (với con) đang đi lên, để không rơi vào trạng thái vì con mà bỏ chồng thì hệ số bn phải được giảm xuống cho hài hòa; máy tính phải tính, nên cần lập hàm số và tiến tới mô hình toán học."
+      },
+      {
+       "t": 2977,
+       "text": "Bác sĩ nêu rằng không thể đổ toàn bộ công việc này lên cơ quan y tế hay bác sĩ (ý được bắt đầu giải thích ở cuối đoạn)."
+      }
+     ]
+    },
+    {
+     "start": 3000,
+     "end": 3599,
+     "title": "Chuỗi Fourier và ứng dụng mô hình hóa cortisol, sức khỏe",
+     "points": [
+      {
+       "t": 3000,
+       "text": "Để quản trị sức khỏe bằng toán học, các hàm số và phương trình phải dựa trên chỉ số sinh học, tâm tư tình cảm, đặc điểm, công việc, thói quen và lối sống của từng cá nhân; từ đó mới tạo được dữ liệu và xây dựng các mô hình lớn để tính toán."
+      },
+      {
+       "t": 3030,
+       "text": "Cần dùng nhiều hàm đã biết và tiếp tục khám phá hàm mới; hôm nay bác sĩ giới thiệu hàm/chuỗi Fourier, mà nhiều người biết trong toán học nhưng ít người biết ứng dụng."
+      },
+      {
+       "t": 3066,
+       "text": "Chuỗi Fourier viết là f(t) = a0/2 + tổng sigma (n chạy từ 0 đến vô cùng) của [an·cos(2πnt/T) + bn·sin(2πnt/T)]."
+      },
+      {
+       "t": 3097,
+       "text": "a0 là trạng thái cơ bản nhất: nếu hàm mô tả nhiệt độ cơ thể thì a0 là 37°C; nếu mô tả hạnh phúc thì a0 là trạng thái bằng lòng, yên ổn với cuộc sống được duy trì từ trước đến nay."
+      },
+      {
+       "t": 3127,
+       "text": "Phần sau (các số hạng cos, sin) là phần biến thiên: với nhiệt độ là lúc sốt hoặc hạ thân nhiệt, nóng hoặc lạnh; với cảm xúc là lúc tức giận, buồn chán, vui vẻ, hạnh phúc, phát điên hay đau khổ."
+      },
+      {
+       "t": 3159,
+       "text": "Chuỗi Fourier rất phù hợp để mô hình hóa các hormone như cortisol và melatonin."
+      },
+      {
+       "t": 3190,
+       "text": "Chuỗi Fourier biến cái rời rạc, vụn vặt thành liên tục, tập trung, hội tụ; đường biểu diễn nội tiết tố như cortisol vốn thay đổi lung tung có thể được biểu diễn thành đường liên tục, mềm mại, tương tự chuỗi Taylor đã học hôm trước."
+      },
+      {
+       "t": 3233,
+       "text": "Muốn tính a0 thì coi phần hỗn loạn bằng 0, khi đó f(t) = a0/2 nên a0 = 2f; nhưng cách này không tính được thực tế nên phải đo đạc cụ thể."
+      },
+      {
+       "t": 3254,
+       "text": "Ví dụ đo cortisol buổi sáng, cứ 30 phút hoặc 1 giờ đo một lần, kéo dài đến hết ngày hôm sau hoặc đến chiều tối, rồi cộng tất cả lại; phép cộng này là tích phân trên một chu kỳ T."
+      },
+      {
+       "t": 3285,
+       "text": "Công thức: a0 = (2/T) · tích phân từ 0 đến T của f(t)dt."
+      },
+      {
+       "t": 3315,
+       "text": "Các hệ số an và bn điều khiển sự lên xuống theo hàm cos và sin; nếu chịu nhiều yếu tố tiêu cực thì đường sẽ thành đỉnh nhọn, còn nếu hài hòa thì là đường lên xuống rất mềm mại."
+      },
+      {
+       "t": 3346,
+       "text": "Muốn giữ đường ổn định, mềm mại như mong muốn thì phải tác động vào an và bn."
+      },
+      {
+       "t": 3377,
+       "text": "an = (2/T) · tích phân từ 0 đến T của f(t)·cos(2πnt/T)dt."
+      },
+      {
+       "t": 3408,
+       "text": "bn = (2/T) · tích phân từ 0 đến T của f(t)·sin(2πnt/T)dt."
+      },
+      {
+       "t": 3430,
+       "text": "Tính được a0, an, bn thì có hàm f(t); từ đó lập mô hình toán học để quản trị cuộc sống và sức khỏe."
+      },
+      {
+       "t": 3440,
+       "text": "Mục đích nói cả toán học, văn học, nghệ thuật, xã hội học là để hiểu sâu cơ thể; viên thuốc quý nhất là viên thuốc nhận thức."
+      },
+      {
+       "t": 3472,
+       "text": "Hướng tới xã hội mà mỗi người lập mô hình toán học riêng chạy trên máy tính để quản trị sức khỏe, điều chỉnh cơ thể tốt hơn; muốn vậy cần có kiến thức toán học."
+      },
+      {
+       "t": 3533,
+       "text": "Bác sĩ là bác sĩ chẩn đoán hình ảnh (siêu âm, CT, cộng hưởng từ, X-quang): các lát cắt rời rạc nhờ chuỗi Taylor, chuỗi Fourier mà tạo thành hình liên tục, hội tụ, giúp chẩn đoán bệnh để điều chỉnh kịp thời."
+      },
+      {
+       "t": 3564,
+       "text": "Bác sĩ đọc hầu hết bình luận của khán giả, thả tim và like, trả lời nghiêm túc; câu trả lời cho bình luận của chị TN đã được gửi cho Khánh Lành đọc."
+      }
+     ]
+    },
+    {
+     "start": 3601,
+     "end": 4199,
+     "title": "Cảm nhận khán giả, vitamin D và lan tỏa kiến thức vi chất",
+     "points": [
+      {
+       "t": 1,
+       "text": "Bác sĩ đánh giá cao nỗ lực làm thơ của Khánh Lành và tin rằng sẽ có nhiều khán giả viết thơ tặng ông; ông cho rằng dần dần mọi người sẽ trở thành nhà thơ, nhạc sĩ, nhà toán học, vật lý, hóa học cho chính bản thân mình."
+      },
+      {
+       "t": 33,
+       "text": "Ví dụ: tuần trước một bạn vừa tốt nghiệp chuyên khoa hóa cùng bác sĩ giải một bài toán hóa tại chỗ và chịu thua; bác sĩ giải thích lý do là xét nghiệm vitamin D của bạn chỉ đạt 13 (đơn vị quá thấp), nên khả năng tiếp thu bị hạn chế."
+      },
+      {
+       "t": 65,
+       "text": "Bác sĩ nói khi bạn bổ sung vitamin D lên sát mức 70 thì với tuổi trẻ, bạn sẽ vượt xa ông về kiến thức."
+      },
+      {
+       "t": 78,
+       "text": "Bác sĩ kể bản thân vốn không thông minh, cơ thể không khỏe, gia đình nông dân ít học, nhưng nhờ bổ sung vi chất tốt mà có thể chia sẻ kiến thức hôm nay; vì vậy ông tin mọi người bổ sung đầy đủ vi chất sẽ giỏi hơn ông rất nhiều, và ước mơ của ông là nghỉ nghề bác sĩ để đi làm ôsin cho các gia đình, trước tiên là gia đình Khánh Lành."
+      },
+      {
+       "t": 127,
+       "text": "Khánh Lành chuyển sang đọc bốn bình luận cảm xúc của khán giả gửi về kênh, mở đầu bằng nhận định cuộc sống có sự đồng điệu của những linh hồn, và hạnh phúc nằm trong những điều nhỏ bé hằng ngày."
+      },
+      {
+       "t": 159,
+       "text": "Chị Hường Phan kể ở chợ nhỏ, các cô bán thịt, đậu phụ, rau, tạp hóa ngồi sát vai cùng xem số phát sóng của bác sĩ Phúc; cô Hải theo dõi kênh từ tháng 7/2025, cùng con trai khỏi ù tai, đau khớp gối và viêm da cơ địa, và đọc vanh vách các chỉ số IgA, IgG."
+      },
+      {
+       "t": 233,
+       "text": "Chị Hường Phan cũng áp dụng lộ trình vi chất 9 tháng, đạt trạng thái thân khỏe, tâm an, trí sáng khá ổn định, và hy vọng kiến thức lan tỏa đến người dân mọi miền."
+      },
+      {
+       "t": 265,
+       "text": "Khán giả Thúy Hoài, người đại diện gia đình học kiến thức sức khỏe rồi hướng dẫn lại ba mẹ và chị em, cảm nhận sự thay đổi tích cực về thân, tâm, trí mỗi ngày dù còn trăn trở với kiến thức toán, lý, hóa; bạn cảm ơn bài thơ của Khánh Lành và mong tự viết được thơ từ hiểu biết của mình."
+      },
+      {
+       "t": 349,
+       "text": "Một khán giả sau 10 tháng bổ sung vi chất theo hướng dẫn: siêu âm tuyến giáp cho thấy các dấu hiệu vôi hóa gần như biến mất, trong khi 6 tháng trước bị cảnh báo có thể phải mổ và có nguy cơ ung thư; bác sĩ siêu âm và bác sĩ gia đình đều ngạc nhiên."
+      },
+      {
+       "t": 411,
+       "text": "Khán giả Đinh Lan cùng hai con gái dùng bộ bảy vi chất một năm: chồng thoát nguy cơ mổ thoát vị đĩa đệm lưng, hết đau nhức, thon gọn, cơ bắp khỏe; bản thân từng có nguy cơ mổ cột sống, bệnh xương khớp hồi phục đến 80%, chứng mất ngủ kinh niên cải thiện đáng kể."
+      },
+      {
+       "t": 462,
+       "text": "Đinh Lan nghe giải thích về cơ chế co giãn của canxi và magiê đối với mạch máu trong số về huyết áp, và đề nghị bác sĩ làm số chuyên sâu về suy giãn tĩnh mạch chi dưới, bệnh mà phụ nữ trung niên gần như ai cũng gặp, gây khó khăn khi đi lại."
+      },
+      {
+       "t": 537,
+       "text": "Bác sĩ Phúc nói rất xúc động, vui vì việc làm của ông lan tỏa tới số đông, đặc biệt các tầng lớp dân thường dễ bị bỏ quên như ôsin giúp việc, nông dân, công nhân, xe ôm, người bán hàng rong vỉa hè."
+      },
+      {
+       "t": 567,
+       "text": "Bác sĩ kể một cô bán hàng rong tặng ông ít bánh và muốn đăng ký khám để được tư vấn vi chất, mong có cuộc sống tốt hơn."
+      }
+     ]
+    },
+    {
+     "start": 4201,
+     "end": 4798,
+     "title": "Chuỗi Fox, cộng đồng và bảy nhóm vi chất cơ bản",
+     "points": [
+      {
+       "t": 1010,
+       "text": "Bác sĩ coi chuỗi Fox (chuỗi video của kênh) như bản giao hưởng của cuộc sống, của niềm vui và hạnh phúc; mỗi người kiên trì đi từng bước thì sẽ đến đích."
+      },
+      {
+       "t": 1031,
+       "text": "Xã hội có nhiều số phận, dòng chảy và tư duy khác nhau; bác sĩ cho rằng cần nắm tay nhau, cùng làm để tạo sức mạnh dân tộc và đưa con người Việt Nam vươn ra thế giới, và chuỗi Fox chính là chuỗi tạo nên sức mạnh đó."
+      },
+      {
+       "t": 1093,
+       "text": "Bác sĩ kể các bình luận cho thấy ở chợ, người bán thịt, bán đậu, bán rau, bán tạp hóa đã bàn luận vanh vách các chỉ số và kiến thức y khoa hàn lâm, điều mà ngay cả người học y nhiều năm cũng thấy khó hiểu; đó là sự hội tụ của chuỗi Fox ở chợ."
+      },
+      {
+       "t": 1186,
+       "text": "Bác sĩ nói cả nhóm làm chương trình không vì tiền, không lấy tiền, vì có những giá trị tiền bạc không đong đếm được, cao hơn nhiều và tồn tại mãi mãi."
+      },
+      {
+       "t": 1218,
+       "text": "Trước đây người ta nghĩ kiến thức y khoa nằm trong tháp ngà dành cho trí thức, bác sĩ; nay nó đã lan tỏa đến hàng đậu, hàng rau, hàng thịt, và bác sĩ cho rằng giá trị này vô cùng quan trọng."
+      },
+      {
+       "t": 1449,
+       "text": "Trả lời chị Thúy Hoài (đã quản trị sức khỏe tốt nhờ bổ sung bảy vi chất, hỏi bắt đầu từ đâu để ứng dụng toán lý hóa vào quản trị sức khỏe): chỉ cần biết đặt câu hỏi thì sẽ có ngày làm được."
+      },
+      {
+       "t": 1480,
+       "text": "Bác sĩ mơ ước một ngày bác giúp việc cũng giải được phương trình vi phân, bác nông dân giải được hàm số, đạo hàm, tích phân, vì nhiều năm chúng ta tự mặc định rằng mình không thể tiếp cận kiến thức đó."
+      },
+      {
+       "t": 1510,
+       "text": "Bác sĩ nói xuất phát điểm của mình thấp hơn mọi người về trí tuệ và thể chất; nếu tự mặc định mình ngu dốt thì đã không có bác sĩ Phúc hôm nay. Nhờ nỗ lực cá nhân và luôn đặt câu hỏi làm thế nào để tiến lên, ông leo lên được như đi trên đường núi một bên vách đá một bên vực thẳm, chỉ có một hướng là đi lên."
+      },
+      {
+       "t": 1571,
+       "text": "Bác sĩ nhắc chị TN đã thổi hồn vào người chồng, người chưa từng làm thơ nhưng đã làm thơ tặng vợ ngày mùng 8 tháng 3; kênh kết nối tâm hồn và trí tuệ mọi người, trước đây qua chuỗi Tay lo, hôm nay qua chuỗi Fox."
+      },
+      {
+       "t": 1635,
+       "text": "Ba vi chất đầu: magiê (đặt lên đầu, ví như người vợ), canxi và vitamin D3; D3 và canxi tác động qua lại nhau, tạo thành bộ ba tam giác vàng. Một số người chưa đủ kiến thức bảy vi chất đã tạm bổ sung bộ ba này."
+      },
+      {
+       "t": 1636,
+       "text": "Bước đầu tiên để hội tụ kiến thức là xây những viên gạch cơ bản nhất: bổ sung bảy nhóm vi chất do bác sĩ và Khánh Lành xây dựng."
+      },
+      {
+       "t": 1698,
+       "text": "Vi chất thứ tư là vitamin tổng hợp, vì có rất nhiều vitamin không thể bổ sung riêng lẻ từng cái; số trước đã làm về vitamin B1, sau sẽ lần lượt làm B2, B3, B6, B12, axit folic (B9)... để có kiến thức đầy đủ. Trước mắt hãy uống viên vitamin tổng hợp."
+      },
+      {
+       "t": 1728,
+       "text": "Vi chất thứ năm là vitamin C, tách riêng khỏi vitamin tổng hợp vì cực kỳ quan trọng với cơ thể."
+      },
+      {
+       "t": 1745,
+       "text": "Vi chất thứ sáu là kẽm; dù xếp sau nhưng không thua canxi và magiê, chỉ là nguyên tố vi lượng nên lượng ra vào cơ thể ít, dễ bị bỏ quên."
+      },
+      {
+       "t": 1758,
+       "text": "Bổ sung kẽm đủ thì cơ thể khác hẳn: trí tuệ thông minh hơn, da dẻ sáng lên, hết viêm nhiễm, cơ thể tốt đẹp hơn."
+      },
+      {
+       "t": 1790,
+       "text": "Vi chất thứ bảy là omega 3; bác sĩ nhắc mọi người cố gắng nhớ bổ sung đủ bảy vi chất cơ bản này."
+      }
+     ]
+    },
+    {
+     "start": 4801,
+     "end": 5399,
+     "title": "7 vi chất cơ bản, lối sống toàn diện và mở đầu về cortisol",
+     "points": [
+      {
+       "t": 1201,
+       "text": "Nếu bổ sung vi chất đầy đủ, đúng và khoa học thì sức khỏe sẽ cực kỳ tốt; bác sĩ tin rằng chỉ trong khoảng 2-5 năm nữa các vi chất này sẽ đi vào từng ngóc ngách đời sống con người."
+      },
+      {
+       "t": 1201,
+       "text": "Bước thứ hai là quản trị cơ thể ở mức cao hơn: bổ sung thêm các vi chất/chất cần thiết khác để nâng trạng thái thể chất, tinh thần và trí tuệ lên một tầm cao hẳn."
+      },
+      {
+       "t": 1233,
+       "text": "Bác sĩ vui vì ngày càng nhiều học sinh, sinh viên từng ngủ gật, mệt mỏi, chán học, tiếp thu kém, thấy cuộc sống tối tăm, nay sau khi bổ sung vi chất và đổi lối sống thì yêu đời, hạnh phúc, học tập đạt kết quả tốt; vì vậy ông đánh giá rất cao bảy vi chất cơ bản."
+      },
+      {
+       "t": 1263,
+       "text": "Ngoài bảy vi chất cơ bản, cần thay đổi chế độ ăn uống, lối sống và cách sống theo hướng toàn diện: biết chơi nhạc cụ, làm thơ, viết văn, hiểu phương trình toán học, có kiến thức vật lý, toán học."
+      },
+      {
+       "t": 1294,
+       "text": "Hơn bao giờ hết cần hiểu cơ thể mình qua kiến thức y học, sức khỏe; kiến thức y khoa chưa bao giờ dễ nhưng đội ngũ sẽ tìm cách diễn giải đơn giản, dễ hiểu nhất."
+      },
+      {
+       "t": 1325,
+       "text": "Sau hơn 2 năm làm việc cùng bác sĩ, nội dung và chất lượng dẫn chương trình của Khánh Lành đã khác hẳn; Khánh Lành bắt đầu làm thơ và có thể sẽ viết nhạc, thể hiện việc phấn đấu để không chỉ thân khỏe mà còn đẹp, tâm an, trí sáng."
+      },
+      {
+       "t": 1358,
+       "text": "Chủ đề chính hôm nay là cortisol; chuỗi Fourier và bảy vi chất cơ bản rất quan trọng để ổn định cortisol, tránh bị xáo trộn và tác động tiêu cực lên cơ thể."
+      },
+      {
+       "t": 1358,
+       "text": "Bác sĩ cảm ơn bình luận của khán giả, hứa sẽ tăng cường trả lời bình luận về lối sống, còn các vấn đề chuyên môn sẽ đưa vào các số phát sóng sau để phân tích sâu hơn, nhằm tạo một hệ sinh thái cộng đồng (người bán thịt, bán đậu, bán rau, bán tạp hóa...) có hiểu biết sâu sắc về sức khỏe."
+      },
+      {
+       "t": 1451,
+       "text": "Theo website một bệnh viện lớn, cortisol là hormone steroid do tuyến thượng thận sản xuất, được biết nhiều nhất là hormone chống stress, giúp điều hòa huyết áp, đường huyết và giảm viêm."
+      },
+      {
+       "t": 1484,
+       "text": "Theo một tờ báo lớn, cortisol như hệ thống báo động tự nhiên của cơ thể, là chất xúc tác cho phản ứng chiến đấu hoặc bỏ chạy, một di sản sinh tồn từ thuở hồng hoang giúp con người vượt qua nghịch cảnh."
+      },
+      {
+       "t": 1514,
+       "text": "Nếu cơ thể duy trì nồng độ cortisol quá cao thì sẽ tự thiêu đốt từ bên trong: thân không khỏe, tâm không an, trí mờ mịt."
+      },
+      {
+       "t": 1514,
+       "text": "Nồng độ cortisol bình thường nên lên xuống mượt mà như hàm sin, cosin trong chuỗi Fourier; khi bị treo ở các đỉnh nhọn bất thường thì giống bản giao hưởng của cơ thể có vết nứt."
+      },
+      {
+       "t": 1545,
+       "text": "Không thể chạy trốn khỏi cortisol nhưng có thể học cách tối ưu hóa để biến nó thành người bạn đồng hành đáng tin cậy và làm chủ biến số sinh tồn này."
+      },
+      {
+       "t": 1576,
+       "text": "Bác sĩ nhắc nhà văn Pháp Camus, giải Nobel Văn học năm 1957 khi 44 tuổi, với tác phẩm Người xa lạ; văn ông rất khó đọc vì rút ngắn tối đa từ ngữ, ví dụ viết chỉ \"mẹ chết về ngay\" nhưng hàm chứa nhiều triết lý nhân sinh."
+      },
+      {
+       "t": 1702,
+       "text": "Khi một dự án âm nhạc quốc tế dùng một câu văn của Camus (nhạc sĩ Đức gốc Afghanistan sáng tác) biểu diễn ở Việt Nam, các nhạc sĩ nhờ bác sĩ chuyển ngữ sang tiếng Việt; giáo viên ngoại ngữ và người giỏi ngoại ngữ dịch đều không đạt, nên bác sĩ tiếp cận bằng ngôn ngữ văn học, triết học, xã hội học, lịch sử, nghệ thuật và âm nhạc."
+      }
+     ]
+    },
+    {
+     "start": 5402,
+     "end": 5998,
+     "title": "Cấu trúc hóa học của cortisol: thân khỏe, tâm an, trí sáng",
+     "points": [
+      {
+       "t": 5402,
+       "text": "Bác sĩ kể lại việc dịch một câu của nhà văn Camus cho các nhạc sĩ; bản dịch giúp họ thấm thía và có động lực triển khai dự án sáng tác và biểu diễn. Bài học: vấn đề trông đơn giản có thể rất phức tạp, và vấn đề phức tạp nếu biết tiếp cận thì lại đơn giản."
+      },
+      {
+       "t": 5432,
+       "text": "Dù là sức khỏe, xã hội, văn học hay nghệ thuật, cần có cái nhìn tổng quan và hiểu thấu đáo. Muốn làm bạn và quản trị được cortisol để cơ thể hài hòa thì phải hiểu cortisol."
+      },
+      {
+       "t": 5464,
+       "text": "Công thức chuỗi Fourier của cortisol theo thời gian: f(t) = a0/2 + tổng (n từ 0 đến vô cùng) của an·cos(2πnt/T) + bn·sin(2πnt/T)."
+      },
+      {
+       "t": 5527,
+       "text": "Các hệ số an, bn (n1, n2, n3...) tượng trưng cho các yếu tố tác động lên cơ thể: sợ hãi, nguy hiểm, căng thẳng cuộc sống, hóa chất ăn vào, lối sống xấu, đồ ăn thức uống không đảm bảo, chế độ sinh hoạt sai."
+      },
+      {
+       "t": 5561,
+       "text": "Nếu các yếu tố tác động tiêu cực quá mức thì đường cortisol có các sóng nhọn, zích zắc; nếu tác động tích cực thì đường cong mềm mại. Cuộc sống không thể tốt đẹp khi có nhiều sóng nhọn."
+      },
+      {
+       "t": 5592,
+       "text": "Vì vậy phải hiểu cortisol để quản trị các hệ số an, bn, nắm chắc hệ số cơ bản a0, và điều chỉnh để đường cortisol thành những đường cong mềm mại như mong muốn."
+      },
+      {
+       "t": 5624,
+       "text": "Cortisol có công thức phân tử C21H30O5 (theo phụ đề); công thức cấu tạo có bốn vòng cacbon, là bốn vòng cực kỳ bền vững."
+      },
+      {
+       "t": 5654,
+       "text": "Bốn vòng cacbon giống bộ giáp: giúp cortisol khi tiết ra trong cơ thể rất bền, các thành phần khác khó phá hủy. Bác sĩ gắn với 'thân khỏe'."
+      },
+      {
+       "t": 5686,
+       "text": "Cortisol có các nhóm chức: hydroxyl (OH) và nhóm ceton (C=O) (phụ đề ghi 'cetol'). Tổng cộng năm nhóm chức, gồm ba nhóm hydroxyl và hai nhóm ceton, được ví như năm chiếc chìa khóa vạn năng."
+      },
+      {
+       "t": 5748,
+       "text": "Năm chìa khóa này mở cửa tế bào cơ, tế bào mỡ, tế bào gan và tế bào khắp cơ thể để cortisol hoạt động; vì ổn định nên nó là 'tâm an'."
+      },
+      {
+       "t": 5809,
+       "text": "Các nguyên tử hydro linh động thể hiện sự nhạy cảm, tượng trưng cho 'trí sáng': biết đi đến đâu, làm gì, chỉ huy điều gì cho tốt. Tóm lại cortisol có thân khỏe, tâm an, trí sáng."
+      },
+      {
+       "t": 5875,
+       "text": "Cortisol được gọi là vị tổng chỉ huy: khi cơ thể gặp nguy hiểm hoặc bất lợi, nó thực hiện các nhiệm vụ khác nhau; nó liên quan tới sự sống còn, sinh tồn và an toàn."
+      },
+      {
+       "t": 5918,
+       "text": "Phản ứng chiến đấu hay bỏ chạy là một cặp gồm adrenalin và cortisol; chỉ nói cortisol thì chưa đủ."
+      },
+      {
+       "t": 5939,
+       "text": "Có hai trục: trục giao cảm–tủy thượng thận (SAM) điều khiển adrenalin, là trục thần kinh và hóa học (chất dẫn truyền); trục hạ đồi–tuyến yên–tuyến thượng thận (HPA) điều khiển cortisol, chỉ là trục hóa chất."
+      },
+      {
+       "t": 5980,
+       "text": "Hai trục như cặp vợ chồng: adrenalin đóng vai chồng, cortisol đóng vai vợ; từ xưa đến nay khi gặp nguy hiểm cặp này đều hoạt động."
+      }
+     ]
+    },
+    {
+     "start": 6001,
+     "end": 6599,
+     "title": "Cortisol, adrenalin và cơ chế phản ứng căng thẳng",
+     "points": [
+      {
+       "t": 2401,
+       "text": "Khi gặp nguy hiểm, adrenalin tiết ra trước; cortisol tiết ra đồng hành nhưng đóng vai trò người đứng sau, bình ổn các công việc về sau."
+      },
+      {
+       "t": 2433,
+       "text": "Não bộ quyết định chiến đấu hay bỏ chạy, adrenalin chỉ huy làm tăng nhịp tim (mạch), tăng huyết áp và tăng nhịp thở để tăng cung lượng oxy, đưa cơ thể vào trạng thái sẵn sàng chiến đấu hoặc bỏ chạy."
+      },
+      {
+       "t": 2463,
+       "text": "Các phản ứng này diễn ra rất nhanh, tính bằng giây, trên cả não bộ và các bộ phận cơ thể để quyết định hành động ngay lúc đó."
+      },
+      {
+       "t": 2495,
+       "text": "Cortisol hỗ trợ cho việc tăng mạch, tăng huyết áp, điều chỉnh nhịp thở và hoạt động của não bộ, giúp đưa ra quyết định đúng đắn nhất khi rơi vào tình huống nguy hiểm."
+      },
+      {
+       "t": 2527,
+       "text": "Cuộc sống hiện đại không còn suốt ngày gặp nguy hiểm thật, nhưng có vô số tác động khác kích hoạt adrenalin và cortisol, ví dụ ăn nhiều sản phẩm chứa hóa chất, nạp hóa chất vào cơ thể (đừng biến cơ thể thành xưởng hóa chất)."
+      },
+      {
+       "t": 2590,
+       "text": "Tiếp xúc hóa chất làm tế bào căng thẳng, ốm yếu, mệt mỏi nên cortisol được tiết ra để giải quyết tình trạng đó."
+      },
+      {
+       "t": 2590,
+       "text": "Áp lực công việc quá mức cũng là tác động xấu khiến cortisol tiết ra."
+      },
+      {
+       "t": 2622,
+       "text": "Bon chen, đố kỵ, làm việc không tốt, tiếp cận thông tin xấu, chạy theo chuyện ăn thua trên mạng xã hội hay công sở đều gây căng thẳng; cơ thể báo động và tiết cortisol; khi đó chuỗi Fourier xuất hiện sóng nhọn thay vì đường mềm mại như hàm sin, cos."
+      },
+      {
+       "t": 2654,
+       "text": "Adrenalin tiết ra ở tủy thượng thận, còn cortisol tiết ra ở vỏ thượng thận."
+      },
+      {
+       "t": 2683,
+       "text": "Adrenalin tồn tại tính bằng giây, còn cortisol tồn tại tính bằng giờ, phút, thậm chí ngày; cortisol có cấu trúc hóa học rất bền nên nếu căng thẳng kéo dài cả ngày, nó tồn tại cả ngày không phân hủy, khiến trạng thái tích cực ban đầu cuối cùng biến thành tiêu cực."
+      },
+      {
+       "t": 2747,
+       "text": "Khi gặp căng thẳng, mệt mỏi, hóa chất, độc hại, cơ thể tiêu tốn rất nhiều năng lượng, lấy từ đường (glucose máu), nên đường máu bị tiêu thụ rất nhanh và nhiều."
+      },
+      {
+       "t": 2778,
+       "text": "Vùng hạ đồi trên não cảm nhận hai điều: cơ thể đang gặp nguy hiểm và glucose máu đang hạ."
+      },
+      {
+       "t": 2810,
+       "text": "Hạ đồi báo cho tuyến yên bằng chất tín hiệu CRH; tuyến yên tiết ACTH, hormone này nhanh chóng đi xuống tuyến thượng thận."
+      },
+      {
+       "t": 2841,
+       "text": "Vỏ thượng thận nhận ra cơ thể nguy hiểm và thiếu đường nên tăng tiết cortisol, giải phóng ồ ạt vào máu."
+      },
+      {
+       "t": 2873,
+       "text": "Cortisol tiết theo thời gian thực tùy tình trạng cơ thể và không có kho lưu trữ, khác với T4 được tích trữ rồi chuyển thành T3 khi cần."
+      },
+      {
+       "t": 2887,
+       "text": "Glucose giảm đột ngột và nguy hiểm nhiều thì cortisol tiết nhiều hơn; mức độ nhẹ hơn thì tiết ít hơn."
+      },
+      {
+       "t": 2904,
+       "text": "Glucose là nhiên liệu cho cơ thể; tín hiệu nguy hiểm luôn đi kèm glucose giảm, và cortisol như vị tướng chỉ huy ngoài mặt trận, không trực tiếp làm mà chỉ chỉ huy."
+      },
+      {
+       "t": 2936,
+       "text": "Khi thiếu đường, cortisol chỉ huy tạo ra đường nhiều nhất có thể, trước hết yêu cầu cơ ngoại vi (cơ tay, chân, cấu tạo từ protein gồm các axit amin tạo thành chuỗi peptide và polypeptide) phân hủy để tạo thành axit amin."
+      }
+     ]
+    },
+    {
+     "start": 6602,
+     "end": 7198,
+     "title": "Cortisol huy động đường và tắt hệ miễn dịch",
+     "points": [
+      {
+       "t": 0,
+       "text": "Khi cơ thể bị đe dọa (hóa chất, lời chửi bới, virus, vi khuẩn...), cortisol là đường khẩn cấp buộc cơ phải bị tiêu hủy, chuyển về gan để tạo thành đường nhằm có nhiên liệu chống đỡ."
+      },
+      {
+       "t": 66,
+       "text": "Cortisol ưu tiên lấy cơ ở tay chân trước vì các cơ này kém quan trọng hơn cơ tim, cơ hô hấp và nội tạng; hậu quả là tay chân trông xấu xí, yếu đi."
+      },
+      {
+       "t": 97,
+       "text": "Khi cơ chỉ cung cấp được một phần, cortisol chỉ huy tiếp huy động mỡ ở tay chân (vùng xa), rồi từ mỡ tiếp tục tạo thành đường."
+      },
+      {
+       "t": 129,
+       "text": "Con đường phân hủy cơ để tạo đường là dị hóa axit amin, rất khó khăn, phải qua bước khử amin tạo urê; urê trong nước tiểu hoặc trong máu tăng có thể phản ánh cơ thể đang tiêu hủy cơ."
+      },
+      {
+       "t": 162,
+       "text": "Mỡ là este của glycerin với axit béo (ví như con mực: glycerol là đầu mực, ba axit béo là ba chân); glycerol là thành phần chính để tạo ra đường."
+      },
+      {
+       "t": 225,
+       "text": "Bình thường ba axit béo đi vào chu trình Krebs để tạo ATP, CO2 và nước; nhưng dưới chỉ huy của cortisol chúng được chuyển thành thể xeton để dự trữ cho cuộc chiến thay vì đốt lấy năng lượng, nên cơ thể vẫn mệt mỏi."
+      },
+      {
+       "t": 284,
+       "text": "Xeton bản chất là chất béo nhưng lại có đường chuyển tiếp thành đường; nếu glycerol không đủ thì cortisol ra lệnh dùng xeton để tạo thêm đường."
+      },
+      {
+       "t": 320,
+       "text": "Nhiệm vụ thứ nhất của cortisol là đưa cơ và mỡ chuyển thành đường để đảm bảo năng lượng."
+      },
+      {
+       "t": 330,
+       "text": "Nhiệm vụ tiếp theo là đóng cửa toàn bộ hệ thống chiến đấu của cơ thể, gồm hệ miễn dịch, các chất trung gian hóa học, yếu tố viêm như cytokin, interleukin, đại thực bào, thực bào."
+      },
+      {
+       "t": 384,
+       "text": "Khi căng thẳng, stress kéo dài, hấp thu hóa chất từng chút, nhiễm vi khuẩn virus không đều, hay ăn sai (ví dụ nhiều lectin), tế bào bị căng thẳng và cortisol can thiệp."
+      },
+      {
+       "t": 447,
+       "text": "Cortisol ra lệnh cho các chiến binh miễn dịch (đại thực bào, thực bào, interleukin...) quay về nằm im, vì trong cuộc chiến sống còn phải ưu tiên toàn bộ đường cho não, còn đánh trận tốn rất nhiều đường và năng lượng."
+      },
+      {
+       "t": 508,
+       "text": "Bình thường chiến đấu gây sốt, đau, sưng nóng đỏ; khi cortisol xuất hiện các triệu chứng này xẹp đi vì cơ thể rút quân, không đánh nhau nữa."
+      },
+      {
+       "t": 535,
+       "text": "Bệnh nhân ốm đau, viêm nhiễm mua corticoid uống (đưa cortisol từ ngoài vào) thấy triệu chứng hết sạch, nhưng đó chỉ là hết giả vờ vì miễn dịch bị thu quân chứ bệnh chưa được giải quyết."
+      },
+      {
+       "t": 570,
+       "text": "Cortisol còn cắt các trạm liên lạc bằng cách chặn chất trung gian hóa học, đầu tiên là histamin bị bao bọc không xuất ra, nên lực lượng miễn dịch không nhận được tín hiệu về kẻ thù để đánh trận."
+      },
+      {
+       "t": 585,
+       "text": "Các yếu tố viêm như IL-1, IL-2... cũng bị chặn tương tự."
+      }
+     ]
+    },
+    {
+     "start": 7201,
+     "end": 7799,
+     "title": "Cortisol: cơ chế chống viêm, tăng máu lên não và cách kiểm soát",
+     "points": [
+      {
+       "t": 2001,
+       "text": "Cytokine (như interleukin) là phương tiện liên lạc giúp hệ miễn dịch nhận diện kẻ địch để tấn công; cortisol nhốt các cytokine này lại, không cho 'xuất gia' nữa, nên thông tin về quân địch bị cô lập hoàn toàn và cơ thể không còn phản ứng viêm."
+      },
+      {
+       "t": 2025,
+       "text": "Trạng thái không viêm, êm dịu này chỉ là êm dịu giả, không phải êm dịu thật."
+      },
+      {
+       "t": 2036,
+       "text": "Corticoid/cortisol cắt sạch các phản ứng viêm vì trận chiến đang quá nguy hiểm: nếu cứ tấn công thì cơ thể sẽ thua và bị phá hủy, nên thu quân, cắt mọi liên lạc, dừng mọi phản ứng viêm, chấp nhận lui về chạy trốn và dành toàn bộ 'phần đường' (năng lượng, máu) cho não."
+      },
+      {
+       "t": 2063,
+       "text": "Để dành nguồn cho não thì phải tăng vận chuyển máu lên não, tức dòng máu phải lưu thông thật tốt; việc này trông chờ vào adrenalin, nhưng adrenalin chỉ hoạt động được khi có cortisol hỗ trợ phía sau, nếu không thì không hoạt động được."
+      },
+      {
+       "t": 2126,
+       "text": "Bơm máu lên não cần ba thành phần: động cơ (quả tim), đường ống dẫn (mạch máu) và dịch chảy bên trong (lượng máu phải tăng)."
+      },
+      {
+       "t": 2187,
+       "text": "Cortisol tác động trực tiếp lên tim làm tăng co bóp, tăng cung lượng tim; đồng thời đường ống dẫn phải co bóp trơn chu để tạo huyết áp mạnh – cả hai đều phụ thuộc adrenalin."
+      },
+      {
+       "t": 2218,
+       "text": "Adrenalin muốn hoạt động cần canxi và magie: thụ thể trong thành mạch phụ thuộc canxi, canxi phụ thuộc magie, và cả cụm này phụ thuộc vitamin D3; tất cả phụ thuộc lẫn nhau."
+      },
+      {
+       "t": 2228,
+       "text": "Khi đủ canxi, magie, D3 thì cortisol đẩy canxi vào trong tế bào gây co các tế bào thành mạch, còn magie đi ra có tác dụng làm giãn; canxi co – magie giãn nhịp nhàng khiến mạch mềm mại, trơn chu, dòng máu thông thoáng."
+      },
+      {
+       "t": 2279,
+       "text": "Để tăng huyết áp và thể tích dịch trong máu, cortisol giữ nước và giữ natri để hút nước vào tế bào; nó ra lệnh cho thận ngừng bài tiết (đái ít đi) để giữ nước và natri."
+      },
+      {
+       "t": 2310,
+       "text": "Khi natri được giữ lại, nước trong mô tràn vào dòng máu làm thể tích máu tăng; cùng với cung lượng tim tăng, huyết áp tăng và tim hoạt động tốt, máu được đẩy lên não nhiều hơn. Đây là mô hình hoạt động của cortisol để chống lại các tác nhân xâm nhập gây viêm nhiễm."
+      },
+      {
+       "t": 2345,
+       "text": "Chỉ huy của hệ thống là trục vùng hạ đồi – tuyến yên – tuyến thượng thận: hạ đồi tiết CRH, tuyến yên tiết ACTH kích thích tuyến thượng thận tiết cortisol."
+      },
+      {
+       "t": 2373,
+       "text": "Cortisol đóng vai trò người vợ hỗ trợ phía sau người chồng adrenalin, bằng mọi biện pháp tăng đường huyết, đẩy glucose lên não và 'đình chiến' (rút quân, không chiến đấu với kẻ thù) để giữ an toàn cho cơ thể."
+      },
+      {
+       "t": 2400,
+       "text": "Cơ chế này rất tốt nếu chỉ trong thời gian ngắn, nhưng nếu lặp đi lặp lại ngày này qua tháng khác thì sẽ phá hủy cơ thể: tế bào chết đói, cơ thể bị hủy hoại, chỉ thắng giả trong những trận đầu."
+      },
+      {
+       "t": 2436,
+       "text": "Cần kiểm soát: tránh xa hóa chất độc hại, giảm hoặc triệt tiêu lectin trong chế độ ăn (lectin cực kỳ nguy hiểm, gây viêm mạn), và tránh lạm dụng rượu, bia, thuốc lá."
+      },
+      {
+       "t": 2866,
+       "text": "Cần tránh căng thẳng: trang bị kiến thức tốt để bình thản trước những điều bất thường, hướng tới điều thiện, làm việc tốt, sống văn minh lành mạnh, không bức xúc, không vội vàng, làm mọi việc tuần tự từng bước như nấu cơm, để không rơi vào trạng thái liên tục tạo ra các 'sóng nhỏ' căng thẳng."
+      },
+      {
+       "t": 2928,
+       "text": "Cần bổ sung vi chất tác động đến cortisol: vitamin C, canxi, magie và vitamin D; uống đủ thì cortisol điều khiển hài hòa, nâng thể trạng, giúp vượt qua và chiến thắng bệnh."
+      },
+      {
+       "t": 2989,
+       "text": "Thực hành lối sống hài hòa và hiểu bản chất của cortisol thì sẽ coi nó là người bạn tốt và thoát khỏi tình trạng bị cortisol lạm dụng."
+      }
+     ]
+    },
+    {
+     "start": 7802,
+     "end": 8399,
+     "title": "Chu kỳ cortisol 24 giờ và nhân họa hiện đại",
+     "points": [
+      {
+       "t": 2010,
+       "text": "Cortisol chỉ là món quà khi tuân theo nhịp sinh học; nếu hệ thống báo động bị kẹt ở trạng thái bật liên tục thì trở thành chất độc, từ người bảo vệ thành kẻ đục khoét từ bên trong."
+      },
+      {
+       "t": 2064,
+       "text": "Cortisol mạn tính gây tích tụ mỡ bụng, béo phì trung tâm, mặt tròn biến dạng bất thường và ức chế miễn dịch kéo dài làm mất khả năng tự vệ."
+      },
+      {
+       "t": 2096,
+       "text": "Khi cortisol quá cao quá lâu: thân không khỏe vì cơ bị phân giải để lấy đường; tâm không an vì căng thẳng cứ ngân vang; trí không sáng vì cortisol gây nhiễu loạn tư duy, trở thành lời nguyền giam cầm cơ thể trong kiệt quệ."
+      },
+      {
+       "t": 2166,
+       "text": "Triết lý của Camus (phải nổi loạn để tồn tại) đúng trước kẻ thù thật như hổ dữ trong rừng hay tai họa đột ngột: muốn chiến thắng cần đột phá, tức nổi loạn."
+      },
+      {
+       "t": 2379,
+       "text": "Tai họa do trời giáng thì tự nhiên đã ban adrenaline và cortisol để biết khi nào chiến đấu, chạy trốn và khi nào bình ổn trở lại."
+      },
+      {
+       "t": 2412,
+       "text": "Xã hội ngày nay tai họa chủ yếu do chính con người gây ra (nhân họa), nên phải hiểu và thay đổi lối sống để trở về quy luật tự nhiên, đừng đi ngược lại thì sẽ an toàn."
+      },
+      {
+       "t": 2715,
+       "text": "Quy luật cortisol vẽ trên biểu đồ: trục dọc là nồng độ, trục ngang là 24 giờ; cortisol leo dốc dần về sáng, đạt đỉnh khoảng 6-8 giờ sáng, rồi giảm dần suốt chiều tối và đêm, thấp nhất ban đêm, rồi lại tăng lên vào sáng hôm sau."
+      },
+      {
+       "t": 2810,
+       "text": "Cortisol là hormone của ánh mặt trời: buổi sáng tăng để đánh thức chúng ta dậy và giúp chống chọi các nguy hiểm ban ngày như hóa chất độc hại, không khí không trong lành, căng thẳng, suy nghĩ, tiếp xúc nhiều người, virus và vi khuẩn."
+      },
+      {
+       "t": 2842,
+       "text": "Ban đêm cơ thể nghỉ ngơi, không cần chiến đấu nên cortisol giảm xuống thấp nhất để chúng ta ngủ."
+      },
+      {
+       "t": 2904,
+       "text": "Cortisol giảm nhiều nhất từ khoảng 9 giờ tối đến 12 giờ-2, 3 giờ sáng để đưa chúng ta vào giấc ngủ sâu."
+      },
+      {
+       "t": 2918,
+       "text": "Lối sống hiện đại phá quy luật này: thức khuya chạy deadline, xem phim ngắn, căng thẳng ban đêm, uống cà phê, ăn uống, rượu, thuốc lá, lướt mạng xã hội gây bức xúc, không ngủ được."
+      },
+      {
+       "t": 2954,
+       "text": "Do đó thay vì giảm, cortisol ban đêm tăng cao tạo thành các đỉnh nhọn tùy theo mức căng thẳng; nó đánh thức ta, gây mất ngủ, căng thẳng và mệt mỏi."
+      },
+      {
+       "t": 3566,
+       "text": "Cơ thể mệt mỏi vì cortisol cao cấm các bộ phận dùng đường, chỉ dành đường cho não; ví dụ cấm da dùng đường."
+      }
+     ]
+    },
+    {
+     "start": 8401,
+     "end": 8997,
+     "title": "Cortisol cao: tổn thương da, tim, tiêu hóa, mỡ bụng, nội tiết",
+     "points": [
+      {
+       "t": 2001,
+       "text": "Khi mất ngủ, cortisol tăng và cấm da dùng đường, nên da khô, xám, nhăn nheo, xấu và lão hóa nhanh; chỉ cần thức một hai đêm là da xấu rõ."
+      },
+      {
+       "t": 2032,
+       "text": "Ngủ tự nhiên, không căng thẳng thì da khác hẳn; dùng thuốc ngủ thì da vẫn xám ngoét, vẫn xấu."
+      },
+      {
+       "t": 2063,
+       "text": "Vùng quanh mắt có nhiều mạch máu và rất nhạy cảm nên thâm quầng nhanh khi không được dùng đường. Mắt cũng thiếu đường nên hôm sau nhìn nhòe, mờ, không rõ chữ, nhìn một thành hai."
+      },
+      {
+       "t": 2094,
+       "text": "Cortisol cấm các cơ quan dùng đường, kể cả tim (tim mệt mỏi, dễ bệnh) và phổi (thở khó)."
+      },
+      {
+       "t": 2123,
+       "text": "Trẻ 7-12 tuổi đến khám có tim không đều, block nhĩ thất, ngoại tâm thu, nhịp bất thường, do xem phim ngắn, chơi TikTok, game online xuyên đêm gây rối loạn thần kinh giao cảm, stress, mất ngủ, cortisol tăng; da các cháu cũng xám, xấu."
+      },
+      {
+       "t": 2156,
+       "text": "Tim thiếu đường khiến xung điện không nhịp nhàng, lâu dần gây rối loạn nhịp tim, bệnh van tim, tăng huyết áp sớm."
+      },
+      {
+       "t": 2188,
+       "text": "Cortisol cấm dạ dày và ruột làm việc, dẫn tới ăn không hấp thu, viêm đường ruột, rối loạn tiêu hóa, loạn khuẩn ruột, rò rỉ ruột, trào ngược dạ dày thực quản, táo bón, hội chứng ruột kích thích, đau dạ dày."
+      },
+      {
+       "t": 2221,
+       "text": "Cortisol làm teo cơ và lấy mỡ ở ngoại vi nên chân tay ngày càng bé, yếu, đứng không vững; mỡ được lấy để tạo đường trong máu."
+      },
+      {
+       "t": 2252,
+       "text": "Vì cortisol cấm các nơi dùng đường nên đường máu tăng, tụy phải tiết insulin để đưa đường vào tế bào; insulin tăng là kẻ thù số một gây tăng mỡ, đường thừa chuyển thành mỡ, trước hết ở gan gây gan nhiễm mỡ (rất nhiều ở trẻ em và người trẻ hiện nay), rồi mỡ máu cao."
+      },
+      {
+       "t": 2295,
+       "text": "Cortisol chỉ huy tăng tổng hợp mỡ vì cho rằng cơ thể nguy hiểm, cần chiến đấu lâu dài và tích trữ năng lượng tốt nhất là mỡ, ở gần các cơ quan quan trọng."
+      },
+      {
+       "t": 2345,
+       "text": "Mỡ và cơ từ tay chân bị chuyển vào bụng nên bụng to ra trong khi tay chân teo tóp. Có hai loại mỡ: mỡ nội tạng (nhiễm mỡ trong tạng và quanh tạng, mỡ bụng) và mỡ ngoại vi dưới da ở chân tay."
+      },
+      {
+       "t": 2408,
+       "text": "Mỡ còn tích ở mặt (mặt tròn như trăng rằm), vùng sau gáy (vai u), rồi xuống cánh tay, nách, ngực (ngực sệ xuống); nhiều người đến hỏi về 'u' ở nách, gáy thực chất là mỡ do cortisol để căng thẳng kéo dài."
+      },
+      {
+       "t": 2467,
+       "text": "Cortisol cấm hoạt động sinh dục, sinh sản: nam yếu sinh lý, nữ lãnh cảm, và làm đàn bà giống đàn ông, đàn ông giống đàn bà."
+      },
+      {
+       "t": 2502,
+       "text": "Ở đàn ông bụng to thì 'lò xo ngắn': cơ thể giảm hoạt động tình dục để dành đường cho não nên hạ testosterone."
+      },
+      {
+       "t": 2535,
+       "text": "Ở nữ giới, hormone buồng trứng (estrogen, progesterone) rối loạn còn hormone sinh dục nam tăng, dẫn tới buồng trứng đa nang (nhiều nang nhỏ li ti)."
+      },
+      {
+       "t": 2565,
+       "text": "Hormone nam tăng, nữ giảm khiến phụ nữ mọc ria mép, lông chân lông tay rậm, trong khi tóc và lông ở những chỗ cần bảo vệ lại rụng; đó là biểu hiện của hội chứng cường androgen/đa nang."
+      }
+     ]
+    },
+    {
+     "start": 9000,
+     "end": 9598,
+     "title": "Cortisol, lối sống căng thẳng và vai trò của kiến thức",
+     "points": [
+      {
+       "t": 9000,
+       "text": "Cortisol tăng kéo dài gây mặt tròn như mặt trăng, bụng to, vai u, thịt bắp, kèm lông ria mép, lông tay lông chân; đó là cơ chế xuất hiện hội chứng cushing/'cơ sinh' mà bác sĩ mô tả."
+      },
+      {
+       "t": 9015,
+       "text": "Đường huyết tăng, insulin sản xuất ra nhưng không đưa được vào tế bào thì dẫn tới tiểu đường; tiểu đường, mỡ máu, tăng huyết áp đi kèm nhau thành vòng xoắn bệnh lý."
+      },
+      {
+       "t": 9032,
+       "text": "Cortisol cao không cho cơ quan tiêu hóa hoạt động và các cơ quan không sử dụng được đường, nên cơ thể lúc nào cũng thèm đường."
+      },
+      {
+       "t": 9032,
+       "text": "Người cortisol tăng (thức đêm nhiều, căng thẳng, bức xúc nhiều, làm việc sai quy luật tự nhiên) rất thèm và nghiện đồ ngọt; càng ăn ngọt càng béo, tạo vòng xoắn."
+      },
+      {
+       "t": 9063,
+       "text": "Vì tiêu hóa bị ức chế nên luôn thấy đói, thiếu năng lượng và thèm ăn vặt, cứ ăn mãi, rơi vào vòng xoắn béo phì, hội chứng chuyển hóa, tăng huyết áp, tiểu đường, mỡ máu, gan nhiễm mỡ."
+      },
+      {
+       "t": 9120,
+       "text": "Cách thoát là thả lỏng cuộc sống, dùng trí tuệ và hiểu biết để nhìn mọi việc như quy luật; bác sĩ nêu ví dụ đọc tin tức ban đêm, hiểu lịch sử, địa chính trị nên không bức xúc, đặt mình xuống là ngủ được, không rơi vào căng thẳng."
+      },
+      {
+       "t": 9155,
+       "text": "Setup công việc thành hệ thống tuần tự từng bước a, b, c và để nó chạy, vì hiểu quy luật nên không cần căng thẳng."
+      },
+      {
+       "t": 9162,
+       "text": "Cố gắng tránh để hóa chất vào cơ thể ồ ạt, thiếu hiểu biết; thực hiện chế độ ăn uống, ngủ nghỉ, sinh hoạt, làm việc vừa phải, phù hợp để lập lại trạng thái sinh lý thì sẽ không bị tăng cortisol."
+      },
+      {
+       "t": 9185,
+       "text": "Ban đêm đáng lẽ phải thư giãn nhưng nhiều người lại bức xúc hoặc phải hoàn thành khối lượng việc căng thẳng tột độ không giải thoát được; ngược lại bác sĩ viết bài chuyên sâu ban đêm vì kiến thức tự chảy ra, không phải suy nghĩ nhiều."
+      },
+      {
+       "t": 9216,
+       "text": "Ví dụ: bác sĩ dự định viết cuốn sách về vi chất khoảng 200.000 chữ (tiểu thuyết dày chỉ khoảng 100.000 chữ), đã viết thử chương mở đầu và tính chỉ mất khoảng 20 ngày, vì kiến thức đã sẵn trong đầu; người thiếu kiến thức có thể mất 2 năm hoặc vài tháng."
+      },
+      {
+       "t": 9278,
+       "text": "Muốn khỏe thì yếu tố quan trọng số một là kiến thức: có kiến thức thì làm chủ và quản lý được; không có kiến thức thì luôn căng thẳng, mệt mỏi, đuối sức, lo lắng về ngày mai."
+      },
+      {
+       "t": 9309,
+       "text": "Hiểu cơ thể, sức khỏe, y học và vận hành theo đúng quy luật thì sẽ không bị bệnh; đó là lý do bác sĩ đưa nhiều kiến thức vào, dù nhiều người muốn ông nói ngắn gọn, và muốn nói ngắn thì không thoát được trạng thái này."
+      },
+      {
+       "t": 9339,
+       "text": "Không có kiến thức sẽ vào vòng xoắn adrenalin và hormone căng thẳng: sáng mệt mỏi khi hormone tụt, ban ngày hormone tăng vút, dẫn tới ốm đau bệnh tật."
+      },
+      {
+       "t": 9370,
+       "text": "Não không phân biệt được con hổ với lối sống sai; khi tiếp cận điều nguy hiểm, vùng dưới đồi tiết CRH, CRH chỉ huy tuyến yên tiết ACTH, làm tuyến thượng thận tăng tiết cortisol, và có thể rơi vào vòng xoáy."
+      },
+      {
+       "t": 9433,
+       "text": "Corticoid là tên chất bổ sung từ bên ngoài, còn trong cơ thể gọi là cortisone hoặc hydrocortisol; hiểu chúng thì quản trị dễ dàng."
+      },
+      {
+       "t": 9526,
+       "text": "Người dẫn chương trình nhắc cortisol tăng liên quan mặt tròn bất thường, đau nhức xương, lãnh cảm ở phụ nữ, và hỏi làm sao nhận biết cortisol tăng."
+      },
+      {
+       "t": 9528,
+       "text": "Nguyên nhân tăng cortisol: xưa cortisol và adrenalin (cặp vợ chồng) tăng khi gặp nguy hiểm đột xuất như gặp hổ trong rừng; nay tiếp xúc hóa chất độc hại, vi khuẩn, virus, lối sống bất thường ngược quy luật sinh lý gây căng thẳng tâm sinh lý, thần kinh khiến vùng hạ đồi nhầm tưởng đang gặp nguy hiểm, kích thích tuyến thượng thận tăng tiết hormone."
+      },
+      {
+       "t": 9590,
+       "text": "Bác sĩ bắt đầu nêu các biểu hiện bên ngoài đơn giản để nhận biết cortisol tăng, ví dụ lúc 9 giờ sáng cơ thể đáng lẽ phải ở trạng thái bình thường (câu bị cắt)."
+      }
+     ]
+    },
+    {
+     "start": 9600,
+     "end": 10199,
+     "title": "Dấu hiệu cortisol tăng ở vùng hạ đồi, tuyến yên, thượng thận",
+     "points": [
+      {
+       "t": 2400,
+       "text": "Khi cortisol tăng, đường được ưu tiên đưa lên não còn các bộ phận khác không nhận được đường nên cơ thể mệt mỏi, buồn ngủ rũ ra dù đang cần tỉnh táo làm việc; người ta phải uống cà phê mới tỉnh."
+      },
+      {
+       "t": 2432,
+       "text": "Cà phê lúc này đóng vai trò giống adrenaline giúp 'hai cặp vợ chồng' hormone kết hợp xử lý tình trạng mệt mỏi để làm việc được; việc phải dựa vào cà phê là dấu hiệu đã sống sai và tiếp nhận cuộc sống sai làm cortisol tăng."
+      },
+      {
+       "t": 2461,
+       "text": "Uống cà phê để tỉnh táo vào 9:00 sáng là đi ngược sinh lý và về lâu dài hủy hoại cơ thể; hai thời điểm cần cảnh giác là 9:00 sáng và 3:00 chiều, nếu uống cà phê mà thấy tỉnh táo làm việc tốt thì có thể cortisol đang tăng."
+      },
+      {
+       "t": 2493,
+       "text": "Ví dụ một cô gái xinh đẹp ngoài 30 tuổi bị nọng cằm và mặt tròn, mỡ mặt nhiều, được khuyên làm thẩm mỹ; bác sĩ giải thích đó là do căng thẳng, sang chấn tâm lý kéo dài (gia đình, cuộc sống, công việc) làm cortisol tăng gây tích mỡ, chưa đến mức Cushing nhưng đã tích mỡ."
+      },
+      {
+       "t": 2555,
+       "text": "Cần đặt vấn đề cortisol tăng khi thấy nọng cằm, mặt nhiều mỡ ở người trẻ, cũng như gan nhiễm mỡ, tiểu đường, mỡ máu ở độ tuổi rất sớm, hiện gặp nhiều ở trẻ em và thanh thiếu niên."
+      },
+      {
+       "t": 2586,
+       "text": "Hệ thống lại dấu hiệu theo trục: đầu tiên là vùng hạ đồi. Khi bị stress, sang chấn hoặc nhiễm độc hại về tinh thần, thể chất, ăn uống, cơ thể không dùng được đường (chỉ não dùng) thì hạ đồi tưởng cơ thể đang đói."
+      },
+      {
+       "t": 2618,
+       "text": "Hạ đồi phát tín hiệu thèm ăn nên người bệnh thèm đồ ngọt và dần nghiện đồ ngọt, thích ăn vặt vào khung giờ trái khoáy, ăn những thứ lạ."
+      },
+      {
+       "t": 2649,
+       "text": "Thèm ngọt quá mức và đặc biệt thèm mặn quá mức, từ trước không ăn mặn tự dưng chuyển sang ăn mặn là có vấn đề: hạ đồi rối loạn, nghĩ cơ thể thiếu natri và thiếu đường nên đòi ăn nhiều đường, muối; thiếu năng lượng nên ăn suốt ngày, cứ chốc lại mở tủ lạnh."
+      },
+      {
+       "t": 2680,
+       "text": "Hạ đồi còn là 'nhiệt kế' của cơ thể; khi rối loạn sẽ có cảm giác nóng lạnh bất thường: lúc lạnh toát, lúc nóng bừng, vã mồ hôi bất thường. Tóm lại hạ đồi biểu hiện bằng thèm ăn, ăn vặt linh tinh và rối loạn thân nhiệt, cần tìm nguồn gốc lối sống sai để điều chỉnh kịp."
+      },
+      {
+       "t": 2744,
+       "text": "Tiếp theo là tuyến yên, nơi chỉ huy nhiều hormone (ví dụ GH, hormone tăng trưởng, cũng từ tuyến yên). Khi cortisol tăng, tuyến yên tiết ACTH tăng, ưu tiên cho cortisol nên các hormone khác bị rối loạn."
+      },
+      {
+       "t": 2807,
+       "text": "Dễ nhận biết nhất là rối loạn hormone sinh dục: đàn ông yếu sinh lý, phụ nữ lãnh cảm."
+      },
+      {
+       "t": 2827,
+       "text": "Tuyến yên rối loạn còn gây rối loạn giấc ngủ: khó ngủ, thiếu ngủ, nằm mệt mỏi không ngủ được."
+      },
+      {
+       "t": 2839,
+       "text": "Nếu đã bổ sung đủ magie, vitamin B6, vitamin D lý tưởng, canxi và các vi chất mà vẫn mất ngủ, đặc biệt hay thức dậy lúc 2–3 giờ sáng dù kéo dài magie, thì chứng tỏ có vấn đề cortisol, do tuyến yên dồn hết cho cortisol nên hormone giấc ngủ và hormone sinh dục bị rối loạn."
+      },
+      {
+       "t": 2901,
+       "text": "Từ tuyến yên rối loạn còn suy ra bệnh lý tuyến giáp và nhiều bệnh lý hormone ở các bộ phận khác."
+      },
+      {
+       "t": 2915,
+       "text": "Tiếp theo là tuyến thượng thận, nơi sản xuất cortisol; tổn thương thượng thận gây rối loạn tim mạch và huyết áp, hay chóng mặt, tụt huyết áp khi đứng lên từ tư thế ngồi."
+      },
+      {
+       "t": 2932,
+       "text": "Nếu đã bổ sung đủ vi chất (phần lớn do thiếu vi chất) mà đứng lên ngồi xuống vẫn tụt huyết áp thì cẩn thận tuyến thượng thận, cortisol có thể đang tăng do căng thẳng."
+      },
+      {
+       "t": 2964,
+       "text": "Tổn thương thượng thận gây tăng tiết cortisol lúc này, giảm tiết lúc khác, dẫn tới rối loạn tim mạch, cảm xúc, stress, trầm cảm."
+      },
+      {
+       "t": 2980,
+       "text": "Khi hiểu các trục này, mỗi người có thể tự kiểm chứng mình có rơi vào trạng thái cortisol tăng không và phải điều chỉnh lại cuộc sống."
+      }
+     ]
+    },
+    {
+     "start": 10200,
+     "end": 10531,
+     "title": "Lời kết số 108: cân bằng thân–tâm–trí để quản trị cortisol",
+     "points": [
+      {
+       "t": 2950,
+       "text": "Phải có kiến thức và hiểu biết thì mới làm chủ được bản thân; từ đó thuận theo cơ thể, sống thanh thản, nhẹ nhàng, hợp lý và không làm rối loạn các hóc môn nội tiết thì sẽ trở lại cuộc sống tốt."
+      },
+      {
+       "t": 2970,
+       "text": "Bác sĩ Phúc nói bản thân ông lão hóa ngược (càng ngày càng trẻ ra), Khánh Lành cũng vậy, như bằng chứng cho việc biết quản trị cuộc sống và sức khỏe."
+      },
+      {
+       "t": 3030,
+       "text": "Trong số phát sóng 108 (ngày 4/4/2026), ông nhấn mạnh phải cân bằng thân, tâm và trí thì mới có sức khỏe và cuộc sống tốt."
+      },
+      {
+       "t": 3065,
+       "text": "Nếu không quản lý bằng hiểu biết, ta sẽ bị cuộc sống cuốn trôi, lao tới rồi va vào những bức tường không vượt qua được, thậm chí bị hủy diệt bởi chính sự không biết của mình."
+      },
+      {
+       "t": 3085,
+       "text": "Lời khuyên: xem đầy đủ 108 số phát sóng của kênh, xem đi xem lại và ghi chép cẩn thận."
+      },
+      {
+       "t": 3097,
+       "text": "Thay vì xem TikTok, video ngắn hay chạy theo điều vô bổ, hãy mở sách học lại toán, vật lý, hóa học để tâm hồn thanh thản, kiếm tiền vừa phải, sống cân bằng, lấy thân–tâm–trí làm nền tảng để quản trị bản thân và tránh rơi vào trạng thái bất thường."
+      },
+      {
+       "t": 3129,
+       "text": "Hóc môn cortisol chỉ là một phần của bức tranh tổng thể; các yếu tố đều không tách rời nhau."
+      },
+      {
+       "t": 3140,
+       "text": "Ông mong từ nay không còn bình luận chê bác sĩ nói dài, chỉ đòi nêu triệu chứng, bệnh nào dùng thuốc gì, uống ra sao; ai còn giữ thói quen đó thì không hợp với kênh và có thể chọn lối sống riêng."
+      },
+      {
+       "t": 3160,
+       "text": "Ai theo kênh thì cần không ngừng học hỏi và xem các số phát sóng dài."
+      },
+      {
+       "t": 3175,
+       "text": "Theo đề xuất của Khánh Lành, số hôm nay được rút ngắn hơn các số trước vì sang tháng tư, chuẩn bị mùa hè nóng và có nhiều sự kiện."
+      },
+      {
+       "t": 3221,
+       "text": "Khánh Lành tổng kết: cortisol không phải lời nguyền mà là hóc môn đồng hành, một vị tổng quản bảo vệ cơ thể; cần hiểu cơ chế hoạt động để giữ cortisol đúng vị thế."
+      },
+      {
+       "t": 3252,
+       "text": "Hy vọng người xem biết cân bằng lại và dùng bảy vi chất thiết yếu để trí não (bộ tổng tham mưu) sáng suốt hơn, tâm an lành hơn, thân khỏe hơn; có bộ ba này thì cuộc sống tự cân bằng và mở ra chương mới."
+      },
+      {
+       "t": 3253,
+       "text": "Cortisol trở thành lời nguyền khi áp lực và hóa chất của thế giới phẳng làm sai lệch nhịp điệu của tạo hóa."
+      },
+      {
+       "t": 3284,
+       "text": "Lời cảm ơn bác sĩ Phúc, ekip và khán giả, chúc mọi người thân khỏe, tâm an, trí sáng."
+      }
+     ]
+    }
+   ],
+   "t": "Số 108: Cortisol - \"Kẻ đánh cắp\" bình yên",
+   "o": 33,
+   "model": "claude-sonnet-5-5",
+   "at": "2026-11-24T07:21:39Z",
+   "dur": 10532
   }
  }
 }
